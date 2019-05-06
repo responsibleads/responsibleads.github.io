@@ -1,0 +1,10 @@
+.DS_Store
+.ipynb_checkpoints
+*.ipynb
+data/backup/*
+data/pages/*
+*.json
+*.py
+index-tmpl.html
+notes/*
+__pycache__/*
