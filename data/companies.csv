@@ -282,7 +282,7 @@ oxiclean,toughstains,
 old navy,oldnavy,
 jpmorgan chase,jpmorgan,
 alcoa,alcoa,
-monsanto,,
+monsanto,,"No twitter available."
 airasia,airasia,
 yahoo,yahoo,
 barnes & noble,bnbuzz,
@@ -337,3 +337,8 @@ colgate palmolive,colgate,
 discovery inc,discoveryinctv,
 the boston beer company,samualadamsbeer,
 safeway,safeway,
+quicken loans,quicken loans,
+dyson,dyson,
+chipotle,chipotletweets
+experian,experian_us
+
