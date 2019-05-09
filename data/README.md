@@ -1,0 +1,3 @@
+# Data
+
+The `products.csv` file includes unique product names found in the Internet Archive keywords.  Each product is linked to a unique `company_name`.  The `companies.csv` file contains company names linked with their twitter accounts.  Each `ads_*.csv` file row is a unique instance a keyword appeared in a show's keyword summaries, and the `identifier` column is the Internet Archive unique identifier for each show airing.  The `company_name` column is the primary key across all the csv files.
