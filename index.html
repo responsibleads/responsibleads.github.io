@@ -29,7 +29,24 @@ table {
   margin-right: 20px;
   font-size:13px;
 }
+/*Vega Styling*/
+.vega-actions a {
+    margin-right: 12px;
+    color: #757575;
+    font-weight: normal;
+    font-size: 13px;
+}
+.error {
+    color: red;
+}
 </style>
+
+<!--Vega Scripts -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega@5"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-lite@3.2.1"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-embed@4"></script>
+
+
 </head>
 <body>
   <div class="markdown-body">
@@ -43,47 +60,8 @@ table {
     <p>This page provides an overview of the data behind the <a href="https://twitter.com/ResponsibleAds">@ResponsibleAds</a> Twitter account.  This dataset is gathered from the <a href="https://archive.org/details/TV-FOXNEWSW">Fox News West</a> internet archive, which has been running since 2011.  Each archive page includes a keyword summary for the show that often contains company names and products.  I associated each of these products with a parent company and twitter account and tweet at them each day when they advertise.  
 
     <p>Fox News, <a href="https://www.nytimes.com/interactive/2019/04/03/magazine/new-fox-corporation-disney-deal.html">in it's current incarnation</a>, amounts to a propaganda arm for a would-be authoritarian president.  It's likely that <a href="https://www.journalism.org/numbers/fox-news-costs-and-revenues/">well over half</a> of Fox's revenue comes from advertising, so we can make a difference.  Running propaganda should not be a profitable endeavor in our society, so join me in calling these companies out!</p>
-    <h2>Top Advertisers - All Time</h2>
-    <div style="height:600px;width:100%;">
-      <!DOCTYPE html>
-<html>
-<head>
-  <style>
-    .vega-actions a {
-        margin-right: 12px;
-        color: #757575;
-        font-weight: normal;
-        font-size: 13px;
-    }
-    .error {
-        color: red;
-    }
-  </style>
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega@5"></script>
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-lite@3.2.1"></script>
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-embed@4"></script>
-</head>
-<body>
-  <div id="vis"></div>
-  <script>
-      var spec = {"config": {"view": {"width": 400, "height": 300}, "mark": {"tooltip": null}}, "data": {"name": "data-99e5eb7f9fd61070acdad65eb4aff238"}, "mark": {"type": "line", "interpolate": "cardinal", "point": true}, "background": "#fff", "encoding": {"color": {"type": "nominal", "field": "company_name"}, "tooltip": [{"type": "nominal", "field": "company_name"}, {"type": "quantitative", "field": "count"}], "x": {"type": "temporal", "field": "date"}, "y": {"type": "quantitative", "field": "count"}}, "height": 500, "selection": {"selector001": {"type": "interval", "bind": "scales", "encodings": ["x", "y"]}}, "title": "Top Fox News Advertisers, 2011-2018", "width": 700, "$schema": "https://vega.github.io/schema/vega-lite/v3.2.1.json", "datasets": {"data-99e5eb7f9fd61070acdad65eb4aff238": [{"date": "2011-12-31T00:00:00+00:00", "company_name": "abbvie", "count": 78}, {"date": "2011-12-31T00:00:00+00:00", "company_name": "allstate", "count": 142}, {"date": "2011-12-31T00:00:00+00:00", "company_name": "astrazeneca", "count": 109}, {"date": "2011-12-31T00:00:00+00:00", "company_name": "at&t", "count": 324}, {"date": "2011-12-31T00:00:00+00:00", "company_name": "eli lilly", "count": 306}, {"date": "2011-12-31T00:00:00+00:00", "company_name": "geico", "count": 372}, {"date": "2011-12-31T00:00:00+00:00", "company_name": "glaxosmithkline", "count": 223}, {"date": "2011-12-31T00:00:00+00:00", "company_name": "liberty mutual", "count": 0}, {"date": "2011-12-31T00:00:00+00:00", "company_name": "novo nordisk", "count": 0}, {"date": "2011-12-31T00:00:00+00:00", "company_name": "pfizer", "count": 801}, {"date": "2011-12-31T00:00:00+00:00", "company_name": "subaru", "count": 202}, {"date": "2011-12-31T00:00:00+00:00", "company_name": "usaa", "count": 111}, {"date": "2012-12-31T00:00:00+00:00", "company_name": "abbvie", "count": 125}, {"date": "2012-12-31T00:00:00+00:00", "company_name": "allstate", "count": 1201}, {"date": "2012-12-31T00:00:00+00:00", "company_name": "astrazeneca", "count": 52}, {"date": "2012-12-31T00:00:00+00:00", "company_name": "at&t", "count": 398}, {"date": "2012-12-31T00:00:00+00:00", "company_name": "eli lilly", "count": 849}, {"date": "2012-12-31T00:00:00+00:00", "company_name": "geico", "count": 1013}, {"date": "2012-12-31T00:00:00+00:00", "company_name": "glaxosmithkline", "count": 613}, {"date": "2012-12-31T00:00:00+00:00", "company_name": "liberty mutual", "count": 0}, {"date": "2012-12-31T00:00:00+00:00", "company_name": "novo nordisk", "count": 48}, {"date": "2012-12-31T00:00:00+00:00", "company_name": "pfizer", "count": 2090}, {"date": "2012-12-31T00:00:00+00:00", "company_name": "subaru", "count": 526}, {"date": "2012-12-31T00:00:00+00:00", "company_name": "usaa", "count": 505}, {"date": "2013-12-31T00:00:00+00:00", "company_name": "abbvie", "count": 330}, {"date": "2013-12-31T00:00:00+00:00", "company_name": "allstate", "count": 798}, {"date": "2013-12-31T00:00:00+00:00", "company_name": "astrazeneca", "count": 437}, {"date": "2013-12-31T00:00:00+00:00", "company_name": "at&t", "count": 601}, {"date": "2013-12-31T00:00:00+00:00", "company_name": "eli lilly", "count": 1347}, {"date": "2013-12-31T00:00:00+00:00", "company_name": "geico", "count": 1529}, {"date": "2013-12-31T00:00:00+00:00", "company_name": "glaxosmithkline", "count": 470}, {"date": "2013-12-31T00:00:00+00:00", "company_name": "liberty mutual", "count": 0}, {"date": "2013-12-31T00:00:00+00:00", "company_name": "novo nordisk", "count": 385}, {"date": "2013-12-31T00:00:00+00:00", "company_name": "pfizer", "count": 2500}, {"date": "2013-12-31T00:00:00+00:00", "company_name": "subaru", "count": 1628}, {"date": "2013-12-31T00:00:00+00:00", "company_name": "usaa", "count": 731}, {"date": "2014-12-31T00:00:00+00:00", "company_name": "abbvie", "count": 558}, {"date": "2014-12-31T00:00:00+00:00", "company_name": "allstate", "count": 678}, {"date": "2014-12-31T00:00:00+00:00", "company_name": "astrazeneca", "count": 856}, {"date": "2014-12-31T00:00:00+00:00", "company_name": "at&t", "count": 629}, {"date": "2014-12-31T00:00:00+00:00", "company_name": "eli lilly", "count": 268}, {"date": "2014-12-31T00:00:00+00:00", "company_name": "geico", "count": 851}, {"date": "2014-12-31T00:00:00+00:00", "company_name": "glaxosmithkline", "count": 653}, {"date": "2014-12-31T00:00:00+00:00", "company_name": "liberty mutual", "count": 565}, {"date": "2014-12-31T00:00:00+00:00", "company_name": "novo nordisk", "count": 412}, {"date": "2014-12-31T00:00:00+00:00", "company_name": "pfizer", "count": 3763}, {"date": "2014-12-31T00:00:00+00:00", "company_name": "subaru", "count": 1560}, {"date": "2014-12-31T00:00:00+00:00", "company_name": "usaa", "count": 377}, {"date": "2015-12-31T00:00:00+00:00", "company_name": "abbvie", "count": 855}, {"date": "2015-12-31T00:00:00+00:00", "company_name": "allstate", "count": 61}, {"date": "2015-12-31T00:00:00+00:00", "company_name": "astrazeneca", "count": 864}, {"date": "2015-12-31T00:00:00+00:00", "company_name": "at&t", "count": 826}, {"date": "2015-12-31T00:00:00+00:00", "company_name": "eli lilly", "count": 329}, {"date": "2015-12-31T00:00:00+00:00", "company_name": "geico", "count": 469}, {"date": "2015-12-31T00:00:00+00:00", "company_name": "glaxosmithkline", "count": 756}, {"date": "2015-12-31T00:00:00+00:00", "company_name": "liberty mutual", "count": 1219}, {"date": "2015-12-31T00:00:00+00:00", "company_name": "novo nordisk", "count": 670}, {"date": "2015-12-31T00:00:00+00:00", "company_name": "pfizer", "count": 2572}, {"date": "2015-12-31T00:00:00+00:00", "company_name": "subaru", "count": 1098}, {"date": "2015-12-31T00:00:00+00:00", "company_name": "usaa", "count": 340}, {"date": "2016-12-31T00:00:00+00:00", "company_name": "abbvie", "count": 756}, {"date": "2016-12-31T00:00:00+00:00", "company_name": "allstate", "count": 1131}, {"date": "2016-12-31T00:00:00+00:00", "company_name": "astrazeneca", "count": 473}, {"date": "2016-12-31T00:00:00+00:00", "company_name": "at&t", "count": 945}, {"date": "2016-12-31T00:00:00+00:00", "company_name": "eli lilly", "count": 480}, {"date": "2016-12-31T00:00:00+00:00", "company_name": "geico", "count": 836}, {"date": "2016-12-31T00:00:00+00:00", "company_name": "glaxosmithkline", "count": 1378}, {"date": "2016-12-31T00:00:00+00:00", "company_name": "liberty mutual", "count": 795}, {"date": "2016-12-31T00:00:00+00:00", "company_name": "novo nordisk", "count": 1105}, {"date": "2016-12-31T00:00:00+00:00", "company_name": "pfizer", "count": 2114}, {"date": "2016-12-31T00:00:00+00:00", "company_name": "subaru", "count": 1066}, {"date": "2016-12-31T00:00:00+00:00", "company_name": "usaa", "count": 357}, {"date": "2017-12-31T00:00:00+00:00", "company_name": "abbvie", "count": 650}, {"date": "2017-12-31T00:00:00+00:00", "company_name": "allstate", "count": 991}, {"date": "2017-12-31T00:00:00+00:00", "company_name": "astrazeneca", "count": 585}, {"date": "2017-12-31T00:00:00+00:00", "company_name": "at&t", "count": 259}, {"date": "2017-12-31T00:00:00+00:00", "company_name": "eli lilly", "count": 550}, {"date": "2017-12-31T00:00:00+00:00", "company_name": "geico", "count": 611}, {"date": "2017-12-31T00:00:00+00:00", "company_name": "glaxosmithkline", "count": 743}, {"date": "2017-12-31T00:00:00+00:00", "company_name": "liberty mutual", "count": 483}, {"date": "2017-12-31T00:00:00+00:00", "company_name": "novo nordisk", "count": 889}, {"date": "2017-12-31T00:00:00+00:00", "company_name": "pfizer", "count": 1778}, {"date": "2017-12-31T00:00:00+00:00", "company_name": "subaru", "count": 376}, {"date": "2017-12-31T00:00:00+00:00", "company_name": "usaa", "count": 698}, {"date": "2018-12-31T00:00:00+00:00", "company_name": "abbvie", "count": 309}, {"date": "2018-12-31T00:00:00+00:00", "company_name": "allstate", "count": 884}, {"date": "2018-12-31T00:00:00+00:00", "company_name": "astrazeneca", "count": 266}, {"date": "2018-12-31T00:00:00+00:00", "company_name": "at&t", "count": 235}, {"date": "2018-12-31T00:00:00+00:00", "company_name": "eli lilly", "count": 200}, {"date": "2018-12-31T00:00:00+00:00", "company_name": "geico", "count": 922}, {"date": "2018-12-31T00:00:00+00:00", "company_name": "glaxosmithkline", "count": 422}, {"date": "2018-12-31T00:00:00+00:00", "company_name": "liberty mutual", "count": 537}, {"date": "2018-12-31T00:00:00+00:00", "company_name": "novo nordisk", "count": 1319}, {"date": "2018-12-31T00:00:00+00:00", "company_name": "pfizer", "count": 1384}, {"date": "2018-12-31T00:00:00+00:00", "company_name": "subaru", "count": 128}, {"date": "2018-12-31T00:00:00+00:00", "company_name": "usaa", "count": 651}]}};
-      var embedOpt = {"mode": "vega-lite"};
-
-      function showError(el, error){
-          el.innerHTML = ('<div class="error" style="color:red;">'
-                          + '<p>JavaScript Error: ' + error.message + '</p>'
-                          + "<p>This usually means there's a typo in your chart specification. "
-                          + "See the javascript console for the full traceback.</p>"
-                          + '</div>');
-          throw error;
-      }
-      const el = document.getElementById('vis');
-      vegaEmbed("#vis", spec, embedOpt)
-        .catch(error => showError(el, error));
-
-  </script>
-</body>
-</html>
+    <h2 id="all">Top Advertisers - All Time</h2>
+    <div id="allchart" style="height:600px;width:100%;">
     </div>
     <p>The interactive chart above shows the top advertisers since 2011 on Fox News.  Pfizer is the clear all-time leader, but they have declined as of late with Novo Nordisk and Geico taking up some of the slack.</p>
     <div class="table-wrapper">
@@ -2076,7 +2054,7 @@ table {
     </div>
     <h4>Top 25 twitter accounts, all time:</h3>
     <p>@pfizer @geico @subaru_usa @allstate @gsk @novonordisk @lillypad @att @usaa @abbvie @astrazeneca @libertymutual @bayer @celgene @verizonwireless @comcast @tdameritrade @uhc @allergan @takedapharma @safelite @mercedesbenz @citi @novartis @sanofi</p>
-    <h2>Top Advertisers - Past Year</h2>
+    <h2 id="year">Top Advertisers - Past Year</h2>
     <p>This table shows the top advertisers over the past year, which captures more recent trends. For example, although Subaru has historically been one of the top advertisers on Fox, it's ad buys have dropped substantially in the past few years.</p>
     <div class="table-wrapper">
       <table border="0" class="dataframe">
@@ -3168,14 +3146,7 @@ table {
     </div>
     <h4>This year's top 25 twitter accounts:</h3>
     <p>@novonordisk @geico @pfizer @comcast @usaa @celgene @allstate @safelite @libertymutual @novartis @amgen @newdayusa @takedapharma @abbvie @chevrolet @choicehotels @humana @upmc @gsk @drscholls @allergan @astrazeneca @mercedesbenz @expedia @proctergamble</p>
-<!--     <h2>Top Advertisers - Past Week</h2>
-    <p>Finally, here are the top advetisers over the past week.  Feel free to tweet at them to let them know you don't appreciate the propaganda!</p>
-    <div class="table-wrapper">
-      ${week}
-    </div>
-    <h4>This week's twitter accounts:</h3>
-    <p>${weektwitter}</p> -->
-    <h2>Top Advertisers - Past Month</h2>
+    <h2 id="month">Top Advertisers - Past Month</h2>
     <p>Finally, here are the top advetisers over the past month.  Feel free to tweet at them to let them know you don't appreciate the propaganda.</p>
     <div class="table-wrapper">
       <table border="0" class="dataframe">
@@ -3667,6 +3638,1693 @@ table {
     </div>
     <h4>This month's top 25 twitter accounts:</h3>
     <p>@geico @celgene @usaa @abbvie @safelite @choicehotels @astrazeneca @opentable @comcast @drscholls @novartis @customink @allstate @newdayusa @essilor @quincybio @amgen @uhc @charlesschwab @carvana @johndeere @chevrolet @walmart @fisherinvest @tripadvisor</p>
+    <h2 id="horse">The Four Horsemen</h2>
+    <p>There are a few shows on Fox News are especially unethical.  In my opinion, these shows are: 
+    <ol>
+      <li>Hannity (2009 - Present)</li>
+      <li>Justice with Judge Jeanine (2011 - Present)</li>
+      <li>Tucker Carlson Tonight (2016 - Present)</li>
+      <li>The Ingraham Angle (2017 - Present)</li>
+    </ol>
+    Here's a chart of the top advertisers on these shows over time.  Most are in decline, with the exception of USAA and Liberty Mutual:  
+    </p>
+    <div id="horsechart" style="height:600px;width:100%;">
+    </div>
+    <p>
+    Here the cumulative sum by company.  It's not very different from the overall sum above with the exception of Takeda. 
+    </p>
+    <div class="table-wrapper">
+      <table border="0" class="dataframe">
+  <thead>
+    <tr style="text-align: left;">
+      <th></th>
+      <th>company_name</th>
+      <th>company_twitter</th>
+      <th>count</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>pfizer</td>
+      <td>@pfizer</td>
+      <td>2280</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>subaru</td>
+      <td>@subaru_usa</td>
+      <td>1744</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>eli lilly</td>
+      <td>@lillypad</td>
+      <td>1092</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>glaxosmithkline</td>
+      <td>@gsk</td>
+      <td>1051</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>geico</td>
+      <td>@geico</td>
+      <td>987</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>takeda</td>
+      <td>@takedapharma</td>
+      <td>823</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>allstate</td>
+      <td>@allstate</td>
+      <td>787</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>astrazeneca</td>
+      <td>@astrazeneca</td>
+      <td>688</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>allergan</td>
+      <td>@allergan</td>
+      <td>614</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>usaa</td>
+      <td>@usaa</td>
+      <td>552</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>bayer</td>
+      <td>@bayer</td>
+      <td>546</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>liberty mutual</td>
+      <td>@libertymutual</td>
+      <td>534</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>novo nordisk</td>
+      <td>@novonordisk</td>
+      <td>441</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>sanofi</td>
+      <td>@sanofi</td>
+      <td>433</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>td ameritrade</td>
+      <td>@tdameritrade</td>
+      <td>422</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>celgene</td>
+      <td>@celgene</td>
+      <td>419</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>comcast</td>
+      <td>@comcast</td>
+      <td>414</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>dr. scholl's</td>
+      <td>@drscholls</td>
+      <td>410</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>mercedes-benz</td>
+      <td>@mercedesbenz</td>
+      <td>382</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>john deere</td>
+      <td>@johndeere</td>
+      <td>370</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>safelite</td>
+      <td>@safelite</td>
+      <td>369</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>citigroup</td>
+      <td>@citi</td>
+      <td>347</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>at&amp;t</td>
+      <td>@att</td>
+      <td>327</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>bausch health</td>
+      <td>@bauschlomb</td>
+      <td>326</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>t. rowe price</td>
+      <td>@troweprice</td>
+      <td>253</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>hp</td>
+      <td>@hp</td>
+      <td>234</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>abbvie</td>
+      <td>@abbvie</td>
+      <td>232</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>novartis</td>
+      <td>@novartis</td>
+      <td>232</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>amgen</td>
+      <td>@amgen</td>
+      <td>212</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>nissan</td>
+      <td>@nissan</td>
+      <td>211</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>unitedhealthcare</td>
+      <td>@uhc</td>
+      <td>208</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>roche</td>
+      <td>@roche</td>
+      <td>191</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>procter &amp; gamble</td>
+      <td>@proctergamble</td>
+      <td>188</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>audi</td>
+      <td>@audi</td>
+      <td>175</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>gilead sciences</td>
+      <td>@gileadsciences</td>
+      <td>174</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>merck</td>
+      <td>@merck</td>
+      <td>172</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>boehringer ingelheim</td>
+      <td>@boehringer</td>
+      <td>171</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>volkswagen</td>
+      <td>@volkswagen</td>
+      <td>141</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>esurance</td>
+      <td>@esurance</td>
+      <td>138</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>choice hotels</td>
+      <td>@choicehotels</td>
+      <td>134</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>astellas</td>
+      <td>@astellasus</td>
+      <td>132</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>crest</td>
+      <td>@crest</td>
+      <td>128</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>ace hardware</td>
+      <td>@acehardware</td>
+      <td>125</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>centurylink</td>
+      <td>@centurylink</td>
+      <td>120</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>microsoft</td>
+      <td>@microsoft</td>
+      <td>118</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>credit karma</td>
+      <td>@creditkarma</td>
+      <td>118</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>chevrolet</td>
+      <td>@chevrolet</td>
+      <td>110</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>cigna</td>
+      <td>@cigna</td>
+      <td>104</td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>phillips 66</td>
+      <td>@phillips66co</td>
+      <td>102</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>fisher investments</td>
+      <td>@fisherinvest</td>
+      <td>93</td>
+    </tr>
+    <tr>
+      <th>50</th>
+      <td>general electric</td>
+      <td>@generalelectric</td>
+      <td>92</td>
+    </tr>
+    <tr>
+      <th>51</th>
+      <td>verizon</td>
+      <td>@verizonwireless</td>
+      <td>91</td>
+    </tr>
+    <tr>
+      <th>52</th>
+      <td>johnson &amp; johnson</td>
+      <td>@jnjnews</td>
+      <td>90</td>
+    </tr>
+    <tr>
+      <th>53</th>
+      <td>sunovian</td>
+      <td>@sunovian</td>
+      <td>90</td>
+    </tr>
+    <tr>
+      <th>54</th>
+      <td>amplifon</td>
+      <td>@amplifon</td>
+      <td>87</td>
+    </tr>
+    <tr>
+      <th>55</th>
+      <td>bank of america</td>
+      <td>@bankofamerica</td>
+      <td>86</td>
+    </tr>
+    <tr>
+      <th>56</th>
+      <td>siemens</td>
+      <td>@siemens</td>
+      <td>81</td>
+    </tr>
+    <tr>
+      <th>57</th>
+      <td>duracell</td>
+      <td>@duracell</td>
+      <td>75</td>
+    </tr>
+    <tr>
+      <th>58</th>
+      <td>philips</td>
+      <td>@philips</td>
+      <td>75</td>
+    </tr>
+    <tr>
+      <th>59</th>
+      <td>exxon mobil</td>
+      <td>@exxonmobil</td>
+      <td>71</td>
+    </tr>
+    <tr>
+      <th>60</th>
+      <td>idaho potato commission</td>
+      <td>@idahopotato</td>
+      <td>70</td>
+    </tr>
+    <tr>
+      <th>61</th>
+      <td>quincy bioscience</td>
+      <td>@quincybio</td>
+      <td>69</td>
+    </tr>
+    <tr>
+      <th>62</th>
+      <td>finra</td>
+      <td>@finra</td>
+      <td>67</td>
+    </tr>
+    <tr>
+      <th>63</th>
+      <td>tempur-pedic</td>
+      <td>@tempurpedic</td>
+      <td>67</td>
+    </tr>
+    <tr>
+      <th>64</th>
+      <td>abbott</td>
+      <td>@abbottglobal</td>
+      <td>66</td>
+    </tr>
+    <tr>
+      <th>65</th>
+      <td>aflac</td>
+      <td>@aflac</td>
+      <td>65</td>
+    </tr>
+    <tr>
+      <th>66</th>
+      <td>leesa mattress</td>
+      <td>@leesasleep</td>
+      <td>64</td>
+    </tr>
+    <tr>
+      <th>67</th>
+      <td>lendingtree</td>
+      <td>@lendingtree</td>
+      <td>63</td>
+    </tr>
+    <tr>
+      <th>68</th>
+      <td>transamerica corporation</td>
+      <td>@transamerica</td>
+      <td>60</td>
+    </tr>
+    <tr>
+      <th>69</th>
+      <td>pg&amp;e</td>
+      <td>@pge4me</td>
+      <td>60</td>
+    </tr>
+    <tr>
+      <th>70</th>
+      <td>red lobster</td>
+      <td>@redlobster</td>
+      <td>58</td>
+    </tr>
+    <tr>
+      <th>71</th>
+      <td>united airlines</td>
+      <td>@united</td>
+      <td>56</td>
+    </tr>
+    <tr>
+      <th>72</th>
+      <td>ibm</td>
+      <td>@ibm</td>
+      <td>56</td>
+    </tr>
+    <tr>
+      <th>73</th>
+      <td>applebee's</td>
+      <td>@applebees</td>
+      <td>53</td>
+    </tr>
+    <tr>
+      <th>74</th>
+      <td>lincoln</td>
+      <td>@lincolnmotorco</td>
+      <td>52</td>
+    </tr>
+    <tr>
+      <th>75</th>
+      <td>university of pittsburgh medical center</td>
+      <td>@upmc</td>
+      <td>52</td>
+    </tr>
+    <tr>
+      <th>76</th>
+      <td>volvo</td>
+      <td>@volvocars</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <th>77</th>
+      <td>essity</td>
+      <td>@essity</td>
+      <td>49</td>
+    </tr>
+    <tr>
+      <th>78</th>
+      <td>nature's bounty</td>
+      <td>@naturesbounty</td>
+      <td>48</td>
+    </tr>
+    <tr>
+      <th>79</th>
+      <td>xerox</td>
+      <td>@xerox</td>
+      <td>47</td>
+    </tr>
+    <tr>
+      <th>80</th>
+      <td>amd</td>
+      <td>@amd</td>
+      <td>47</td>
+    </tr>
+    <tr>
+      <th>81</th>
+      <td>bristol-myers squibb</td>
+      <td>@bmsnews</td>
+      <td>45</td>
+    </tr>
+    <tr>
+      <th>82</th>
+      <td>intel</td>
+      <td>@intel</td>
+      <td>45</td>
+    </tr>
+    <tr>
+      <th>83</th>
+      <td>expedia</td>
+      <td>@expedia</td>
+      <td>45</td>
+    </tr>
+    <tr>
+      <th>84</th>
+      <td>scotts miracle-gro</td>
+      <td>@scotts_mgro</td>
+      <td>44</td>
+    </tr>
+    <tr>
+      <th>85</th>
+      <td>sprint</td>
+      <td>@sprint</td>
+      <td>44</td>
+    </tr>
+    <tr>
+      <th>86</th>
+      <td>motorola</td>
+      <td>@motorola</td>
+      <td>44</td>
+    </tr>
+    <tr>
+      <th>87</th>
+      <td>carfax</td>
+      <td>@carfax</td>
+      <td>43</td>
+    </tr>
+    <tr>
+      <th>88</th>
+      <td>kellogg company</td>
+      <td>@kelloggcompany</td>
+      <td>42</td>
+    </tr>
+    <tr>
+      <th>89</th>
+      <td>amway</td>
+      <td>@amway</td>
+      <td>40</td>
+    </tr>
+    <tr>
+      <th>90</th>
+      <td>cancer treatment centers of america</td>
+      <td>@cancercenter</td>
+      <td>38</td>
+    </tr>
+    <tr>
+      <th>91</th>
+      <td>univision communications</td>
+      <td>@univision</td>
+      <td>38</td>
+    </tr>
+    <tr>
+      <th>92</th>
+      <td>sony</td>
+      <td>@sony</td>
+      <td>37</td>
+    </tr>
+    <tr>
+      <th>93</th>
+      <td>sears</td>
+      <td>@sears</td>
+      <td>35</td>
+    </tr>
+    <tr>
+      <th>94</th>
+      <td>humana</td>
+      <td>@humana</td>
+      <td>35</td>
+    </tr>
+    <tr>
+      <th>95</th>
+      <td>voya financial</td>
+      <td>@voya</td>
+      <td>35</td>
+    </tr>
+    <tr>
+      <th>96</th>
+      <td>goldman sachs</td>
+      <td>@goldmansachs</td>
+      <td>35</td>
+    </tr>
+    <tr>
+      <th>97</th>
+      <td>lifelock</td>
+      <td>@lifelock</td>
+      <td>34</td>
+    </tr>
+    <tr>
+      <th>98</th>
+      <td>massachusetts mutual life insurance company</td>
+      <td>@massmutual</td>
+      <td>32</td>
+    </tr>
+    <tr>
+      <th>99</th>
+      <td>helzberg diamonds</td>
+      <td>@helzberg</td>
+      <td>32</td>
+    </tr>
+    <tr>
+      <th>100</th>
+      <td>avanir pharmaceuticals</td>
+      <td>@avanirpharma</td>
+      <td>31</td>
+    </tr>
+    <tr>
+      <th>101</th>
+      <td>hbo</td>
+      <td>@hbo</td>
+      <td>31</td>
+    </tr>
+    <tr>
+      <th>102</th>
+      <td>pacific life</td>
+      <td>@pacificlife</td>
+      <td>31</td>
+    </tr>
+    <tr>
+      <th>103</th>
+      <td>transunion</td>
+      <td>@transunion</td>
+      <td>30</td>
+    </tr>
+    <tr>
+      <th>104</th>
+      <td>polaris industries</td>
+      <td>@polarisind</td>
+      <td>30</td>
+    </tr>
+    <tr>
+      <th>105</th>
+      <td>adt</td>
+      <td>@adt</td>
+      <td>30</td>
+    </tr>
+    <tr>
+      <th>106</th>
+      <td>sealy</td>
+      <td>@sealy</td>
+      <td>29</td>
+    </tr>
+    <tr>
+      <th>107</th>
+      <td>kraft heinz company</td>
+      <td>@kraftheinzco</td>
+      <td>29</td>
+    </tr>
+    <tr>
+      <th>108</th>
+      <td>toyota</td>
+      <td>@toyota</td>
+      <td>27</td>
+    </tr>
+    <tr>
+      <th>109</th>
+      <td>csx</td>
+      <td>@csx</td>
+      <td>27</td>
+    </tr>
+    <tr>
+      <th>110</th>
+      <td>reuters</td>
+      <td>@reuters</td>
+      <td>26</td>
+    </tr>
+    <tr>
+      <th>111</th>
+      <td>bny mellon</td>
+      <td>@bnymellon</td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <th>112</th>
+      <td>aarp</td>
+      <td>@aarp</td>
+      <td>24</td>
+    </tr>
+    <tr>
+      <th>113</th>
+      <td>conagra brands</td>
+      <td>@conagrabrands</td>
+      <td>24</td>
+    </tr>
+    <tr>
+      <th>114</th>
+      <td>fiat chrysler automobiles</td>
+      <td>@fcagroup</td>
+      <td>24</td>
+    </tr>
+    <tr>
+      <th>115</th>
+      <td>tyco international</td>
+      <td>@tyco_is</td>
+      <td>23</td>
+    </tr>
+    <tr>
+      <th>116</th>
+      <td>matrixx initiatives</td>
+      <td>@zicam</td>
+      <td>23</td>
+    </tr>
+    <tr>
+      <th>117</th>
+      <td>lupin</td>
+      <td>@lupinglobal</td>
+      <td>23</td>
+    </tr>
+    <tr>
+      <th>118</th>
+      <td>office depot</td>
+      <td>@officedepot</td>
+      <td>23</td>
+    </tr>
+    <tr>
+      <th>119</th>
+      <td>nationwide insurance</td>
+      <td>@nationwide</td>
+      <td>21</td>
+    </tr>
+    <tr>
+      <th>120</th>
+      <td>amtrak</td>
+      <td>@amtrak</td>
+      <td>21</td>
+    </tr>
+    <tr>
+      <th>121</th>
+      <td>avon products</td>
+      <td>@avoninsider</td>
+      <td>21</td>
+    </tr>
+    <tr>
+      <th>122</th>
+      <td>cvs health</td>
+      <td>@cvshealth</td>
+      <td>21</td>
+    </tr>
+    <tr>
+      <th>123</th>
+      <td>charles schwab corporation</td>
+      <td>@charlesschwab</td>
+      <td>21</td>
+    </tr>
+    <tr>
+      <th>124</th>
+      <td>kohler</td>
+      <td>@kohler</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <th>125</th>
+      <td>nike</td>
+      <td>@nike</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <th>126</th>
+      <td>gm</td>
+      <td>@gm</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <th>127</th>
+      <td>essilor</td>
+      <td>@essilor</td>
+      <td>19</td>
+    </tr>
+    <tr>
+      <th>128</th>
+      <td>simmons bedding company</td>
+      <td>@sertasimmonsbed</td>
+      <td>19</td>
+    </tr>
+    <tr>
+      <th>129</th>
+      <td>transitions optical</td>
+      <td>@transitions</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <th>130</th>
+      <td>walmart</td>
+      <td>@walmart</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <th>131</th>
+      <td>chick-fil-a</td>
+      <td>@chickfila</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <th>132</th>
+      <td>devon energy</td>
+      <td>@devonenergy</td>
+      <td>17</td>
+    </tr>
+    <tr>
+      <th>133</th>
+      <td>ortho</td>
+      <td>@ortho</td>
+      <td>17</td>
+    </tr>
+    <tr>
+      <th>134</th>
+      <td>the coca-cola company</td>
+      <td>@cocacolaco</td>
+      <td>17</td>
+    </tr>
+    <tr>
+      <th>135</th>
+      <td>samsung</td>
+      <td>@samsung</td>
+      <td>17</td>
+    </tr>
+    <tr>
+      <th>136</th>
+      <td>custom ink</td>
+      <td>@customink</td>
+      <td>17</td>
+    </tr>
+    <tr>
+      <th>137</th>
+      <td>huidarts</td>
+      <td>@huidartscom</td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <th>138</th>
+      <td>delta</td>
+      <td>@delta</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <th>139</th>
+      <td>mitsubishi</td>
+      <td>@mitsucars</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <th>140</th>
+      <td>bain &amp; company</td>
+      <td>@bainandcompany</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <th>141</th>
+      <td>blackberry</td>
+      <td>@blackberry</td>
+      <td>14</td>
+    </tr>
+    <tr>
+      <th>142</th>
+      <td>united states postal service</td>
+      <td>@usps</td>
+      <td>13</td>
+    </tr>
+    <tr>
+      <th>143</th>
+      <td>moody's corporation</td>
+      <td>@moodyscorp</td>
+      <td>13</td>
+    </tr>
+    <tr>
+      <th>144</th>
+      <td>campbell soup company</td>
+      <td>@campbellsoupco</td>
+      <td>13</td>
+    </tr>
+    <tr>
+      <th>145</th>
+      <td>yum! brands</td>
+      <td>@yumbrands</td>
+      <td>13</td>
+    </tr>
+    <tr>
+      <th>146</th>
+      <td>ford</td>
+      <td>@ford</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>147</th>
+      <td>wells fargo</td>
+      <td>@wellsfargo</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>148</th>
+      <td>nordstrom</td>
+      <td>@nordstrom</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <th>149</th>
+      <td>la quinta by wyndham</td>
+      <td>@lq</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <th>150</th>
+      <td>fico</td>
+      <td>@fico</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <th>151</th>
+      <td>ziprecruiter</td>
+      <td>@ziprecruiter</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <th>152</th>
+      <td>dexcom</td>
+      <td>@dexcom</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <th>153</th>
+      <td>the hartford</td>
+      <td>@thehartford</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <th>154</th>
+      <td>mcdonald's</td>
+      <td>@mcdonaldscorp</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <th>155</th>
+      <td>carvana</td>
+      <td>@carvana</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <th>156</th>
+      <td>optum</td>
+      <td>@optum</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <th>157</th>
+      <td>pepsico</td>
+      <td>@pepsico</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <th>158</th>
+      <td>the rockport group</td>
+      <td>@rockport_group</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <th>159</th>
+      <td>healthmarkets</td>
+      <td>@healthmarkets</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <th>160</th>
+      <td>hilton</td>
+      <td>@hiltonhotels</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <th>161</th>
+      <td>hotwire</td>
+      <td>@hotwire</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <th>162</th>
+      <td>bass pro shops</td>
+      <td>@bassproshops</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <th>163</th>
+      <td>royal dutch shell</td>
+      <td>@shell</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <th>164</th>
+      <td>honda</td>
+      <td>@honda</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>165</th>
+      <td>aspen dental</td>
+      <td>@aspendental</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>166</th>
+      <td>jackson hewitt</td>
+      <td>@jacksonhewitt</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>167</th>
+      <td>velcro</td>
+      <td>@velcrobrand</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>168</th>
+      <td>airbus</td>
+      <td>@airbus</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>169</th>
+      <td>devry university</td>
+      <td>@devryuniv</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>170</th>
+      <td>reckitt benckiser</td>
+      <td>@discoverrb</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>171</th>
+      <td>nestle</td>
+      <td>@nestle</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>172</th>
+      <td>quicken loans</td>
+      <td>@quicken loans</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>173</th>
+      <td>edward jones investments</td>
+      <td>@edwardjones</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>174</th>
+      <td>lg corporation</td>
+      <td>@lgus</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>175</th>
+      <td>tommie copper</td>
+      <td>@tommiecopper</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>176</th>
+      <td>sap</td>
+      <td>@sap</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>177</th>
+      <td>lockheed martin</td>
+      <td>@lockheedmartin</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>178</th>
+      <td>jpmorgan chase</td>
+      <td>@jpmorgan</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>179</th>
+      <td>brightstar care</td>
+      <td>@brightstarcare</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>180</th>
+      <td>aviva</td>
+      <td>@avivaplc</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>181</th>
+      <td>keurig</td>
+      <td>@keurig</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>182</th>
+      <td>ubs</td>
+      <td>@ubs</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>183</th>
+      <td>janssen pharmaceuticals</td>
+      <td>@janssenglobal</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>184</th>
+      <td>tesla</td>
+      <td>@tesla</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>185</th>
+      <td>trugreen</td>
+      <td>@trugreen</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>186</th>
+      <td>cabela's</td>
+      <td>@cabelas</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>187</th>
+      <td>amazon</td>
+      <td>@amazon</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>188</th>
+      <td>cars.com</td>
+      <td>@carsdotcom</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>189</th>
+      <td>bp</td>
+      <td>@bp_plc</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>190</th>
+      <td>blackrock</td>
+      <td>@blackrock</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>191</th>
+      <td>viacom</td>
+      <td>@viacom</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>192</th>
+      <td>truecar</td>
+      <td>@truecar</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>193</th>
+      <td>splenda</td>
+      <td>@splenda</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>194</th>
+      <td>ymca</td>
+      <td>@ymca</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>195</th>
+      <td>asiana airlines</td>
+      <td>@flyasiana</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>196</th>
+      <td>zelle</td>
+      <td>@zelle</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>197</th>
+      <td>aetna</td>
+      <td>@aetna</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>198</th>
+      <td>costco</td>
+      <td>@costco</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>199</th>
+      <td>netflix</td>
+      <td>@netflix</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>200</th>
+      <td>norfolk southern</td>
+      <td>@nscorp</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>201</th>
+      <td>kyocera</td>
+      <td>@kyoceramobile</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>202</th>
+      <td>ikea</td>
+      <td>@ikea</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>203</th>
+      <td>darden restaurants</td>
+      <td>@dardengroup</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>204</th>
+      <td>dunkin brands</td>
+      <td>@dunkinbrands</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>205</th>
+      <td>panera bread</td>
+      <td>@panerabread</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>206</th>
+      <td>chevron</td>
+      <td>@chevron</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>207</th>
+      <td>napa</td>
+      <td>@napaknowhow</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>208</th>
+      <td>dyson</td>
+      <td>@dyson</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>209</th>
+      <td>eggland's best</td>
+      <td>@egglandsbest</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>210</th>
+      <td>u.s. bank</td>
+      <td>@usbank</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>211</th>
+      <td>experian</td>
+      <td>@experian</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>212</th>
+      <td>experian</td>
+      <td>@experian_us</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>213</th>
+      <td>bissell</td>
+      <td>@bissellclean</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>214</th>
+      <td>chipotle</td>
+      <td>@chipotletweets</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>215</th>
+      <td>sirius xm holdings</td>
+      <td>@siriusxm</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>216</th>
+      <td>midas</td>
+      <td>@midas</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>217</th>
+      <td>american express</td>
+      <td>@americanexpress</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>218</th>
+      <td>prudential financial</td>
+      <td>@prudential</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>219</th>
+      <td>mozilla</td>
+      <td>@mozilla</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>220</th>
+      <td>american airlines</td>
+      <td>@americanair</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>221</th>
+      <td>gnc</td>
+      <td>@gnclivewell</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>222</th>
+      <td>nintendo</td>
+      <td>@nintendoamerica</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>223</th>
+      <td>hsbc</td>
+      <td>@hsbc</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>224</th>
+      <td>nokia</td>
+      <td>@nokia</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>225</th>
+      <td>priceline</td>
+      <td>@priceline</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>226</th>
+      <td>hoveround</td>
+      <td>@hoveround</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>227</th>
+      <td>adidas</td>
+      <td>@adidas</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>228</th>
+      <td>husqvarna</td>
+      <td>@husqvarnausa</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>229</th>
+      <td>kia</td>
+      <td>@kia</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>230</th>
+      <td>yahoo</td>
+      <td>@yahoo</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>231</th>
+      <td>ebates</td>
+      <td>@ebates</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>232</th>
+      <td>goodyear</td>
+      <td>@goodyear</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>233</th>
+      <td>atkins</td>
+      <td>@atkinsinsider</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>234</th>
+      <td>lufthansa</td>
+      <td>@lufthansa</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>235</th>
+      <td>etrade</td>
+      <td>@etrade</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>236</th>
+      <td>general motors</td>
+      <td>@gm</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>237</th>
+      <td>walgreens</td>
+      <td>@walgreens</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>238</th>
+      <td>hyundai</td>
+      <td>@hyundai</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>239</th>
+      <td>amc</td>
+      <td>@amc_tv</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>240</th>
+      <td>general mills</td>
+      <td>@generalmills</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>241</th>
+      <td>baesystems</td>
+      <td>@baesystemsinc</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>242</th>
+      <td>carrabba's</td>
+      <td>@carrabbas</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>243</th>
+      <td>oracle</td>
+      <td>@oracle</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>244</th>
+      <td>the blackstone group</td>
+      <td>@blackstone</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>245</th>
+      <td>mastercard</td>
+      <td>@mastercard</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>246</th>
+      <td>sargento</td>
+      <td>@sargento</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>247</th>
+      <td>mattel</td>
+      <td>@mattel</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>248</th>
+      <td>barnes &amp; noble</td>
+      <td>@bnbuzz</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>249</th>
+      <td>shire</td>
+      <td>@shireplc</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>250</th>
+      <td>sunsweet growers</td>
+      <td>@sunsweetgrowers</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>251</th>
+      <td>metlife</td>
+      <td>@metlife</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>252</th>
+      <td>bentley</td>
+      <td>@bentleymotors</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>253</th>
+      <td>pandora</td>
+      <td>@pandora_radio</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>254</th>
+      <td>old navy</td>
+      <td>@oldnavy</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>255</th>
+      <td>caterpillar</td>
+      <td>@caterpillarinc</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>256</th>
+      <td>discovery inc</td>
+      <td>@discoveryinctv</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>257</th>
+      <td>oxiclean</td>
+      <td>@toughstains</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>258</th>
+      <td>htc</td>
+      <td>@htc</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>259</th>
+      <td>halliburton</td>
+      <td>@halliburton</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>260</th>
+      <td>google</td>
+      <td>@google</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>261</th>
+      <td>clorox</td>
+      <td>@clorox</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>262</th>
+      <td>purina</td>
+      <td>@purina</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>263</th>
+      <td>molson coors</td>
+      <td>@molsoncoors</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>264</th>
+      <td>fidelity investments</td>
+      <td>@fidelity</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>265</th>
+      <td>nfl</td>
+      <td>@nfl</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>266</th>
+      <td>the boston beer company</td>
+      <td>@samualadamsbeer</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>267</th>
+      <td>merrill lynch</td>
+      <td>@merrilllynch</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>268</th>
+      <td>farmers insurance group</td>
+      <td>@wearefarmers</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>269</th>
+      <td>staples</td>
+      <td>@staples</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>270</th>
+      <td>berkshire hathaway</td>
+      <td>@berkshire</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>271</th>
+      <td>kaiser permanente</td>
+      <td>@aboutkp</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>272</th>
+      <td>dhl</td>
+      <td>@dhlus</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>273</th>
+      <td>tripadvisor</td>
+      <td>@tripadvisor</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>274</th>
+      <td>colgate palmolive</td>
+      <td>@colgate</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>275</th>
+      <td>petco</td>
+      <td>@petco</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+    </div>
+    <h4>The Four Horsemen top twitter accounts:</h3>
+    <p>@pfizer @subaru_usa @lillypad @gsk @geico @takedapharma @allstate @astrazeneca @allergan @usaa @bayer @libertymutual @novonordisk @sanofi @tdameritrade @celgene @comcast @drscholls @mercedesbenz @johndeere @safelite @citi @att @bauschlomb @troweprice</p>
     <h2>Sources of Bias</h2>
     <p>The web archive isn't a perfect source of data, so here are a few ways it could be biased:</p>
     <ul>
@@ -3678,5 +5336,1114 @@ table {
     </ul>
     <p>The point of this analysis isn't to be perfect, but instead get a general sense of the big players.  I won't open source the code for now because common coding patterns could be used to reveal my identity, but the <a href="https://github.com/responsibleads/responsibleads.github.io">data</a> are available on GitHub and comments are welcome.</p> 
   </div>
+
+
+<script>
+//Vega embed script:
+var embedOpt = {"mode": "vega-lite"};
+
+var allchart = {
+  "$schema": "https://vega.github.io/schema/vega-lite/v3.2.1.json",
+  "background": "#fff",
+  "config": {
+    "mark": {
+      "tooltip": null
+    },
+    "view": {
+      "height": 300,
+      "width": 400
+    }
+  },
+  "data": {
+    "name": "data-99e5eb7f9fd61070acdad65eb4aff238"
+  },
+  "datasets": {
+    "data-99e5eb7f9fd61070acdad65eb4aff238": [
+      {
+        "company_name": "abbvie",
+        "count": 78,
+        "date": "2011-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "allstate",
+        "count": 142,
+        "date": "2011-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "astrazeneca",
+        "count": 109,
+        "date": "2011-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "at&t",
+        "count": 324,
+        "date": "2011-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "eli lilly",
+        "count": 306,
+        "date": "2011-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "geico",
+        "count": 372,
+        "date": "2011-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "glaxosmithkline",
+        "count": 223,
+        "date": "2011-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "liberty mutual",
+        "count": 0,
+        "date": "2011-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "novo nordisk",
+        "count": 0,
+        "date": "2011-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "pfizer",
+        "count": 801,
+        "date": "2011-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "subaru",
+        "count": 202,
+        "date": "2011-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "usaa",
+        "count": 111,
+        "date": "2011-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "abbvie",
+        "count": 125,
+        "date": "2012-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "allstate",
+        "count": 1201,
+        "date": "2012-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "astrazeneca",
+        "count": 52,
+        "date": "2012-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "at&t",
+        "count": 398,
+        "date": "2012-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "eli lilly",
+        "count": 849,
+        "date": "2012-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "geico",
+        "count": 1013,
+        "date": "2012-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "glaxosmithkline",
+        "count": 613,
+        "date": "2012-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "liberty mutual",
+        "count": 0,
+        "date": "2012-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "novo nordisk",
+        "count": 48,
+        "date": "2012-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "pfizer",
+        "count": 2090,
+        "date": "2012-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "subaru",
+        "count": 526,
+        "date": "2012-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "usaa",
+        "count": 505,
+        "date": "2012-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "abbvie",
+        "count": 330,
+        "date": "2013-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "allstate",
+        "count": 798,
+        "date": "2013-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "astrazeneca",
+        "count": 437,
+        "date": "2013-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "at&t",
+        "count": 601,
+        "date": "2013-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "eli lilly",
+        "count": 1347,
+        "date": "2013-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "geico",
+        "count": 1529,
+        "date": "2013-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "glaxosmithkline",
+        "count": 470,
+        "date": "2013-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "liberty mutual",
+        "count": 0,
+        "date": "2013-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "novo nordisk",
+        "count": 385,
+        "date": "2013-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "pfizer",
+        "count": 2500,
+        "date": "2013-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "subaru",
+        "count": 1628,
+        "date": "2013-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "usaa",
+        "count": 731,
+        "date": "2013-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "abbvie",
+        "count": 558,
+        "date": "2014-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "allstate",
+        "count": 678,
+        "date": "2014-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "astrazeneca",
+        "count": 856,
+        "date": "2014-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "at&t",
+        "count": 629,
+        "date": "2014-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "eli lilly",
+        "count": 268,
+        "date": "2014-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "geico",
+        "count": 851,
+        "date": "2014-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "glaxosmithkline",
+        "count": 653,
+        "date": "2014-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "liberty mutual",
+        "count": 565,
+        "date": "2014-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "novo nordisk",
+        "count": 412,
+        "date": "2014-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "pfizer",
+        "count": 3763,
+        "date": "2014-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "subaru",
+        "count": 1560,
+        "date": "2014-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "usaa",
+        "count": 377,
+        "date": "2014-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "abbvie",
+        "count": 855,
+        "date": "2015-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "allstate",
+        "count": 61,
+        "date": "2015-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "astrazeneca",
+        "count": 864,
+        "date": "2015-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "at&t",
+        "count": 826,
+        "date": "2015-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "eli lilly",
+        "count": 329,
+        "date": "2015-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "geico",
+        "count": 469,
+        "date": "2015-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "glaxosmithkline",
+        "count": 756,
+        "date": "2015-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "liberty mutual",
+        "count": 1219,
+        "date": "2015-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "novo nordisk",
+        "count": 670,
+        "date": "2015-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "pfizer",
+        "count": 2572,
+        "date": "2015-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "subaru",
+        "count": 1098,
+        "date": "2015-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "usaa",
+        "count": 340,
+        "date": "2015-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "abbvie",
+        "count": 756,
+        "date": "2016-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "allstate",
+        "count": 1131,
+        "date": "2016-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "astrazeneca",
+        "count": 473,
+        "date": "2016-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "at&t",
+        "count": 945,
+        "date": "2016-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "eli lilly",
+        "count": 480,
+        "date": "2016-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "geico",
+        "count": 836,
+        "date": "2016-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "glaxosmithkline",
+        "count": 1378,
+        "date": "2016-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "liberty mutual",
+        "count": 795,
+        "date": "2016-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "novo nordisk",
+        "count": 1105,
+        "date": "2016-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "pfizer",
+        "count": 2114,
+        "date": "2016-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "subaru",
+        "count": 1066,
+        "date": "2016-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "usaa",
+        "count": 357,
+        "date": "2016-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "abbvie",
+        "count": 650,
+        "date": "2017-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "allstate",
+        "count": 991,
+        "date": "2017-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "astrazeneca",
+        "count": 585,
+        "date": "2017-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "at&t",
+        "count": 259,
+        "date": "2017-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "eli lilly",
+        "count": 550,
+        "date": "2017-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "geico",
+        "count": 611,
+        "date": "2017-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "glaxosmithkline",
+        "count": 743,
+        "date": "2017-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "liberty mutual",
+        "count": 483,
+        "date": "2017-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "novo nordisk",
+        "count": 889,
+        "date": "2017-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "pfizer",
+        "count": 1778,
+        "date": "2017-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "subaru",
+        "count": 376,
+        "date": "2017-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "usaa",
+        "count": 698,
+        "date": "2017-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "abbvie",
+        "count": 309,
+        "date": "2018-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "allstate",
+        "count": 884,
+        "date": "2018-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "astrazeneca",
+        "count": 266,
+        "date": "2018-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "at&t",
+        "count": 235,
+        "date": "2018-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "eli lilly",
+        "count": 200,
+        "date": "2018-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "geico",
+        "count": 922,
+        "date": "2018-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "glaxosmithkline",
+        "count": 422,
+        "date": "2018-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "liberty mutual",
+        "count": 537,
+        "date": "2018-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "novo nordisk",
+        "count": 1319,
+        "date": "2018-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "pfizer",
+        "count": 1384,
+        "date": "2018-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "subaru",
+        "count": 128,
+        "date": "2018-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "usaa",
+        "count": 651,
+        "date": "2018-12-31T00:00:00+00:00"
+      }
+    ]
+  },
+  "encoding": {
+    "color": {
+      "field": "company_name",
+      "type": "nominal"
+    },
+    "tooltip": [
+      {
+        "field": "company_name",
+        "type": "nominal"
+      },
+      {
+        "field": "count",
+        "type": "quantitative"
+      }
+    ],
+    "x": {
+      "field": "date",
+      "type": "temporal"
+    },
+    "y": {
+      "field": "count",
+      "type": "quantitative"
+    }
+  },
+  "height": 500,
+  "mark": {
+    "interpolate": "cardinal",
+    "point": true,
+    "type": "line"
+  },
+  "selection": {
+    "selector001": {
+      "bind": "scales",
+      "encodings": [
+        "x",
+        "y"
+      ],
+      "type": "interval"
+    }
+  },
+  "title": "Top Fox News Advertisers, 2011-2018",
+  "width": 700
+};
+var horsechart = {
+  "$schema": "https://vega.github.io/schema/vega-lite/v3.2.1.json",
+  "background": "#fff",
+  "config": {
+    "mark": {
+      "tooltip": null
+    },
+    "view": {
+      "height": 300,
+      "width": 400
+    }
+  },
+  "data": {
+    "name": "data-eb29b7b89d9c76d778eb82c67fd8898f"
+  },
+  "datasets": {
+    "data-eb29b7b89d9c76d778eb82c67fd8898f": [
+      {
+        "company_name": "allergan",
+        "count": 0,
+        "date": "2011-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "allstate",
+        "count": 16,
+        "date": "2011-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "astrazeneca",
+        "count": 13,
+        "date": "2011-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "bayer",
+        "count": 16,
+        "date": "2011-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "eli lilly",
+        "count": 86,
+        "date": "2011-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "geico",
+        "count": 69,
+        "date": "2011-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "glaxosmithkline",
+        "count": 39,
+        "date": "2011-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "liberty mutual",
+        "count": 0,
+        "date": "2011-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "pfizer",
+        "count": 86,
+        "date": "2011-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "subaru",
+        "count": 58,
+        "date": "2011-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "takeda",
+        "count": 0,
+        "date": "2011-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "usaa",
+        "count": 0,
+        "date": "2011-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "allergan",
+        "count": 0,
+        "date": "2012-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "allstate",
+        "count": 135,
+        "date": "2012-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "astrazeneca",
+        "count": 1,
+        "date": "2012-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "bayer",
+        "count": 57,
+        "date": "2012-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "eli lilly",
+        "count": 236,
+        "date": "2012-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "geico",
+        "count": 138,
+        "date": "2012-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "glaxosmithkline",
+        "count": 111,
+        "date": "2012-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "liberty mutual",
+        "count": 0,
+        "date": "2012-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "pfizer",
+        "count": 228,
+        "date": "2012-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "subaru",
+        "count": 152,
+        "date": "2012-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "takeda",
+        "count": 0,
+        "date": "2012-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "usaa",
+        "count": 1,
+        "date": "2012-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "allergan",
+        "count": 0,
+        "date": "2013-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "allstate",
+        "count": 97,
+        "date": "2013-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "astrazeneca",
+        "count": 69,
+        "date": "2013-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "bayer",
+        "count": 87,
+        "date": "2013-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "eli lilly",
+        "count": 368,
+        "date": "2013-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "geico",
+        "count": 228,
+        "date": "2013-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "glaxosmithkline",
+        "count": 93,
+        "date": "2013-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "liberty mutual",
+        "count": 0,
+        "date": "2013-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "pfizer",
+        "count": 335,
+        "date": "2013-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "subaru",
+        "count": 446,
+        "date": "2013-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "takeda",
+        "count": 0,
+        "date": "2013-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "usaa",
+        "count": 4,
+        "date": "2013-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "allergan",
+        "count": 33,
+        "date": "2014-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "allstate",
+        "count": 110,
+        "date": "2014-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "astrazeneca",
+        "count": 198,
+        "date": "2014-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "bayer",
+        "count": 46,
+        "date": "2014-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "eli lilly",
+        "count": 48,
+        "date": "2014-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "geico",
+        "count": 116,
+        "date": "2014-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "glaxosmithkline",
+        "count": 94,
+        "date": "2014-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "liberty mutual",
+        "count": 78,
+        "date": "2014-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "pfizer",
+        "count": 492,
+        "date": "2014-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "subaru",
+        "count": 318,
+        "date": "2014-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "takeda",
+        "count": 0,
+        "date": "2014-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "usaa",
+        "count": 16,
+        "date": "2014-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "allergan",
+        "count": 81,
+        "date": "2015-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "allstate",
+        "count": 20,
+        "date": "2015-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "astrazeneca",
+        "count": 103,
+        "date": "2015-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "bayer",
+        "count": 149,
+        "date": "2015-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "eli lilly",
+        "count": 52,
+        "date": "2015-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "geico",
+        "count": 65,
+        "date": "2015-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "glaxosmithkline",
+        "count": 94,
+        "date": "2015-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "liberty mutual",
+        "count": 200,
+        "date": "2015-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "pfizer",
+        "count": 312,
+        "date": "2015-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "subaru",
+        "count": 258,
+        "date": "2015-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "takeda",
+        "count": 0,
+        "date": "2015-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "usaa",
+        "count": 29,
+        "date": "2015-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "allergan",
+        "count": 149,
+        "date": "2016-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "allstate",
+        "count": 133,
+        "date": "2016-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "astrazeneca",
+        "count": 24,
+        "date": "2016-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "bayer",
+        "count": 89,
+        "date": "2016-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "eli lilly",
+        "count": 100,
+        "date": "2016-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "geico",
+        "count": 122,
+        "date": "2016-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "glaxosmithkline",
+        "count": 173,
+        "date": "2016-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "liberty mutual",
+        "count": 59,
+        "date": "2016-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "pfizer",
+        "count": 243,
+        "date": "2016-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "subaru",
+        "count": 302,
+        "date": "2016-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "takeda",
+        "count": 154,
+        "date": "2016-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "usaa",
+        "count": 31,
+        "date": "2016-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "allergan",
+        "count": 237,
+        "date": "2017-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "allstate",
+        "count": 143,
+        "date": "2017-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "astrazeneca",
+        "count": 176,
+        "date": "2017-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "bayer",
+        "count": 48,
+        "date": "2017-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "eli lilly",
+        "count": 128,
+        "date": "2017-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "geico",
+        "count": 122,
+        "date": "2017-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "glaxosmithkline",
+        "count": 241,
+        "date": "2017-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "liberty mutual",
+        "count": 64,
+        "date": "2017-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "pfizer",
+        "count": 344,
+        "date": "2017-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "subaru",
+        "count": 152,
+        "date": "2017-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "takeda",
+        "count": 429,
+        "date": "2017-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "usaa",
+        "count": 107,
+        "date": "2017-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "allergan",
+        "count": 114,
+        "date": "2018-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "allstate",
+        "count": 129,
+        "date": "2018-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "astrazeneca",
+        "count": 88,
+        "date": "2018-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "bayer",
+        "count": 23,
+        "date": "2018-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "eli lilly",
+        "count": 66,
+        "date": "2018-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "geico",
+        "count": 124,
+        "date": "2018-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "glaxosmithkline",
+        "count": 206,
+        "date": "2018-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "liberty mutual",
+        "count": 129,
+        "date": "2018-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "pfizer",
+        "count": 240,
+        "date": "2018-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "subaru",
+        "count": 58,
+        "date": "2018-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "takeda",
+        "count": 228,
+        "date": "2018-12-31T00:00:00+00:00"
+      },
+      {
+        "company_name": "usaa",
+        "count": 225,
+        "date": "2018-12-31T00:00:00+00:00"
+      }
+    ]
+  },
+  "encoding": {
+    "color": {
+      "field": "company_name",
+      "type": "nominal"
+    },
+    "tooltip": [
+      {
+        "field": "company_name",
+        "type": "nominal"
+      },
+      {
+        "field": "count",
+        "type": "quantitative"
+      }
+    ],
+    "x": {
+      "field": "date",
+      "type": "temporal"
+    },
+    "y": {
+      "field": "count",
+      "type": "quantitative"
+    }
+  },
+  "height": 500,
+  "mark": {
+    "interpolate": "cardinal",
+    "point": true,
+    "type": "line"
+  },
+  "selection": {
+    "selector004": {
+      "bind": "scales",
+      "encodings": [
+        "x",
+        "y"
+      ],
+      "type": "interval"
+    }
+  },
+  "title": "Top Fox News Advertisers, Hannity/Carlson/Pirro/Ingraham",
+  "width": 700
+};
+
+function showError(el, error){
+    el.innerHTML = ('<div class="error" style="color:red;">'
+                    + '<p>JavaScript Error: ' + error.message + '</p>'
+                    + "<p>This usually means there's a typo in your chart specification. "
+                    + "See the javascript console for the full traceback.</p>"
+                    + '</div>');
+    throw error;
+}
+const el = document.getElementById('vis');
+vegaEmbed("#allchart", allchart, embedOpt)
+  .catch(error => showError(el, error));
+
+vegaEmbed("#horsechart", horsechart, embedOpt)
+  .catch(error => showError(el, error));
+
+</script>
+
+
 </body>
 </html>
