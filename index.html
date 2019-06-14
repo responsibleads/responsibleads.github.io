@@ -56,10 +56,1447 @@ table {
       <a href="https://twitter.com/ResponsibleAds">Twitter</a>
     </div>
     <h1>ResponsibleAds</h1>
-    <p>Updated: 06/05/2019</p>
+    <p>Updated: 06/12/2019</p>
     <p>This page provides an overview of the data behind the <a href="https://twitter.com/ResponsibleAds">@ResponsibleAds</a> Twitter account.  This dataset is gathered from the <a href="https://archive.org/details/TV-FOXNEWSW">Fox News West</a> internet archive, which has been running since 2011.  Each archive page includes a keyword summary for the show that often contains company names and products.  I associated each of these products with a parent company and twitter account and tweet at them when they advertise.  
 
     <p>Fox News, <a href="https://www.nytimes.com/interactive/2019/04/03/magazine/new-fox-corporation-disney-deal.html">in it's current incarnation</a>, amounts to a propaganda arm for a would-be authoritarian president.  It's likely that <a href="https://www.journalism.org/numbers/fox-news-costs-and-revenues/">well over half</a> of Fox's revenue comes from advertising, so we can make a difference.  Running propaganda should not be a profitable endeavor in our society, so join me in calling these companies out!</p>
+
+    <h2 id="week">Top Advertisers - Past Week</h2>
+    <p>Here are the top advertisers from the most recent week in my dataset (ending 06/12/2019).  Let them know you don't appreciate the propaganda!</p>
+    <div class="table-wrapper">
+      <table border="0" class="dataframe">
+  <thead>
+    <tr style="text-align: left;">
+      <th></th>
+      <th>company_name</th>
+      <th>company_twitter</th>
+      <th>count</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>celgene</td>
+      <td>@celgene</td>
+      <td>46</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>comcast</td>
+      <td>@comcast</td>
+      <td>43</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>usaa</td>
+      <td>@usaa</td>
+      <td>35</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>geico</td>
+      <td>@geico</td>
+      <td>32</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>amgen</td>
+      <td>@amgen</td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>essilor</td>
+      <td>@essilor</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>expedia</td>
+      <td>@expedia</td>
+      <td>14</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>abbvie</td>
+      <td>@abbvie</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>newday usa</td>
+      <td>@newdayusa</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>novartis</td>
+      <td>@novartis</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>at&amp;t</td>
+      <td>@att</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>charles schwab corporation</td>
+      <td>@charlesschwab</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>tracfone</td>
+      <td>@tracfonecalls</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>choice hotels</td>
+      <td>@choicehotels</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>walmart</td>
+      <td>@walmart</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>allstate</td>
+      <td>@allstate</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>aspen dental</td>
+      <td>@aspendental</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>eli lilly</td>
+      <td>@lillypad</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>john deere</td>
+      <td>@johndeere</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>sanofi</td>
+      <td>@sanofi</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>liberty mutual</td>
+      <td>@libertymutual</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>amplifon</td>
+      <td>@amplifon</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>applebee's</td>
+      <td>@applebees</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>carvana</td>
+      <td>@carvana</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>farmers insurance group</td>
+      <td>@wearefarmers</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>fisher investments</td>
+      <td>@fisherinvest</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>kohler</td>
+      <td>@kohler</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>cancer treatment centers of america</td>
+      <td>@cancercenter</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>tripadvisor</td>
+      <td>@tripadvisor</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>dr. scholl's</td>
+      <td>@drscholls</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>glaxosmithkline</td>
+      <td>@gsk</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>adp</td>
+      <td>@adp</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>astrazeneca</td>
+      <td>@astrazeneca</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>allergan</td>
+      <td>@allergan</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>unitedhealthcare</td>
+      <td>@uhc</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>procter &amp; gamble</td>
+      <td>@proctergamble</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>sofi</td>
+      <td>@sofi</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>verizon</td>
+      <td>@verizonwireless</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>chevrolet</td>
+      <td>@chevrolet</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>priceline</td>
+      <td>@priceline</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>penske</td>
+      <td>@penskemoving</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>nintendo</td>
+      <td>@nintendoamerica</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>netflix</td>
+      <td>@netflix</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>mcdonald's</td>
+      <td>@mcdonaldscorp</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>humana</td>
+      <td>@humana</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>booking.com</td>
+      <td>@bookingcom</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>cvs health</td>
+      <td>@cvshealth</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>fiat chrysler automobiles</td>
+      <td>@fcagroup</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+    </div>
+    <h4>Past week's top twitter accounts:</h3>
+    <p>@celgene @comcast @usaa @geico @amgen @essilor @expedia @abbvie @newdayusa @novartis @att @charlesschwab @tracfonecalls @choicehotels @walmart @allstate @aspendental @lillypad @johndeere @sanofi @libertymutual @amplifon @applebees @carvana @wearefarmers @fisherinvest @kohler @cancercenter @tripadvisor @drscholls @gsk @adp @astrazeneca @allergan @uhc @proctergamble @sofi @verizonwireless @chevrolet @priceline @penskemoving @nintendoamerica @netflix @mcdonaldscorp @humana @bookingcom @cvshealth @fcagroup</p>
+
+    <h2 id="year">Top Advertisers - Past Year</h2>
+    <p>This table shows the top advertisers over the past year, which captures more recent trends. For example, although Subaru has historically been one of the top advertisers on Fox, it's ad buys have dropped substantially in the past few years.</p>
+    <div class="table-wrapper">
+      <table border="0" class="dataframe">
+  <thead>
+    <tr style="text-align: left;">
+      <th></th>
+      <th>company_name</th>
+      <th>company_twitter</th>
+      <th>count</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>geico</td>
+      <td>@geico</td>
+      <td>1194</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>novo nordisk</td>
+      <td>@novonordisk</td>
+      <td>1183</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>comcast</td>
+      <td>@comcast</td>
+      <td>967</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>usaa</td>
+      <td>@usaa</td>
+      <td>910</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>pfizer</td>
+      <td>@pfizer</td>
+      <td>813</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>celgene</td>
+      <td>@celgene</td>
+      <td>797</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>safelite</td>
+      <td>@safelite</td>
+      <td>508</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>liberty mutual</td>
+      <td>@libertymutual</td>
+      <td>473</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>amgen</td>
+      <td>@amgen</td>
+      <td>441</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>novartis</td>
+      <td>@novartis</td>
+      <td>429</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>newday usa</td>
+      <td>@newdayusa</td>
+      <td>417</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>allstate</td>
+      <td>@allstate</td>
+      <td>371</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>abbvie</td>
+      <td>@abbvie</td>
+      <td>364</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>chevrolet</td>
+      <td>@chevrolet</td>
+      <td>324</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>takeda</td>
+      <td>@takedapharma</td>
+      <td>283</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>humana</td>
+      <td>@humana</td>
+      <td>275</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>dr. scholl's</td>
+      <td>@drscholls</td>
+      <td>264</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>choice hotels</td>
+      <td>@choicehotels</td>
+      <td>264</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>university of pittsburgh medical center</td>
+      <td>@upmc</td>
+      <td>264</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>expedia</td>
+      <td>@expedia</td>
+      <td>259</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>glaxosmithkline</td>
+      <td>@gsk</td>
+      <td>229</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>mercedes-benz</td>
+      <td>@mercedesbenz</td>
+      <td>220</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>astrazeneca</td>
+      <td>@astrazeneca</td>
+      <td>206</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>custom ink</td>
+      <td>@customink</td>
+      <td>194</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>allergan</td>
+      <td>@allergan</td>
+      <td>194</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>bayer</td>
+      <td>@bayer</td>
+      <td>187</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>procter &amp; gamble</td>
+      <td>@proctergamble</td>
+      <td>187</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>eli lilly</td>
+      <td>@lillypad</td>
+      <td>163</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>at&amp;t</td>
+      <td>@att</td>
+      <td>163</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>unitedhealthcare</td>
+      <td>@uhc</td>
+      <td>162</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>amplifon</td>
+      <td>@amplifon</td>
+      <td>159</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>john deere</td>
+      <td>@johndeere</td>
+      <td>157</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>fisher investments</td>
+      <td>@fisherinvest</td>
+      <td>157</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>abbott</td>
+      <td>@abbottglobal</td>
+      <td>152</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>charles schwab corporation</td>
+      <td>@charlesschwab</td>
+      <td>148</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>quincy bioscience</td>
+      <td>@quincybio</td>
+      <td>132</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>johnson &amp; johnson</td>
+      <td>@jnjnews</td>
+      <td>128</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>merck</td>
+      <td>@merck</td>
+      <td>111</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>matrixx initiatives</td>
+      <td>@zicam</td>
+      <td>108</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>subaru</td>
+      <td>@subaru_usa</td>
+      <td>102</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>leesa mattress</td>
+      <td>@leesasleep</td>
+      <td>95</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>carvana</td>
+      <td>@carvana</td>
+      <td>93</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>tripadvisor</td>
+      <td>@tripadvisor</td>
+      <td>82</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>cancer treatment centers of america</td>
+      <td>@cancercenter</td>
+      <td>82</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>aarp</td>
+      <td>@aarp</td>
+      <td>79</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>sanofi</td>
+      <td>@sanofi</td>
+      <td>76</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>esurance</td>
+      <td>@esurance</td>
+      <td>74</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>voya financial</td>
+      <td>@voya</td>
+      <td>70</td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>the hartford</td>
+      <td>@thehartford</td>
+      <td>67</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>ace hardware</td>
+      <td>@acehardware</td>
+      <td>67</td>
+    </tr>
+    <tr>
+      <th>50</th>
+      <td>applebee's</td>
+      <td>@applebees</td>
+      <td>66</td>
+    </tr>
+    <tr>
+      <th>51</th>
+      <td>eggland's best</td>
+      <td>@egglandsbest</td>
+      <td>62</td>
+    </tr>
+    <tr>
+      <th>52</th>
+      <td>amd</td>
+      <td>@amd</td>
+      <td>61</td>
+    </tr>
+    <tr>
+      <th>53</th>
+      <td>united states postal service</td>
+      <td>@usps</td>
+      <td>59</td>
+    </tr>
+    <tr>
+      <th>54</th>
+      <td>amazon</td>
+      <td>@amazon</td>
+      <td>54</td>
+    </tr>
+    <tr>
+      <th>55</th>
+      <td>gilead sciences</td>
+      <td>@gileadsciences</td>
+      <td>51</td>
+    </tr>
+    <tr>
+      <th>56</th>
+      <td>wells fargo</td>
+      <td>@wellsfargo</td>
+      <td>51</td>
+    </tr>
+    <tr>
+      <th>57</th>
+      <td>essilor</td>
+      <td>@essilor</td>
+      <td>49</td>
+    </tr>
+    <tr>
+      <th>58</th>
+      <td>walmart</td>
+      <td>@walmart</td>
+      <td>45</td>
+    </tr>
+    <tr>
+      <th>59</th>
+      <td>essity</td>
+      <td>@essity</td>
+      <td>41</td>
+    </tr>
+    <tr>
+      <th>60</th>
+      <td>opentable</td>
+      <td>@opentable</td>
+      <td>40</td>
+    </tr>
+    <tr>
+      <th>61</th>
+      <td>cigna</td>
+      <td>@cigna</td>
+      <td>39</td>
+    </tr>
+    <tr>
+      <th>62</th>
+      <td>carfax</td>
+      <td>@carfax</td>
+      <td>38</td>
+    </tr>
+    <tr>
+      <th>63</th>
+      <td>farmers insurance group</td>
+      <td>@wearefarmers</td>
+      <td>37</td>
+    </tr>
+    <tr>
+      <th>64</th>
+      <td>netflix</td>
+      <td>@netflix</td>
+      <td>37</td>
+    </tr>
+    <tr>
+      <th>65</th>
+      <td>kraft heinz company</td>
+      <td>@kraftheinzco</td>
+      <td>36</td>
+    </tr>
+    <tr>
+      <th>66</th>
+      <td>office depot</td>
+      <td>@officedepot</td>
+      <td>35</td>
+    </tr>
+    <tr>
+      <th>67</th>
+      <td>sears</td>
+      <td>@sears</td>
+      <td>35</td>
+    </tr>
+    <tr>
+      <th>68</th>
+      <td>tempur-pedic</td>
+      <td>@tempurpedic</td>
+      <td>34</td>
+    </tr>
+    <tr>
+      <th>69</th>
+      <td>pacific life</td>
+      <td>@pacificlife</td>
+      <td>34</td>
+    </tr>
+    <tr>
+      <th>70</th>
+      <td>exact sciences corporation</td>
+      <td>@exactsciences</td>
+      <td>31</td>
+    </tr>
+    <tr>
+      <th>71</th>
+      <td>lincoln</td>
+      <td>@lincolnmotorco</td>
+      <td>30</td>
+    </tr>
+    <tr>
+      <th>72</th>
+      <td>gm</td>
+      <td>@gm</td>
+      <td>29</td>
+    </tr>
+    <tr>
+      <th>73</th>
+      <td>tesla</td>
+      <td>@tesla</td>
+      <td>28</td>
+    </tr>
+    <tr>
+      <th>74</th>
+      <td>astellas</td>
+      <td>@astellasus</td>
+      <td>27</td>
+    </tr>
+    <tr>
+      <th>75</th>
+      <td>toyota</td>
+      <td>@toyota</td>
+      <td>26</td>
+    </tr>
+    <tr>
+      <th>76</th>
+      <td>hilton</td>
+      <td>@hiltonhotels</td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <th>77</th>
+      <td>brightstar care</td>
+      <td>@brightstarcare</td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <th>78</th>
+      <td>t. rowe price</td>
+      <td>@troweprice</td>
+      <td>24</td>
+    </tr>
+    <tr>
+      <th>79</th>
+      <td>samsung</td>
+      <td>@samsung</td>
+      <td>23</td>
+    </tr>
+    <tr>
+      <th>80</th>
+      <td>aspen dental</td>
+      <td>@aspendental</td>
+      <td>23</td>
+    </tr>
+    <tr>
+      <th>81</th>
+      <td>huidarts</td>
+      <td>@huidartscom</td>
+      <td>19</td>
+    </tr>
+    <tr>
+      <th>82</th>
+      <td>sofi</td>
+      <td>@sofi</td>
+      <td>19</td>
+    </tr>
+    <tr>
+      <th>83</th>
+      <td>duracell</td>
+      <td>@duracell</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <th>84</th>
+      <td>priceline</td>
+      <td>@priceline</td>
+      <td>17</td>
+    </tr>
+    <tr>
+      <th>85</th>
+      <td>yum! brands</td>
+      <td>@yumbrands</td>
+      <td>17</td>
+    </tr>
+    <tr>
+      <th>86</th>
+      <td>ford</td>
+      <td>@ford</td>
+      <td>17</td>
+    </tr>
+    <tr>
+      <th>87</th>
+      <td>hbo</td>
+      <td>@hbo</td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <th>88</th>
+      <td>honda</td>
+      <td>@honda</td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <th>89</th>
+      <td>chick-fil-a</td>
+      <td>@chickfila</td>
+      <td>13</td>
+    </tr>
+    <tr>
+      <th>90</th>
+      <td>hp</td>
+      <td>@hp</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>91</th>
+      <td>prudential financial</td>
+      <td>@prudential</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>92</th>
+      <td>reuters</td>
+      <td>@reuters</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <th>93</th>
+      <td>general motors</td>
+      <td>@gm</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <th>94</th>
+      <td>mcdonald's</td>
+      <td>@mcdonaldscorp</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <th>95</th>
+      <td>ebates</td>
+      <td>@ebates</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <th>96</th>
+      <td>fiat chrysler automobiles</td>
+      <td>@fcagroup</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <th>97</th>
+      <td>crest</td>
+      <td>@crest</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <th>98</th>
+      <td>devon energy</td>
+      <td>@devonenergy</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <th>99</th>
+      <td>ibm</td>
+      <td>@ibm</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <th>100</th>
+      <td>bp</td>
+      <td>@bp_plc</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <th>101</th>
+      <td>bausch health</td>
+      <td>@bauschlomb</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <th>102</th>
+      <td>adp</td>
+      <td>@adp</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <th>103</th>
+      <td>univision communications</td>
+      <td>@univision</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <th>104</th>
+      <td>amtrak</td>
+      <td>@amtrak</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <th>105</th>
+      <td>the coca-cola company</td>
+      <td>@cocacolaco</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <th>106</th>
+      <td>kohler</td>
+      <td>@kohler</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <th>107</th>
+      <td>tracfone</td>
+      <td>@tracfonecalls</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>108</th>
+      <td>goldman sachs</td>
+      <td>@goldmansachs</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>109</th>
+      <td>dyson</td>
+      <td>@dyson</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>110</th>
+      <td>costco</td>
+      <td>@costco</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>111</th>
+      <td>microsoft</td>
+      <td>@microsoft</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>112</th>
+      <td>goodyear</td>
+      <td>@goodyear</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>113</th>
+      <td>wayfair</td>
+      <td>@wayfair</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>114</th>
+      <td>walgreens</td>
+      <td>@walgreens</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>115</th>
+      <td>fidelity investments</td>
+      <td>@fidelity</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>116</th>
+      <td>pepsico</td>
+      <td>@pepsico</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>117</th>
+      <td>cabela's</td>
+      <td>@cabelas</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>118</th>
+      <td>nature's bounty</td>
+      <td>@naturesbounty</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>119</th>
+      <td>navy federal credit union</td>
+      <td>@navyfederal</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>120</th>
+      <td>chevron</td>
+      <td>@chevron</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>121</th>
+      <td>kmart</td>
+      <td>@kmart</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>122</th>
+      <td>verizon</td>
+      <td>@verizonwireless</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>123</th>
+      <td>truecar</td>
+      <td>@truecar</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>124</th>
+      <td>merrill lynch</td>
+      <td>@merrilllynch</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>125</th>
+      <td>lockheed martin</td>
+      <td>@lockheedmartin</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>126</th>
+      <td>delta</td>
+      <td>@delta</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>127</th>
+      <td>ben &amp; jerry's</td>
+      <td>@benandjerrys</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>128</th>
+      <td>safeway</td>
+      <td>@safeway</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>129</th>
+      <td>midas</td>
+      <td>@midas</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>130</th>
+      <td>quicken loans</td>
+      <td>@quicken loans</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>131</th>
+      <td>sargento</td>
+      <td>@sargento</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>132</th>
+      <td>coleman</td>
+      <td>@colemanusa</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>133</th>
+      <td>nissan</td>
+      <td>@nissan</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>134</th>
+      <td>idaho potato commission</td>
+      <td>@idahopotato</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>135</th>
+      <td>caterpillar</td>
+      <td>@caterpillarinc</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>136</th>
+      <td>aspen dental</td>
+      <td>@aspendental</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>137</th>
+      <td>adidas</td>
+      <td>@adidas</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>138</th>
+      <td>audi</td>
+      <td>@audi</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>139</th>
+      <td>barnes &amp; noble</td>
+      <td>@bnbuzz</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>140</th>
+      <td>cisco</td>
+      <td>@cisco</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>141</th>
+      <td>general mills</td>
+      <td>@generalmills</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>142</th>
+      <td>bass pro shops</td>
+      <td>@bassproshops</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>143</th>
+      <td>viacom</td>
+      <td>@viacom</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>144</th>
+      <td>atkins</td>
+      <td>@atkinsinsider</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>145</th>
+      <td>td ameritrade</td>
+      <td>@tdameritrade</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>146</th>
+      <td>sprint</td>
+      <td>@sprint</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>147</th>
+      <td>volvo</td>
+      <td>@volvocars</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>148</th>
+      <td>oracle</td>
+      <td>@oracle</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>149</th>
+      <td>volkswagen</td>
+      <td>@volkswagen</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>150</th>
+      <td>aig</td>
+      <td>@aiginsurance</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>151</th>
+      <td>aetna</td>
+      <td>@aetna</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>152</th>
+      <td>jpmorgan chase</td>
+      <td>@jpmorgan</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>153</th>
+      <td>amc</td>
+      <td>@amc_tv</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>154</th>
+      <td>red lobster</td>
+      <td>@redlobster</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>155</th>
+      <td>equifax</td>
+      <td>@equifax</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>156</th>
+      <td>gnc</td>
+      <td>@gnclivewell</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>157</th>
+      <td>american airlines</td>
+      <td>@americanair</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>158</th>
+      <td>airbus</td>
+      <td>@airbus</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>159</th>
+      <td>nintendo</td>
+      <td>@nintendoamerica</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>160</th>
+      <td>velcro</td>
+      <td>@velcrobrand</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>161</th>
+      <td>alcoa</td>
+      <td>@alcoa</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>162</th>
+      <td>cvs health</td>
+      <td>@cvshealth</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>163</th>
+      <td>dunkin brands</td>
+      <td>@dunkinbrands</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>164</th>
+      <td>whirlpool corporation</td>
+      <td>@whirlpoolcorp</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>165</th>
+      <td>yahoo</td>
+      <td>@yahoo</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>166</th>
+      <td>alamo</td>
+      <td>@alamo</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>167</th>
+      <td>motorola</td>
+      <td>@motorola</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>168</th>
+      <td>united airlines</td>
+      <td>@united</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>169</th>
+      <td>booking.com</td>
+      <td>@bookingcom</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>170</th>
+      <td>molson coors</td>
+      <td>@molsoncoors</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>171</th>
+      <td>purina</td>
+      <td>@purina</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>172</th>
+      <td>penske</td>
+      <td>@penskemoving</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>173</th>
+      <td>bristol-myers squibb</td>
+      <td>@bmsnews</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>174</th>
+      <td>pandora</td>
+      <td>@pandora_radio</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>175</th>
+      <td>michelin</td>
+      <td>@michelin</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>176</th>
+      <td>bentley</td>
+      <td>@bentleymotors</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>177</th>
+      <td>union pacific</td>
+      <td>@union pacific</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>178</th>
+      <td>kellogg company</td>
+      <td>@kelloggcompany</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>179</th>
+      <td>mastercard</td>
+      <td>@mastercard</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>180</th>
+      <td>sony</td>
+      <td>@sony</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>181</th>
+      <td>phillips 66</td>
+      <td>@phillips66co</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>182</th>
+      <td>togo's</td>
+      <td>@togossandwiches</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>183</th>
+      <td>ubs</td>
+      <td>@ubs</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>184</th>
+      <td>kia</td>
+      <td>@kia</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+    </div>
+    <h4>This year's top 25 twitter accounts:</h3>
+    <p>@geico @novonordisk @comcast @usaa @pfizer @celgene @safelite @libertymutual @amgen @novartis @newdayusa @allstate @abbvie @chevrolet @takedapharma @humana @drscholls @choicehotels @upmc @expedia @gsk @mercedesbenz @astrazeneca @customink @allergan</p>
+
     <h2 id="all">Top Advertisers - All Time</h2>
     <div id="allchart" style="height:600px;width:100%;">
     </div>
@@ -85,7 +1522,7 @@ table {
       <th>1</th>
       <td>geico</td>
       <td>@geico</td>
-      <td>7123</td>
+      <td>7154</td>
     </tr>
     <tr>
       <th>2</th>
@@ -97,13 +1534,13 @@ table {
       <th>3</th>
       <td>allstate</td>
       <td>@allstate</td>
-      <td>5974</td>
+      <td>5980</td>
     </tr>
     <tr>
       <th>4</th>
       <td>glaxosmithkline</td>
       <td>@gsk</td>
-      <td>5262</td>
+      <td>5264</td>
     </tr>
     <tr>
       <th>5</th>
@@ -115,61 +1552,61 @@ table {
       <th>6</th>
       <td>eli lilly</td>
       <td>@lillypad</td>
-      <td>4389</td>
+      <td>4395</td>
     </tr>
     <tr>
       <th>7</th>
-      <td>at&amp;t</td>
-      <td>@att</td>
-      <td>4282</td>
+      <td>usaa</td>
+      <td>@usaa</td>
+      <td>4307</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>usaa</td>
-      <td>@usaa</td>
-      <td>4277</td>
+      <td>at&amp;t</td>
+      <td>@att</td>
+      <td>4291</td>
     </tr>
     <tr>
       <th>9</th>
       <td>abbvie</td>
       <td>@abbvie</td>
-      <td>3859</td>
+      <td>3869</td>
     </tr>
     <tr>
       <th>10</th>
       <td>astrazeneca</td>
       <td>@astrazeneca</td>
-      <td>3751</td>
+      <td>3753</td>
     </tr>
     <tr>
       <th>11</th>
       <td>liberty mutual</td>
       <td>@libertymutual</td>
-      <td>3726</td>
+      <td>3729</td>
     </tr>
     <tr>
       <th>12</th>
+      <td>celgene</td>
+      <td>@celgene</td>
+      <td>3364</td>
+    </tr>
+    <tr>
+      <th>13</th>
       <td>bayer</td>
       <td>@bayer</td>
       <td>3358</td>
     </tr>
     <tr>
-      <th>13</th>
-      <td>celgene</td>
-      <td>@celgene</td>
-      <td>3323</td>
-    </tr>
-    <tr>
       <th>14</th>
       <td>verizon</td>
       <td>@verizonwireless</td>
-      <td>3202</td>
+      <td>3203</td>
     </tr>
     <tr>
       <th>15</th>
       <td>comcast</td>
       <td>@comcast</td>
-      <td>3151</td>
+      <td>3191</td>
     </tr>
     <tr>
       <th>16</th>
@@ -181,13 +1618,13 @@ table {
       <th>17</th>
       <td>unitedhealthcare</td>
       <td>@uhc</td>
-      <td>2459</td>
+      <td>2460</td>
     </tr>
     <tr>
       <th>18</th>
       <td>allergan</td>
       <td>@allergan</td>
-      <td>2192</td>
+      <td>2193</td>
     </tr>
     <tr>
       <th>19</th>
@@ -217,19 +1654,19 @@ table {
       <th>23</th>
       <td>novartis</td>
       <td>@novartis</td>
-      <td>1650</td>
+      <td>1658</td>
     </tr>
     <tr>
       <th>24</th>
       <td>sanofi</td>
       <td>@sanofi</td>
-      <td>1611</td>
+      <td>1617</td>
     </tr>
     <tr>
       <th>25</th>
       <td>dr. scholl's</td>
       <td>@drscholls</td>
-      <td>1588</td>
+      <td>1590</td>
     </tr>
     <tr>
       <th>26</th>
@@ -257,26 +1694,26 @@ table {
     </tr>
     <tr>
       <th>30</th>
+      <td>amgen</td>
+      <td>@amgen</td>
+      <td>1339</td>
+    </tr>
+    <tr>
+      <th>31</th>
       <td>nissan</td>
       <td>@nissan</td>
       <td>1332</td>
     </tr>
     <tr>
-      <th>31</th>
-      <td>amgen</td>
-      <td>@amgen</td>
-      <td>1326</td>
-    </tr>
-    <tr>
       <th>32</th>
-      <td>t. rowe price</td>
-      <td>@troweprice</td>
-      <td>1241</td>
+      <td>john deere</td>
+      <td>@johndeere</td>
+      <td>1247</td>
     </tr>
     <tr>
       <th>33</th>
-      <td>john deere</td>
-      <td>@johndeere</td>
+      <td>t. rowe price</td>
+      <td>@troweprice</td>
       <td>1241</td>
     </tr>
     <tr>
@@ -301,7 +1738,7 @@ table {
       <th>37</th>
       <td>procter &amp; gamble</td>
       <td>@proctergamble</td>
-      <td>980</td>
+      <td>981</td>
     </tr>
     <tr>
       <th>38</th>
@@ -343,7 +1780,7 @@ table {
       <th>44</th>
       <td>humana</td>
       <td>@humana</td>
-      <td>752</td>
+      <td>753</td>
     </tr>
     <tr>
       <th>45</th>
@@ -389,14 +1826,14 @@ table {
     </tr>
     <tr>
       <th>52</th>
-      <td>gilead sciences</td>
-      <td>@gileadsciences</td>
+      <td>phillips 66</td>
+      <td>@phillips66co</td>
       <td>677</td>
     </tr>
     <tr>
       <th>53</th>
-      <td>phillips 66</td>
-      <td>@phillips66co</td>
+      <td>gilead sciences</td>
+      <td>@gileadsciences</td>
       <td>677</td>
     </tr>
     <tr>
@@ -409,7 +1846,7 @@ table {
       <th>55</th>
       <td>charles schwab corporation</td>
       <td>@charlesschwab</td>
-      <td>648</td>
+      <td>655</td>
     </tr>
     <tr>
       <th>56</th>
@@ -427,13 +1864,13 @@ table {
       <th>58</th>
       <td>choice hotels</td>
       <td>@choicehotels</td>
-      <td>611</td>
+      <td>618</td>
     </tr>
     <tr>
       <th>59</th>
       <td>cancer treatment centers of america</td>
       <td>@cancercenter</td>
-      <td>598</td>
+      <td>600</td>
     </tr>
     <tr>
       <th>60</th>
@@ -469,13 +1906,13 @@ table {
       <th>65</th>
       <td>expedia</td>
       <td>@expedia</td>
-      <td>532</td>
+      <td>545</td>
     </tr>
     <tr>
       <th>66</th>
       <td>chevrolet</td>
       <td>@chevrolet</td>
-      <td>514</td>
+      <td>515</td>
     </tr>
     <tr>
       <th>67</th>
@@ -527,15 +1964,15 @@ table {
     </tr>
     <tr>
       <th>75</th>
-      <td>sony</td>
-      <td>@sony</td>
-      <td>408</td>
+      <td>newday usa</td>
+      <td>@newdayusa</td>
+      <td>417</td>
     </tr>
     <tr>
       <th>76</th>
-      <td>newday usa</td>
-      <td>@newdayusa</td>
-      <td>407</td>
+      <td>sony</td>
+      <td>@sony</td>
+      <td>408</td>
     </tr>
     <tr>
       <th>77</th>
@@ -605,8 +2042,8 @@ table {
     </tr>
     <tr>
       <th>88</th>
-      <td>gm</td>
-      <td>@gm</td>
+      <td>cigna</td>
+      <td>@cigna</td>
       <td>324</td>
     </tr>
     <tr>
@@ -617,8 +2054,8 @@ table {
     </tr>
     <tr>
       <th>90</th>
-      <td>cigna</td>
-      <td>@cigna</td>
+      <td>gm</td>
+      <td>@gm</td>
       <td>324</td>
     </tr>
     <tr>
@@ -643,18 +2080,18 @@ table {
       <th>94</th>
       <td>fisher investments</td>
       <td>@fisherinvest</td>
-      <td>307</td>
+      <td>309</td>
     </tr>
     <tr>
       <th>95</th>
-      <td>goldman sachs</td>
-      <td>@goldmansachs</td>
+      <td>pnc bank</td>
+      <td>@pncbank</td>
       <td>306</td>
     </tr>
     <tr>
       <th>96</th>
-      <td>pnc bank</td>
-      <td>@pncbank</td>
+      <td>goldman sachs</td>
+      <td>@goldmansachs</td>
       <td>306</td>
     </tr>
     <tr>
@@ -737,14 +2174,14 @@ table {
     </tr>
     <tr>
       <th>110</th>
-      <td>edward jones investments</td>
-      <td>@edwardjones</td>
+      <td>bp</td>
+      <td>@bp_plc</td>
       <td>246</td>
     </tr>
     <tr>
       <th>111</th>
-      <td>bp</td>
-      <td>@bp_plc</td>
+      <td>edward jones investments</td>
+      <td>@edwardjones</td>
       <td>246</td>
     </tr>
     <tr>
@@ -853,7 +2290,7 @@ table {
       <th>129</th>
       <td>applebee's</td>
       <td>@applebees</td>
-      <td>182</td>
+      <td>187</td>
     </tr>
     <tr>
       <th>130</th>
@@ -865,7 +2302,7 @@ table {
       <th>131</th>
       <td>amplifon</td>
       <td>@amplifon</td>
-      <td>173</td>
+      <td>178</td>
     </tr>
     <tr>
       <th>132</th>
@@ -893,27 +2330,27 @@ table {
     </tr>
     <tr>
       <th>136</th>
+      <td>walmart</td>
+      <td>@walmart</td>
+      <td>159</td>
+    </tr>
+    <tr>
+      <th>137</th>
       <td>wells fargo</td>
       <td>@wellsfargo</td>
       <td>158</td>
     </tr>
     <tr>
-      <th>137</th>
-      <td>conagra brands</td>
-      <td>@conagrabrands</td>
-      <td>156</td>
-    </tr>
-    <tr>
       <th>138</th>
       <td>mcdonald's</td>
       <td>@mcdonaldscorp</td>
-      <td>156</td>
+      <td>157</td>
     </tr>
     <tr>
       <th>139</th>
-      <td>walmart</td>
-      <td>@walmart</td>
-      <td>154</td>
+      <td>conagra brands</td>
+      <td>@conagrabrands</td>
+      <td>156</td>
     </tr>
     <tr>
       <th>140</th>
@@ -923,14 +2360,14 @@ table {
     </tr>
     <tr>
       <th>141</th>
-      <td>the home depot</td>
-      <td>@homedepot</td>
+      <td>matrixx initiatives</td>
+      <td>@zicam</td>
       <td>150</td>
     </tr>
     <tr>
       <th>142</th>
-      <td>matrixx initiatives</td>
-      <td>@zicam</td>
+      <td>the home depot</td>
+      <td>@homedepot</td>
       <td>150</td>
     </tr>
     <tr>
@@ -1069,7 +2506,7 @@ table {
       <th>165</th>
       <td>tripadvisor</td>
       <td>@tripadvisor</td>
-      <td>96</td>
+      <td>97</td>
     </tr>
     <tr>
       <th>166</th>
@@ -1079,69 +2516,69 @@ table {
     </tr>
     <tr>
       <th>167</th>
+      <td>kohler</td>
+      <td>@kohler</td>
+      <td>93</td>
+    </tr>
+    <tr>
+      <th>168</th>
       <td>nordstrom</td>
       <td>@nordstrom</td>
       <td>93</td>
     </tr>
     <tr>
-      <th>168</th>
+      <th>169</th>
+      <td>carvana</td>
+      <td>@carvana</td>
+      <td>93</td>
+    </tr>
+    <tr>
+      <th>170</th>
+      <td>essilor</td>
+      <td>@essilor</td>
+      <td>93</td>
+    </tr>
+    <tr>
+      <th>171</th>
       <td>dexcom</td>
       <td>@dexcom</td>
       <td>92</td>
     </tr>
     <tr>
-      <th>169</th>
-      <td>kohler</td>
-      <td>@kohler</td>
-      <td>91</td>
-    </tr>
-    <tr>
-      <th>170</th>
+      <th>172</th>
       <td>nfl</td>
       <td>@nfl</td>
       <td>90</td>
     </tr>
     <tr>
-      <th>171</th>
-      <td>carvana</td>
-      <td>@carvana</td>
-      <td>89</td>
-    </tr>
-    <tr>
-      <th>172</th>
+      <th>173</th>
       <td>devon energy</td>
       <td>@devonenergy</td>
       <td>86</td>
     </tr>
     <tr>
-      <th>173</th>
+      <th>174</th>
       <td>aetna</td>
       <td>@aetna</td>
       <td>85</td>
     </tr>
     <tr>
-      <th>174</th>
+      <th>175</th>
       <td>fico</td>
       <td>@fico</td>
       <td>85</td>
     </tr>
     <tr>
-      <th>175</th>
+      <th>176</th>
       <td>gnc</td>
       <td>@gnclivewell</td>
       <td>83</td>
     </tr>
     <tr>
-      <th>176</th>
+      <th>177</th>
       <td>husqvarna</td>
       <td>@husqvarnausa</td>
       <td>83</td>
-    </tr>
-    <tr>
-      <th>177</th>
-      <td>healthmarkets</td>
-      <td>@healthmarkets</td>
-      <td>82</td>
     </tr>
     <tr>
       <th>178</th>
@@ -1151,9 +2588,9 @@ table {
     </tr>
     <tr>
       <th>179</th>
-      <td>cisco</td>
-      <td>@cisco</td>
-      <td>81</td>
+      <td>healthmarkets</td>
+      <td>@healthmarkets</td>
+      <td>82</td>
     </tr>
     <tr>
       <th>180</th>
@@ -1163,15 +2600,15 @@ table {
     </tr>
     <tr>
       <th>181</th>
-      <td>essilor</td>
-      <td>@essilor</td>
-      <td>80</td>
+      <td>cisco</td>
+      <td>@cisco</td>
+      <td>81</td>
     </tr>
     <tr>
       <th>182</th>
       <td>netflix</td>
       <td>@netflix</td>
-      <td>78</td>
+      <td>79</td>
     </tr>
     <tr>
       <th>183</th>
@@ -1181,45 +2618,45 @@ table {
     </tr>
     <tr>
       <th>184</th>
-      <td>fidelity investments</td>
-      <td>@fidelity</td>
-      <td>75</td>
-    </tr>
-    <tr>
-      <th>185</th>
       <td>chico's</td>
       <td>@chicos</td>
       <td>75</td>
     </tr>
     <tr>
+      <th>185</th>
+      <td>fidelity investments</td>
+      <td>@fidelity</td>
+      <td>75</td>
+    </tr>
+    <tr>
       <th>186</th>
+      <td>aspen dental</td>
+      <td>@aspendental</td>
+      <td>71</td>
+    </tr>
+    <tr>
+      <th>187</th>
       <td>trugreen</td>
       <td>@trugreen</td>
       <td>71</td>
     </tr>
     <tr>
-      <th>187</th>
+      <th>188</th>
       <td>htc</td>
       <td>@htc</td>
       <td>69</td>
     </tr>
     <tr>
-      <th>188</th>
+      <th>189</th>
       <td>asiana airlines</td>
       <td>@flyasiana</td>
       <td>69</td>
     </tr>
     <tr>
-      <th>189</th>
+      <th>190</th>
       <td>aig</td>
       <td>@aiginsurance</td>
       <td>69</td>
-    </tr>
-    <tr>
-      <th>190</th>
-      <td>aspen dental</td>
-      <td>@aspendental</td>
-      <td>66</td>
     </tr>
     <tr>
       <th>191</th>
@@ -1259,20 +2696,20 @@ table {
     </tr>
     <tr>
       <th>197</th>
-      <td>walgreens</td>
-      <td>@walgreens</td>
-      <td>56</td>
-    </tr>
-    <tr>
-      <th>198</th>
       <td>amazon</td>
       <td>@amazon</td>
       <td>56</td>
     </tr>
     <tr>
+      <th>198</th>
+      <td>walgreens</td>
+      <td>@walgreens</td>
+      <td>56</td>
+    </tr>
+    <tr>
       <th>199</th>
-      <td>hilton</td>
-      <td>@hiltonhotels</td>
+      <td>darden restaurants</td>
+      <td>@dardengroup</td>
       <td>55</td>
     </tr>
     <tr>
@@ -1283,8 +2720,8 @@ table {
     </tr>
     <tr>
       <th>201</th>
-      <td>darden restaurants</td>
-      <td>@dardengroup</td>
+      <td>hilton</td>
+      <td>@hiltonhotels</td>
       <td>55</td>
     </tr>
     <tr>
@@ -1313,26 +2750,26 @@ table {
     </tr>
     <tr>
       <th>206</th>
-      <td>masco corporation</td>
-      <td>@mascocorp</td>
-      <td>49</td>
-    </tr>
-    <tr>
-      <th>207</th>
       <td>merrill lynch</td>
       <td>@merrilllynch</td>
       <td>49</td>
     </tr>
     <tr>
+      <th>207</th>
+      <td>masco corporation</td>
+      <td>@mascocorp</td>
+      <td>49</td>
+    </tr>
+    <tr>
       <th>208</th>
-      <td>blackrock</td>
-      <td>@blackrock</td>
+      <td>viacom</td>
+      <td>@viacom</td>
       <td>48</td>
     </tr>
     <tr>
       <th>209</th>
-      <td>viacom</td>
-      <td>@viacom</td>
+      <td>blackrock</td>
+      <td>@blackrock</td>
       <td>48</td>
     </tr>
     <tr>
@@ -1343,44 +2780,44 @@ table {
     </tr>
     <tr>
       <th>211</th>
+      <td>farmers insurance group</td>
+      <td>@wearefarmers</td>
+      <td>45</td>
+    </tr>
+    <tr>
+      <th>212</th>
       <td>quicken loans</td>
       <td>@quicken loans</td>
       <td>45</td>
     </tr>
     <tr>
-      <th>212</th>
+      <th>213</th>
       <td>sargento</td>
       <td>@sargento</td>
       <td>45</td>
     </tr>
     <tr>
-      <th>213</th>
+      <th>214</th>
       <td>sonova</td>
       <td>@sonovagroup</td>
       <td>44</td>
     </tr>
     <tr>
-      <th>214</th>
+      <th>215</th>
       <td>jpmorgan chase</td>
       <td>@jpmorgan</td>
       <td>44</td>
     </tr>
     <tr>
-      <th>215</th>
-      <td>farmers insurance group</td>
-      <td>@wearefarmers</td>
-      <td>42</td>
-    </tr>
-    <tr>
       <th>216</th>
-      <td>staples</td>
-      <td>@staples</td>
+      <td>lupin</td>
+      <td>@lupinglobal</td>
       <td>41</td>
     </tr>
     <tr>
       <th>217</th>
-      <td>lupin</td>
-      <td>@lupinglobal</td>
+      <td>staples</td>
+      <td>@staples</td>
       <td>41</td>
     </tr>
     <tr>
@@ -1403,38 +2840,38 @@ table {
     </tr>
     <tr>
       <th>221</th>
-      <td>panera bread</td>
-      <td>@panerabread</td>
-      <td>37</td>
-    </tr>
-    <tr>
-      <th>222</th>
       <td>optum</td>
       <td>@optum</td>
       <td>37</td>
     </tr>
     <tr>
+      <th>222</th>
+      <td>panera bread</td>
+      <td>@panerabread</td>
+      <td>37</td>
+    </tr>
+    <tr>
       <th>223</th>
+      <td>experian</td>
+      <td>@experian</td>
+      <td>36</td>
+    </tr>
+    <tr>
+      <th>224</th>
       <td>hyundai</td>
       <td>@hyundai</td>
       <td>36</td>
     </tr>
     <tr>
-      <th>224</th>
+      <th>225</th>
       <td>experian</td>
       <td>@experian_us</td>
       <td>36</td>
     </tr>
     <tr>
-      <th>225</th>
+      <th>226</th>
       <td>oracle</td>
       <td>@oracle</td>
-      <td>36</td>
-    </tr>
-    <tr>
-      <th>226</th>
-      <td>experian</td>
-      <td>@experian</td>
       <td>36</td>
     </tr>
     <tr>
@@ -1451,14 +2888,14 @@ table {
     </tr>
     <tr>
       <th>229</th>
-      <td>kia</td>
-      <td>@kia</td>
+      <td>priceline</td>
+      <td>@priceline</td>
       <td>35</td>
     </tr>
     <tr>
       <th>230</th>
-      <td>napa</td>
-      <td>@napaknowhow</td>
+      <td>kia</td>
+      <td>@kia</td>
       <td>35</td>
     </tr>
     <tr>
@@ -1469,50 +2906,50 @@ table {
     </tr>
     <tr>
       <th>232</th>
-      <td>mozilla</td>
-      <td>@mozilla</td>
-      <td>34</td>
+      <td>napa</td>
+      <td>@napaknowhow</td>
+      <td>35</td>
     </tr>
     <tr>
       <th>233</th>
+      <td>adp</td>
+      <td>@adp</td>
+      <td>35</td>
+    </tr>
+    <tr>
+      <th>234</th>
       <td>baesystems</td>
       <td>@baesystemsinc</td>
       <td>34</td>
     </tr>
     <tr>
-      <th>234</th>
-      <td>priceline</td>
-      <td>@priceline</td>
+      <th>235</th>
+      <td>mozilla</td>
+      <td>@mozilla</td>
       <td>34</td>
     </tr>
     <tr>
-      <th>235</th>
-      <td>sunsweet growers</td>
-      <td>@sunsweetgrowers</td>
-      <td>33</td>
-    </tr>
-    <tr>
       <th>236</th>
-      <td>bass pro shops</td>
-      <td>@bassproshops</td>
-      <td>33</td>
-    </tr>
-    <tr>
-      <th>237</th>
-      <td>adp</td>
-      <td>@adp</td>
-      <td>33</td>
-    </tr>
-    <tr>
-      <th>238</th>
       <td>zelle</td>
       <td>@zelle</td>
       <td>33</td>
     </tr>
     <tr>
-      <th>239</th>
+      <th>237</th>
+      <td>sunsweet growers</td>
+      <td>@sunsweetgrowers</td>
+      <td>33</td>
+    </tr>
+    <tr>
+      <th>238</th>
       <td>zynga</td>
       <td>@zynga</td>
+      <td>33</td>
+    </tr>
+    <tr>
+      <th>239</th>
+      <td>bass pro shops</td>
+      <td>@bassproshops</td>
       <td>33</td>
     </tr>
     <tr>
@@ -1529,8 +2966,8 @@ table {
     </tr>
     <tr>
       <th>242</th>
-      <td>alamo</td>
-      <td>@alamo</td>
+      <td>equifax</td>
+      <td>@equifax</td>
       <td>31</td>
     </tr>
     <tr>
@@ -1541,14 +2978,14 @@ table {
     </tr>
     <tr>
       <th>244</th>
-      <td>equifax</td>
-      <td>@equifax</td>
+      <td>alamo</td>
+      <td>@alamo</td>
       <td>31</td>
     </tr>
     <tr>
       <th>245</th>
-      <td>navy federal credit union</td>
-      <td>@navyfederal</td>
+      <td>northrop grumman</td>
+      <td>@northropgrumman</td>
       <td>30</td>
     </tr>
     <tr>
@@ -1559,8 +2996,8 @@ table {
     </tr>
     <tr>
       <th>247</th>
-      <td>northrop grumman</td>
-      <td>@northropgrumman</td>
+      <td>navy federal credit union</td>
+      <td>@navyfederal</td>
       <td>30</td>
     </tr>
     <tr>
@@ -1571,20 +3008,20 @@ table {
     </tr>
     <tr>
       <th>249</th>
+      <td>dunkin brands</td>
+      <td>@dunkinbrands</td>
+      <td>29</td>
+    </tr>
+    <tr>
+      <th>250</th>
       <td>dyson</td>
       <td>@dyson</td>
       <td>29</td>
     </tr>
     <tr>
-      <th>250</th>
+      <th>251</th>
       <td>hotwire</td>
       <td>@hotwire</td>
-      <td>29</td>
-    </tr>
-    <tr>
-      <th>251</th>
-      <td>dunkin brands</td>
-      <td>@dunkinbrands</td>
       <td>29</td>
     </tr>
     <tr>
@@ -1595,8 +3032,8 @@ table {
     </tr>
     <tr>
       <th>253</th>
-      <td>discovery inc</td>
-      <td>@discoveryinctv</td>
+      <td>bissell</td>
+      <td>@bissellclean</td>
       <td>27</td>
     </tr>
     <tr>
@@ -1607,20 +3044,20 @@ table {
     </tr>
     <tr>
       <th>255</th>
-      <td>bissell</td>
-      <td>@bissellclean</td>
+      <td>discovery inc</td>
+      <td>@discoveryinctv</td>
       <td>27</td>
     </tr>
     <tr>
       <th>256</th>
-      <td>royal dutch shell</td>
-      <td>@shell</td>
+      <td>berkshire hathaway</td>
+      <td>@berkshire</td>
       <td>26</td>
     </tr>
     <tr>
       <th>257</th>
-      <td>berkshire hathaway</td>
-      <td>@berkshire</td>
+      <td>royal dutch shell</td>
+      <td>@shell</td>
       <td>26</td>
     </tr>
     <tr>
@@ -1631,14 +3068,14 @@ table {
     </tr>
     <tr>
       <th>259</th>
-      <td>metlife</td>
-      <td>@metlife</td>
+      <td>capital one</td>
+      <td>@capitalone</td>
       <td>24</td>
     </tr>
     <tr>
       <th>260</th>
-      <td>capital one</td>
-      <td>@capitalone</td>
+      <td>metlife</td>
+      <td>@metlife</td>
       <td>24</td>
     </tr>
     <tr>
@@ -1655,50 +3092,50 @@ table {
     </tr>
     <tr>
       <th>263</th>
+      <td>nintendo</td>
+      <td>@nintendoamerica</td>
+      <td>23</td>
+    </tr>
+    <tr>
+      <th>264</th>
       <td>splenda</td>
       <td>@splenda</td>
       <td>23</td>
     </tr>
     <tr>
-      <th>264</th>
-      <td>match</td>
-      <td>@match</td>
-      <td>22</td>
-    </tr>
-    <tr>
       <th>265</th>
-      <td>dhl</td>
-      <td>@dhlus</td>
-      <td>22</td>
-    </tr>
-    <tr>
-      <th>266</th>
-      <td>amc</td>
-      <td>@amc_tv</td>
-      <td>22</td>
-    </tr>
-    <tr>
-      <th>267</th>
       <td>ally financial</td>
       <td>@ally</td>
       <td>22</td>
     </tr>
     <tr>
-      <th>268</th>
-      <td>nintendo</td>
-      <td>@nintendoamerica</td>
+      <th>266</th>
+      <td>dhl</td>
+      <td>@dhlus</td>
       <td>22</td>
     </tr>
     <tr>
-      <th>269</th>
+      <th>267</th>
       <td>mazda</td>
       <td>@mazdausa</td>
       <td>22</td>
     </tr>
     <tr>
-      <th>270</th>
+      <th>268</th>
+      <td>amc</td>
+      <td>@amc_tv</td>
+      <td>22</td>
+    </tr>
+    <tr>
+      <th>269</th>
       <td>j.c. penney</td>
       <td>@jcpenny</td>
+      <td>22</td>
+    </tr>
+    <tr>
+      <th>270</th>
+      <td>match</td>
+      <td>@match</td>
       <td>22</td>
     </tr>
     <tr>
@@ -1715,15 +3152,15 @@ table {
     </tr>
     <tr>
       <th>273</th>
-      <td>mattel</td>
-      <td>@mattel</td>
+      <td>sofi</td>
+      <td>@sofi</td>
       <td>20</td>
     </tr>
     <tr>
       <th>274</th>
-      <td>sap</td>
-      <td>@sap</td>
-      <td>19</td>
+      <td>mattel</td>
+      <td>@mattel</td>
+      <td>20</td>
     </tr>
     <tr>
       <th>275</th>
@@ -1739,8 +3176,8 @@ table {
     </tr>
     <tr>
       <th>277</th>
-      <td>sofi</td>
-      <td>@sofi</td>
+      <td>sap</td>
+      <td>@sap</td>
       <td>19</td>
     </tr>
     <tr>
@@ -1769,38 +3206,38 @@ table {
     </tr>
     <tr>
       <th>282</th>
-      <td>airasia</td>
-      <td>@airasia</td>
-      <td>17</td>
-    </tr>
-    <tr>
-      <th>283</th>
-      <td>safeway</td>
-      <td>@safeway</td>
-      <td>17</td>
-    </tr>
-    <tr>
-      <th>284</th>
       <td>yahoo</td>
       <td>@yahoo</td>
       <td>17</td>
     </tr>
     <tr>
-      <th>285</th>
+      <th>283</th>
+      <td>airasia</td>
+      <td>@airasia</td>
+      <td>17</td>
+    </tr>
+    <tr>
+      <th>284</th>
       <td>the boston beer company</td>
       <td>@samualadamsbeer</td>
       <td>17</td>
     </tr>
     <tr>
+      <th>285</th>
+      <td>safeway</td>
+      <td>@safeway</td>
+      <td>17</td>
+    </tr>
+    <tr>
       <th>286</th>
-      <td>ymca</td>
-      <td>@ymca</td>
+      <td>barnes &amp; noble</td>
+      <td>@bnbuzz</td>
       <td>16</td>
     </tr>
     <tr>
       <th>287</th>
-      <td>barnes &amp; noble</td>
-      <td>@bnbuzz</td>
+      <td>ymca</td>
+      <td>@ymca</td>
       <td>16</td>
     </tr>
     <tr>
@@ -1811,80 +3248,80 @@ table {
     </tr>
     <tr>
       <th>289</th>
-      <td>booz allen hamilton</td>
-      <td>@boozallen</td>
-      <td>15</td>
-    </tr>
-    <tr>
-      <th>290</th>
       <td>pandora</td>
       <td>@pandora_radio</td>
       <td>15</td>
     </tr>
     <tr>
-      <th>291</th>
-      <td>kyocera</td>
-      <td>@kyoceramobile</td>
-      <td>15</td>
-    </tr>
-    <tr>
-      <th>292</th>
+      <th>290</th>
       <td>general motors</td>
       <td>@gm</td>
       <td>15</td>
     </tr>
     <tr>
-      <th>293</th>
-      <td>mcafee</td>
-      <td>@mcafee</td>
-      <td>14</td>
+      <th>291</th>
+      <td>booz allen hamilton</td>
+      <td>@boozallen</td>
+      <td>15</td>
     </tr>
     <tr>
-      <th>294</th>
+      <th>292</th>
+      <td>kyocera</td>
+      <td>@kyoceramobile</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <th>293</th>
       <td>hasbro</td>
       <td>@hasbronews</td>
       <td>14</td>
     </tr>
     <tr>
-      <th>295</th>
+      <th>294</th>
       <td>keurig</td>
       <td>@keurig</td>
       <td>14</td>
     </tr>
     <tr>
-      <th>296</th>
+      <th>295</th>
       <td>google</td>
       <td>@google</td>
       <td>14</td>
     </tr>
     <tr>
+      <th>296</th>
+      <td>mcafee</td>
+      <td>@mcafee</td>
+      <td>14</td>
+    </tr>
+    <tr>
       <th>297</th>
-      <td>molson coors</td>
-      <td>@molsoncoors</td>
-      <td>13</td>
-    </tr>
-    <tr>
-      <th>298</th>
-      <td>heineken</td>
-      <td>@heineken</td>
-      <td>13</td>
-    </tr>
-    <tr>
-      <th>299</th>
       <td>michelin</td>
       <td>@michelin</td>
       <td>13</td>
     </tr>
     <tr>
-      <th>300</th>
+      <th>298</th>
       <td>barclays</td>
       <td>@barclays</td>
       <td>13</td>
     </tr>
     <tr>
-      <th>301</th>
+      <th>299</th>
       <td>shire</td>
       <td>@shireplc</td>
+      <td>13</td>
+    </tr>
+    <tr>
+      <th>300</th>
+      <td>molson coors</td>
+      <td>@molsoncoors</td>
+      <td>13</td>
+    </tr>
+    <tr>
+      <th>301</th>
+      <td>heineken</td>
+      <td>@heineken</td>
       <td>13</td>
     </tr>
     <tr>
@@ -1895,56 +3332,56 @@ table {
     </tr>
     <tr>
       <th>303</th>
-      <td>petco</td>
-      <td>@petco</td>
-      <td>12</td>
-    </tr>
-    <tr>
-      <th>304</th>
-      <td>post consumer brands</td>
-      <td>@officialpost</td>
-      <td>12</td>
-    </tr>
-    <tr>
-      <th>305</th>
       <td>adidas</td>
       <td>@adidas</td>
       <td>12</td>
     </tr>
     <tr>
-      <th>306</th>
-      <td>orbitz</td>
-      <td>@orbitz</td>
+      <th>304</th>
+      <td>petco</td>
+      <td>@petco</td>
       <td>12</td>
     </tr>
     <tr>
-      <th>307</th>
+      <th>305</th>
       <td>mylan</td>
       <td>@mylannews</td>
       <td>12</td>
     </tr>
     <tr>
-      <th>308</th>
+      <th>306</th>
       <td>cintas</td>
       <td>@cintascorp</td>
       <td>12</td>
     </tr>
     <tr>
-      <th>309</th>
-      <td>kaiser permanente</td>
-      <td>@aboutkp</td>
-      <td>11</td>
+      <th>307</th>
+      <td>post consumer brands</td>
+      <td>@officialpost</td>
+      <td>12</td>
     </tr>
     <tr>
-      <th>310</th>
+      <th>308</th>
+      <td>orbitz</td>
+      <td>@orbitz</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>309</th>
       <td>air canada</td>
       <td>@aircanada</td>
       <td>11</td>
     </tr>
     <tr>
-      <th>311</th>
+      <th>310</th>
       <td>thrivent financial</td>
       <td>@thrivent</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <th>311</th>
+      <td>kaiser permanente</td>
+      <td>@aboutkp</td>
       <td>11</td>
     </tr>
     <tr>
@@ -1955,38 +3392,38 @@ table {
     </tr>
     <tr>
       <th>313</th>
-      <td>the blackstone group</td>
-      <td>@blackstone</td>
+      <td>ben &amp; jerry's</td>
+      <td>@benandjerrys</td>
       <td>10</td>
     </tr>
     <tr>
       <th>314</th>
-      <td>taco bell</td>
-      <td>@tacobell</td>
+      <td>oakley</td>
+      <td>@oakley</td>
       <td>10</td>
     </tr>
     <tr>
       <th>315</th>
-      <td>colgate palmolive</td>
-      <td>@colgate</td>
+      <td>whirlpool corporation</td>
+      <td>@whirlpoolcorp</td>
       <td>10</td>
     </tr>
     <tr>
       <th>316</th>
-      <td>abercrombie</td>
-      <td>@abercrombie</td>
-      <td>10</td>
-    </tr>
-    <tr>
-      <th>317</th>
       <td>reebok</td>
       <td>@reebok</td>
       <td>10</td>
     </tr>
     <tr>
+      <th>317</th>
+      <td>goodyear</td>
+      <td>@goodyear</td>
+      <td>10</td>
+    </tr>
+    <tr>
       <th>318</th>
-      <td>whirlpool corporation</td>
-      <td>@whirlpoolcorp</td>
+      <td>taco bell</td>
+      <td>@tacobell</td>
       <td>10</td>
     </tr>
     <tr>
@@ -1997,1527 +3434,101 @@ table {
     </tr>
     <tr>
       <th>320</th>
-      <td>goodyear</td>
-      <td>@goodyear</td>
+      <td>the blackstone group</td>
+      <td>@blackstone</td>
       <td>10</td>
     </tr>
     <tr>
       <th>321</th>
-      <td>ben &amp; jerry's</td>
-      <td>@benandjerrys</td>
+      <td>colgate palmolive</td>
+      <td>@colgate</td>
       <td>10</td>
     </tr>
     <tr>
       <th>322</th>
-      <td>oakley</td>
-      <td>@oakley</td>
+      <td>abercrombie</td>
+      <td>@abercrombie</td>
       <td>10</td>
     </tr>
     <tr>
       <th>323</th>
+      <td>tracfone</td>
+      <td>@tracfonecalls</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>324</th>
       <td>raytheon</td>
       <td>@raytheon</td>
       <td>7</td>
     </tr>
     <tr>
-      <th>324</th>
+      <th>325</th>
       <td>wayfair</td>
       <td>@wayfair</td>
       <td>5</td>
     </tr>
     <tr>
-      <th>325</th>
+      <th>326</th>
       <td>union pacific</td>
       <td>@union pacific</td>
       <td>4</td>
     </tr>
     <tr>
-      <th>326</th>
+      <th>327</th>
       <td>aspen dental</td>
       <td>@aspendental</td>
       <td>3</td>
     </tr>
     <tr>
-      <th>327</th>
+      <th>328</th>
       <td>logitech</td>
       <td>@logitech</td>
       <td>2</td>
     </tr>
     <tr>
-      <th>328</th>
+      <th>329</th>
       <td>bosley</td>
       <td>@bosleymedical</td>
       <td>1</td>
     </tr>
     <tr>
-      <th>329</th>
+      <th>330</th>
+      <td>booking.com</td>
+      <td>@bookingcom</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>331</th>
+      <td>tesco</td>
+      <td>@tesco</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>332</th>
       <td>togo's</td>
       <td>@togossandwiches</td>
       <td>1</td>
     </tr>
     <tr>
-      <th>330</th>
-      <td>tesco</td>
-      <td>@tesco</td>
+      <th>333</th>
+      <td>penske</td>
+      <td>@penskemoving</td>
       <td>1</td>
     </tr>
   </tbody>
 </table>
     </div>
     <h4>Top 25 twitter accounts, all time:</h3>
-    <p>@pfizer @geico @subaru_usa @allstate @gsk @novonordisk @lillypad @att @usaa @abbvie @astrazeneca @libertymutual @bayer @celgene @verizonwireless @comcast @tdameritrade @uhc @allergan @takedapharma @safelite @mercedesbenz @citi @novartis @sanofi</p>
-    <h2 id="year">Top Advertisers - Past Year</h2>
-    <p>This table shows the top advertisers over the past year, which captures more recent trends. For example, although Subaru has historically been one of the top advertisers on Fox, it's ad buys have dropped substantially in the past few years.</p>
-    <div class="table-wrapper">
-      <table border="0" class="dataframe">
-  <thead>
-    <tr style="text-align: left;">
-      <th></th>
-      <th>company_name</th>
-      <th>company_twitter</th>
-      <th>count</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>novo nordisk</td>
-      <td>@novonordisk</td>
-      <td>1190</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>geico</td>
-      <td>@geico</td>
-      <td>1184</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>comcast</td>
-      <td>@comcast</td>
-      <td>927</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>usaa</td>
-      <td>@usaa</td>
-      <td>893</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>pfizer</td>
-      <td>@pfizer</td>
-      <td>858</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>celgene</td>
-      <td>@celgene</td>
-      <td>756</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>safelite</td>
-      <td>@safelite</td>
-      <td>508</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>liberty mutual</td>
-      <td>@libertymutual</td>
-      <td>481</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>amgen</td>
-      <td>@amgen</td>
-      <td>441</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>novartis</td>
-      <td>@novartis</td>
-      <td>440</td>
-    </tr>
-    <tr>
-      <th>10</th>
-      <td>allstate</td>
-      <td>@allstate</td>
-      <td>417</td>
-    </tr>
-    <tr>
-      <th>11</th>
-      <td>newday usa</td>
-      <td>@newdayusa</td>
-      <td>407</td>
-    </tr>
-    <tr>
-      <th>12</th>
-      <td>abbvie</td>
-      <td>@abbvie</td>
-      <td>362</td>
-    </tr>
-    <tr>
-      <th>13</th>
-      <td>chevrolet</td>
-      <td>@chevrolet</td>
-      <td>334</td>
-    </tr>
-    <tr>
-      <th>14</th>
-      <td>takeda</td>
-      <td>@takedapharma</td>
-      <td>298</td>
-    </tr>
-    <tr>
-      <th>15</th>
-      <td>choice hotels</td>
-      <td>@choicehotels</td>
-      <td>282</td>
-    </tr>
-    <tr>
-      <th>16</th>
-      <td>humana</td>
-      <td>@humana</td>
-      <td>274</td>
-    </tr>
-    <tr>
-      <th>17</th>
-      <td>dr. scholl's</td>
-      <td>@drscholls</td>
-      <td>268</td>
-    </tr>
-    <tr>
-      <th>18</th>
-      <td>university of pittsburgh medical center</td>
-      <td>@upmc</td>
-      <td>264</td>
-    </tr>
-    <tr>
-      <th>19</th>
-      <td>expedia</td>
-      <td>@expedia</td>
-      <td>246</td>
-    </tr>
-    <tr>
-      <th>20</th>
-      <td>glaxosmithkline</td>
-      <td>@gsk</td>
-      <td>237</td>
-    </tr>
-    <tr>
-      <th>21</th>
-      <td>mercedes-benz</td>
-      <td>@mercedesbenz</td>
-      <td>220</td>
-    </tr>
-    <tr>
-      <th>22</th>
-      <td>astrazeneca</td>
-      <td>@astrazeneca</td>
-      <td>205</td>
-    </tr>
-    <tr>
-      <th>23</th>
-      <td>allergan</td>
-      <td>@allergan</td>
-      <td>199</td>
-    </tr>
-    <tr>
-      <th>24</th>
-      <td>custom ink</td>
-      <td>@customink</td>
-      <td>194</td>
-    </tr>
-    <tr>
-      <th>25</th>
-      <td>bayer</td>
-      <td>@bayer</td>
-      <td>193</td>
-    </tr>
-    <tr>
-      <th>26</th>
-      <td>procter &amp; gamble</td>
-      <td>@proctergamble</td>
-      <td>191</td>
-    </tr>
-    <tr>
-      <th>27</th>
-      <td>eli lilly</td>
-      <td>@lillypad</td>
-      <td>163</td>
-    </tr>
-    <tr>
-      <th>28</th>
-      <td>fisher investments</td>
-      <td>@fisherinvest</td>
-      <td>161</td>
-    </tr>
-    <tr>
-      <th>29</th>
-      <td>unitedhealthcare</td>
-      <td>@uhc</td>
-      <td>161</td>
-    </tr>
-    <tr>
-      <th>30</th>
-      <td>at&amp;t</td>
-      <td>@att</td>
-      <td>160</td>
-    </tr>
-    <tr>
-      <th>31</th>
-      <td>amplifon</td>
-      <td>@amplifon</td>
-      <td>157</td>
-    </tr>
-    <tr>
-      <th>32</th>
-      <td>abbott</td>
-      <td>@abbottglobal</td>
-      <td>157</td>
-    </tr>
-    <tr>
-      <th>33</th>
-      <td>john deere</td>
-      <td>@johndeere</td>
-      <td>154</td>
-    </tr>
-    <tr>
-      <th>34</th>
-      <td>charles schwab corporation</td>
-      <td>@charlesschwab</td>
-      <td>145</td>
-    </tr>
-    <tr>
-      <th>35</th>
-      <td>quincy bioscience</td>
-      <td>@quincybio</td>
-      <td>138</td>
-    </tr>
-    <tr>
-      <th>36</th>
-      <td>johnson &amp; johnson</td>
-      <td>@jnjnews</td>
-      <td>128</td>
-    </tr>
-    <tr>
-      <th>37</th>
-      <td>merck</td>
-      <td>@merck</td>
-      <td>111</td>
-    </tr>
-    <tr>
-      <th>38</th>
-      <td>matrixx initiatives</td>
-      <td>@zicam</td>
-      <td>108</td>
-    </tr>
-    <tr>
-      <th>39</th>
-      <td>subaru</td>
-      <td>@subaru_usa</td>
-      <td>102</td>
-    </tr>
-    <tr>
-      <th>40</th>
-      <td>leesa mattress</td>
-      <td>@leesasleep</td>
-      <td>95</td>
-    </tr>
-    <tr>
-      <th>41</th>
-      <td>carvana</td>
-      <td>@carvana</td>
-      <td>89</td>
-    </tr>
-    <tr>
-      <th>42</th>
-      <td>cancer treatment centers of america</td>
-      <td>@cancercenter</td>
-      <td>81</td>
-    </tr>
-    <tr>
-      <th>43</th>
-      <td>tripadvisor</td>
-      <td>@tripadvisor</td>
-      <td>81</td>
-    </tr>
-    <tr>
-      <th>44</th>
-      <td>esurance</td>
-      <td>@esurance</td>
-      <td>79</td>
-    </tr>
-    <tr>
-      <th>45</th>
-      <td>aarp</td>
-      <td>@aarp</td>
-      <td>79</td>
-    </tr>
-    <tr>
-      <th>46</th>
-      <td>ace hardware</td>
-      <td>@acehardware</td>
-      <td>72</td>
-    </tr>
-    <tr>
-      <th>47</th>
-      <td>voya financial</td>
-      <td>@voya</td>
-      <td>70</td>
-    </tr>
-    <tr>
-      <th>48</th>
-      <td>sanofi</td>
-      <td>@sanofi</td>
-      <td>70</td>
-    </tr>
-    <tr>
-      <th>49</th>
-      <td>the hartford</td>
-      <td>@thehartford</td>
-      <td>67</td>
-    </tr>
-    <tr>
-      <th>50</th>
-      <td>eggland's best</td>
-      <td>@egglandsbest</td>
-      <td>62</td>
-    </tr>
-    <tr>
-      <th>51</th>
-      <td>amd</td>
-      <td>@amd</td>
-      <td>62</td>
-    </tr>
-    <tr>
-      <th>52</th>
-      <td>applebee's</td>
-      <td>@applebees</td>
-      <td>61</td>
-    </tr>
-    <tr>
-      <th>53</th>
-      <td>united states postal service</td>
-      <td>@usps</td>
-      <td>59</td>
-    </tr>
-    <tr>
-      <th>54</th>
-      <td>amazon</td>
-      <td>@amazon</td>
-      <td>54</td>
-    </tr>
-    <tr>
-      <th>55</th>
-      <td>gilead sciences</td>
-      <td>@gileadsciences</td>
-      <td>51</td>
-    </tr>
-    <tr>
-      <th>56</th>
-      <td>wells fargo</td>
-      <td>@wellsfargo</td>
-      <td>51</td>
-    </tr>
-    <tr>
-      <th>57</th>
-      <td>essity</td>
-      <td>@essity</td>
-      <td>44</td>
-    </tr>
-    <tr>
-      <th>58</th>
-      <td>walmart</td>
-      <td>@walmart</td>
-      <td>40</td>
-    </tr>
-    <tr>
-      <th>59</th>
-      <td>opentable</td>
-      <td>@opentable</td>
-      <td>40</td>
-    </tr>
-    <tr>
-      <th>60</th>
-      <td>cigna</td>
-      <td>@cigna</td>
-      <td>39</td>
-    </tr>
-    <tr>
-      <th>61</th>
-      <td>carfax</td>
-      <td>@carfax</td>
-      <td>39</td>
-    </tr>
-    <tr>
-      <th>62</th>
-      <td>netflix</td>
-      <td>@netflix</td>
-      <td>36</td>
-    </tr>
-    <tr>
-      <th>63</th>
-      <td>lincoln</td>
-      <td>@lincolnmotorco</td>
-      <td>36</td>
-    </tr>
-    <tr>
-      <th>64</th>
-      <td>kraft heinz company</td>
-      <td>@kraftheinzco</td>
-      <td>36</td>
-    </tr>
-    <tr>
-      <th>65</th>
-      <td>essilor</td>
-      <td>@essilor</td>
-      <td>36</td>
-    </tr>
-    <tr>
-      <th>66</th>
-      <td>sears</td>
-      <td>@sears</td>
-      <td>36</td>
-    </tr>
-    <tr>
-      <th>67</th>
-      <td>farmers insurance group</td>
-      <td>@wearefarmers</td>
-      <td>35</td>
-    </tr>
-    <tr>
-      <th>68</th>
-      <td>office depot</td>
-      <td>@officedepot</td>
-      <td>35</td>
-    </tr>
-    <tr>
-      <th>69</th>
-      <td>pacific life</td>
-      <td>@pacificlife</td>
-      <td>34</td>
-    </tr>
-    <tr>
-      <th>70</th>
-      <td>tempur-pedic</td>
-      <td>@tempurpedic</td>
-      <td>34</td>
-    </tr>
-    <tr>
-      <th>71</th>
-      <td>exact sciences corporation</td>
-      <td>@exactsciences</td>
-      <td>31</td>
-    </tr>
-    <tr>
-      <th>72</th>
-      <td>toyota</td>
-      <td>@toyota</td>
-      <td>29</td>
-    </tr>
-    <tr>
-      <th>73</th>
-      <td>gm</td>
-      <td>@gm</td>
-      <td>29</td>
-    </tr>
-    <tr>
-      <th>74</th>
-      <td>tesla</td>
-      <td>@tesla</td>
-      <td>28</td>
-    </tr>
-    <tr>
-      <th>75</th>
-      <td>astellas</td>
-      <td>@astellasus</td>
-      <td>27</td>
-    </tr>
-    <tr>
-      <th>76</th>
-      <td>brightstar care</td>
-      <td>@brightstarcare</td>
-      <td>26</td>
-    </tr>
-    <tr>
-      <th>77</th>
-      <td>hilton</td>
-      <td>@hiltonhotels</td>
-      <td>25</td>
-    </tr>
-    <tr>
-      <th>78</th>
-      <td>t. rowe price</td>
-      <td>@troweprice</td>
-      <td>24</td>
-    </tr>
-    <tr>
-      <th>79</th>
-      <td>samsung</td>
-      <td>@samsung</td>
-      <td>23</td>
-    </tr>
-    <tr>
-      <th>80</th>
-      <td>duracell</td>
-      <td>@duracell</td>
-      <td>20</td>
-    </tr>
-    <tr>
-      <th>81</th>
-      <td>huidarts</td>
-      <td>@huidartscom</td>
-      <td>19</td>
-    </tr>
-    <tr>
-      <th>82</th>
-      <td>sofi</td>
-      <td>@sofi</td>
-      <td>18</td>
-    </tr>
-    <tr>
-      <th>83</th>
-      <td>aspen dental</td>
-      <td>@aspendental</td>
-      <td>18</td>
-    </tr>
-    <tr>
-      <th>84</th>
-      <td>yum! brands</td>
-      <td>@yumbrands</td>
-      <td>17</td>
-    </tr>
-    <tr>
-      <th>85</th>
-      <td>ford</td>
-      <td>@ford</td>
-      <td>17</td>
-    </tr>
-    <tr>
-      <th>86</th>
-      <td>hbo</td>
-      <td>@hbo</td>
-      <td>16</td>
-    </tr>
-    <tr>
-      <th>87</th>
-      <td>honda</td>
-      <td>@honda</td>
-      <td>16</td>
-    </tr>
-    <tr>
-      <th>88</th>
-      <td>priceline</td>
-      <td>@priceline</td>
-      <td>16</td>
-    </tr>
-    <tr>
-      <th>89</th>
-      <td>chick-fil-a</td>
-      <td>@chickfila</td>
-      <td>13</td>
-    </tr>
-    <tr>
-      <th>90</th>
-      <td>ebates</td>
-      <td>@ebates</td>
-      <td>12</td>
-    </tr>
-    <tr>
-      <th>91</th>
-      <td>prudential financial</td>
-      <td>@prudential</td>
-      <td>12</td>
-    </tr>
-    <tr>
-      <th>92</th>
-      <td>hp</td>
-      <td>@hp</td>
-      <td>12</td>
-    </tr>
-    <tr>
-      <th>93</th>
-      <td>ibm</td>
-      <td>@ibm</td>
-      <td>11</td>
-    </tr>
-    <tr>
-      <th>94</th>
-      <td>general motors</td>
-      <td>@gm</td>
-      <td>11</td>
-    </tr>
-    <tr>
-      <th>95</th>
-      <td>reuters</td>
-      <td>@reuters</td>
-      <td>11</td>
-    </tr>
-    <tr>
-      <th>96</th>
-      <td>devon energy</td>
-      <td>@devonenergy</td>
-      <td>10</td>
-    </tr>
-    <tr>
-      <th>97</th>
-      <td>mcdonald's</td>
-      <td>@mcdonaldscorp</td>
-      <td>10</td>
-    </tr>
-    <tr>
-      <th>98</th>
-      <td>fiat chrysler automobiles</td>
-      <td>@fcagroup</td>
-      <td>10</td>
-    </tr>
-    <tr>
-      <th>99</th>
-      <td>amtrak</td>
-      <td>@amtrak</td>
-      <td>10</td>
-    </tr>
-    <tr>
-      <th>100</th>
-      <td>crest</td>
-      <td>@crest</td>
-      <td>10</td>
-    </tr>
-    <tr>
-      <th>101</th>
-      <td>bausch health</td>
-      <td>@bauschlomb</td>
-      <td>9</td>
-    </tr>
-    <tr>
-      <th>102</th>
-      <td>bp</td>
-      <td>@bp_plc</td>
-      <td>9</td>
-    </tr>
-    <tr>
-      <th>103</th>
-      <td>univision communications</td>
-      <td>@univision</td>
-      <td>8</td>
-    </tr>
-    <tr>
-      <th>104</th>
-      <td>the coca-cola company</td>
-      <td>@cocacolaco</td>
-      <td>8</td>
-    </tr>
-    <tr>
-      <th>105</th>
-      <td>adp</td>
-      <td>@adp</td>
-      <td>7</td>
-    </tr>
-    <tr>
-      <th>106</th>
-      <td>goldman sachs</td>
-      <td>@goldmansachs</td>
-      <td>7</td>
-    </tr>
-    <tr>
-      <th>107</th>
-      <td>cabela's</td>
-      <td>@cabelas</td>
-      <td>7</td>
-    </tr>
-    <tr>
-      <th>108</th>
-      <td>kohler</td>
-      <td>@kohler</td>
-      <td>6</td>
-    </tr>
-    <tr>
-      <th>109</th>
-      <td>goodyear</td>
-      <td>@goodyear</td>
-      <td>6</td>
-    </tr>
-    <tr>
-      <th>110</th>
-      <td>dyson</td>
-      <td>@dyson</td>
-      <td>6</td>
-    </tr>
-    <tr>
-      <th>111</th>
-      <td>costco</td>
-      <td>@costco</td>
-      <td>6</td>
-    </tr>
-    <tr>
-      <th>112</th>
-      <td>microsoft</td>
-      <td>@microsoft</td>
-      <td>6</td>
-    </tr>
-    <tr>
-      <th>113</th>
-      <td>nature's bounty</td>
-      <td>@naturesbounty</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <th>114</th>
-      <td>pepsico</td>
-      <td>@pepsico</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <th>115</th>
-      <td>fidelity investments</td>
-      <td>@fidelity</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <th>116</th>
-      <td>walgreens</td>
-      <td>@walgreens</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <th>117</th>
-      <td>wayfair</td>
-      <td>@wayfair</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <th>118</th>
-      <td>safeway</td>
-      <td>@safeway</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <th>119</th>
-      <td>sargento</td>
-      <td>@sargento</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <th>120</th>
-      <td>quicken loans</td>
-      <td>@quicken loans</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <th>121</th>
-      <td>truecar</td>
-      <td>@truecar</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <th>122</th>
-      <td>chevron</td>
-      <td>@chevron</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <th>123</th>
-      <td>ben &amp; jerry's</td>
-      <td>@benandjerrys</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <th>124</th>
-      <td>idaho potato commission</td>
-      <td>@idahopotato</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <th>125</th>
-      <td>coleman</td>
-      <td>@colemanusa</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <th>126</th>
-      <td>nissan</td>
-      <td>@nissan</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <th>127</th>
-      <td>lockheed martin</td>
-      <td>@lockheedmartin</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <th>128</th>
-      <td>merrill lynch</td>
-      <td>@merrilllynch</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <th>129</th>
-      <td>delta</td>
-      <td>@delta</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <th>130</th>
-      <td>kmart</td>
-      <td>@kmart</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <th>131</th>
-      <td>navy federal credit union</td>
-      <td>@navyfederal</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <th>132</th>
-      <td>midas</td>
-      <td>@midas</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <th>133</th>
-      <td>aspen dental</td>
-      <td>@aspendental</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <th>134</th>
-      <td>verizon</td>
-      <td>@verizonwireless</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <th>135</th>
-      <td>audi</td>
-      <td>@audi</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <th>136</th>
-      <td>barnes &amp; noble</td>
-      <td>@bnbuzz</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <th>137</th>
-      <td>cisco</td>
-      <td>@cisco</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <th>138</th>
-      <td>general mills</td>
-      <td>@generalmills</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <th>139</th>
-      <td>caterpillar</td>
-      <td>@caterpillarinc</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <th>140</th>
-      <td>adidas</td>
-      <td>@adidas</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <th>141</th>
-      <td>atkins</td>
-      <td>@atkinsinsider</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <th>142</th>
-      <td>volkswagen</td>
-      <td>@volkswagen</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <th>143</th>
-      <td>aig</td>
-      <td>@aiginsurance</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <th>144</th>
-      <td>volvo</td>
-      <td>@volvocars</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <th>145</th>
-      <td>equifax</td>
-      <td>@equifax</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <th>146</th>
-      <td>amc</td>
-      <td>@amc_tv</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <th>147</th>
-      <td>american airlines</td>
-      <td>@americanair</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <th>148</th>
-      <td>gnc</td>
-      <td>@gnclivewell</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <th>149</th>
-      <td>aetna</td>
-      <td>@aetna</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <th>150</th>
-      <td>jpmorgan chase</td>
-      <td>@jpmorgan</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <th>151</th>
-      <td>viacom</td>
-      <td>@viacom</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <th>152</th>
-      <td>oracle</td>
-      <td>@oracle</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <th>153</th>
-      <td>td ameritrade</td>
-      <td>@tdameritrade</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <th>154</th>
-      <td>bass pro shops</td>
-      <td>@bassproshops</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <th>155</th>
-      <td>red lobster</td>
-      <td>@redlobster</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <th>156</th>
-      <td>sprint</td>
-      <td>@sprint</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <th>157</th>
-      <td>togo's</td>
-      <td>@togossandwiches</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>158</th>
-      <td>bristol-myers squibb</td>
-      <td>@bmsnews</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>159</th>
-      <td>yahoo</td>
-      <td>@yahoo</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>160</th>
-      <td>whirlpool corporation</td>
-      <td>@whirlpoolcorp</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>161</th>
-      <td>pandora</td>
-      <td>@pandora_radio</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>162</th>
-      <td>phillips 66</td>
-      <td>@phillips66co</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>163</th>
-      <td>kellogg company</td>
-      <td>@kelloggcompany</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>164</th>
-      <td>kia</td>
-      <td>@kia</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>165</th>
-      <td>cvs health</td>
-      <td>@cvshealth</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>166</th>
-      <td>purina</td>
-      <td>@purina</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>167</th>
-      <td>motorola</td>
-      <td>@motorola</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>168</th>
-      <td>molson coors</td>
-      <td>@molsoncoors</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>169</th>
-      <td>velcro</td>
-      <td>@velcrobrand</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>170</th>
-      <td>sony</td>
-      <td>@sony</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>171</th>
-      <td>michelin</td>
-      <td>@michelin</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>172</th>
-      <td>airbus</td>
-      <td>@airbus</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>173</th>
-      <td>alamo</td>
-      <td>@alamo</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>174</th>
-      <td>alcoa</td>
-      <td>@alcoa</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>175</th>
-      <td>united airlines</td>
-      <td>@united</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>176</th>
-      <td>union pacific</td>
-      <td>@union pacific</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>177</th>
-      <td>ubs</td>
-      <td>@ubs</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>178</th>
-      <td>dunkin brands</td>
-      <td>@dunkinbrands</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>179</th>
-      <td>mastercard</td>
-      <td>@mastercard</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>180</th>
-      <td>transamerica corporation</td>
-      <td>@transamerica</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>181</th>
-      <td>bentley</td>
-      <td>@bentleymotors</td>
-      <td>1</td>
-    </tr>
-  </tbody>
-</table>
-    </div>
-    <h4>This year's top 25 twitter accounts:</h3>
-    <p>@novonordisk @geico @comcast @usaa @pfizer @celgene @safelite @libertymutual @amgen @novartis @allstate @newdayusa @abbvie @chevrolet @takedapharma @choicehotels @humana @drscholls @upmc @expedia @gsk @mercedesbenz @astrazeneca @allergan @customink</p>
-    <h2 id="week">Top Advertisers - Past Week</h2>
-    <p>Finally, here are the top advertisers from the most recent week in my dataset (ending 06/05/2019).  Let them know you don't appreciate the propaganda!</p>
-    <div class="table-wrapper">
-      <table border="0" class="dataframe">
-  <thead>
-    <tr style="text-align: left;">
-      <th></th>
-      <th>company_name</th>
-      <th>company_twitter</th>
-      <th>count</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>usaa</td>
-      <td>@usaa</td>
-      <td>35</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>comcast</td>
-      <td>@comcast</td>
-      <td>30</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>geico</td>
-      <td>@geico</td>
-      <td>26</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>newday usa</td>
-      <td>@newdayusa</td>
-      <td>14</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>expedia</td>
-      <td>@expedia</td>
-      <td>14</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>abbvie</td>
-      <td>@abbvie</td>
-      <td>11</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>celgene</td>
-      <td>@celgene</td>
-      <td>11</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>allstate</td>
-      <td>@allstate</td>
-      <td>9</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>amgen</td>
-      <td>@amgen</td>
-      <td>8</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>aspen dental</td>
-      <td>@aspendental</td>
-      <td>8</td>
-    </tr>
-    <tr>
-      <th>10</th>
-      <td>mercedes-benz</td>
-      <td>@mercedesbenz</td>
-      <td>8</td>
-    </tr>
-    <tr>
-      <th>11</th>
-      <td>charles schwab corporation</td>
-      <td>@charlesschwab</td>
-      <td>8</td>
-    </tr>
-    <tr>
-      <th>12</th>
-      <td>walmart</td>
-      <td>@walmart</td>
-      <td>8</td>
-    </tr>
-    <tr>
-      <th>13</th>
-      <td>netflix</td>
-      <td>@netflix</td>
-      <td>7</td>
-    </tr>
-    <tr>
-      <th>14</th>
-      <td>eli lilly</td>
-      <td>@lillypad</td>
-      <td>6</td>
-    </tr>
-    <tr>
-      <th>15</th>
-      <td>kraft heinz company</td>
-      <td>@kraftheinzco</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <th>16</th>
-      <td>astrazeneca</td>
-      <td>@astrazeneca</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <th>17</th>
-      <td>novartis</td>
-      <td>@novartis</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <th>18</th>
-      <td>farmers insurance group</td>
-      <td>@wearefarmers</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <th>19</th>
-      <td>john deere</td>
-      <td>@johndeere</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <th>20</th>
-      <td>essilor</td>
-      <td>@essilor</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <th>21</th>
-      <td>dr. scholl's</td>
-      <td>@drscholls</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <th>22</th>
-      <td>choice hotels</td>
-      <td>@choicehotels</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <th>23</th>
-      <td>applebee's</td>
-      <td>@applebees</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <th>24</th>
-      <td>liberty mutual</td>
-      <td>@libertymutual</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <th>25</th>
-      <td>unitedhealthcare</td>
-      <td>@uhc</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <th>26</th>
-      <td>red lobster</td>
-      <td>@redlobster</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <th>27</th>
-      <td>sofi</td>
-      <td>@sofi</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <th>28</th>
-      <td>amplifon</td>
-      <td>@amplifon</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <th>29</th>
-      <td>aspen dental</td>
-      <td>@aspendental</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <th>30</th>
-      <td>at&amp;t</td>
-      <td>@att</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <th>31</th>
-      <td>subaru</td>
-      <td>@subaru_usa</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <th>32</th>
-      <td>carvana</td>
-      <td>@carvana</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <th>33</th>
-      <td>the hartford</td>
-      <td>@thehartford</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <th>34</th>
-      <td>custom ink</td>
-      <td>@customink</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <th>35</th>
-      <td>sanofi</td>
-      <td>@sanofi</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <th>36</th>
-      <td>wells fargo</td>
-      <td>@wellsfargo</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>37</th>
-      <td>united states postal service</td>
-      <td>@usps</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>38</th>
-      <td>the coca-cola company</td>
-      <td>@cocacolaco</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>39</th>
-      <td>tripadvisor</td>
-      <td>@tripadvisor</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>40</th>
-      <td>fisher investments</td>
-      <td>@fisherinvest</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>41</th>
-      <td>quincy bioscience</td>
-      <td>@quincybio</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>42</th>
-      <td>procter &amp; gamble</td>
-      <td>@proctergamble</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>43</th>
-      <td>kohler</td>
-      <td>@kohler</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>44</th>
-      <td>humana</td>
-      <td>@humana</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>45</th>
-      <td>glaxosmithkline</td>
-      <td>@gsk</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>46</th>
-      <td>fiat chrysler automobiles</td>
-      <td>@fcagroup</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>47</th>
-      <td>delta</td>
-      <td>@delta</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>48</th>
-      <td>cvs health</td>
-      <td>@cvshealth</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>49</th>
-      <td>costco</td>
-      <td>@costco</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>50</th>
-      <td>chevrolet</td>
-      <td>@chevrolet</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>51</th>
-      <td>cancer treatment centers of america</td>
-      <td>@cancercenter</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>52</th>
-      <td>yum! brands</td>
-      <td>@yumbrands</td>
-      <td>1</td>
-    </tr>
-  </tbody>
-</table>
-    </div>
-    <h4>Past week's top twitter accounts:</h3>
-    <p>@usaa @comcast @geico @newdayusa @expedia @abbvie @celgene @allstate @amgen @aspendental @mercedesbenz @charlesschwab @walmart @netflix @lillypad @kraftheinzco @astrazeneca @novartis @wearefarmers @johndeere @essilor @drscholls @choicehotels @applebees @libertymutual @uhc @redlobster @sofi @amplifon @aspendental @att @subaru_usa @carvana @thehartford @customink @sanofi @wellsfargo @usps @cocacolaco @tripadvisor @fisherinvest @quincybio @proctergamble @kohler @humana @gsk @fcagroup @delta @cvshealth @costco @chevrolet @cancercenter @yumbrands</p>
-<!--     <h2 id="yesterday">Top Advertisers - 06/05/2019</h2>
+    <p>@pfizer @geico @subaru_usa @allstate @gsk @novonordisk @lillypad @usaa @att @abbvie @astrazeneca @libertymutual @celgene @bayer @verizonwireless @comcast @tdameritrade @uhc @allergan @takedapharma @safelite @mercedesbenz @citi @novartis @sanofi</p>
+
+
+<!--     <h2 id="yesterday">Top Advertisers - 06/12/2019</h2>
     <p>Finally, here are the top advetisers from the most recent day in my dataset.  Feel free to tweet at them to let them know you don't appreciate the propaganda.</p>
     <div class="table-wrapper">
       ${day}
     </div>
-    <h4>06/05/2019 top twitter accounts:</h3>
+    <h4>06/12/2019 top twitter accounts:</h3>
     <p>${daytwitter}</p> -->
     <h2 id="primetime">The Primetime Shows</h2>
     <p>There are a few shows on Fox News that are especially unethical.  In my opinion, these shows include: 
@@ -3561,7 +3572,7 @@ table {
       <th>2</th>
       <td>eli lilly</td>
       <td>@lillypad</td>
-      <td>1103</td>
+      <td>1107</td>
     </tr>
     <tr>
       <th>3</th>
@@ -3603,7 +3614,7 @@ table {
       <th>9</th>
       <td>usaa</td>
       <td>@usaa</td>
-      <td>590</td>
+      <td>601</td>
     </tr>
     <tr>
       <th>10</th>
@@ -3633,7 +3644,7 @@ table {
       <th>14</th>
       <td>comcast</td>
       <td>@comcast</td>
-      <td>425</td>
+      <td>432</td>
     </tr>
     <tr>
       <th>15</th>
@@ -3661,14 +3672,14 @@ table {
     </tr>
     <tr>
       <th>19</th>
-      <td>safelite</td>
-      <td>@safelite</td>
-      <td>372</td>
+      <td>john deere</td>
+      <td>@johndeere</td>
+      <td>373</td>
     </tr>
     <tr>
       <th>20</th>
-      <td>john deere</td>
-      <td>@johndeere</td>
+      <td>safelite</td>
+      <td>@safelite</td>
       <td>372</td>
     </tr>
     <tr>
@@ -3681,7 +3692,7 @@ table {
       <th>22</th>
       <td>at&amp;t</td>
       <td>@att</td>
-      <td>328</td>
+      <td>330</td>
     </tr>
     <tr>
       <th>23</th>
@@ -3703,21 +3714,21 @@ table {
     </tr>
     <tr>
       <th>26</th>
-      <td>abbvie</td>
-      <td>@abbvie</td>
+      <td>novartis</td>
+      <td>@novartis</td>
       <td>232</td>
     </tr>
     <tr>
       <th>27</th>
-      <td>novartis</td>
-      <td>@novartis</td>
+      <td>abbvie</td>
+      <td>@abbvie</td>
       <td>232</td>
     </tr>
     <tr>
       <th>28</th>
       <td>amgen</td>
       <td>@amgen</td>
-      <td>220</td>
+      <td>223</td>
     </tr>
     <tr>
       <th>29</th>
@@ -3811,14 +3822,14 @@ table {
     </tr>
     <tr>
       <th>44</th>
-      <td>credit karma</td>
-      <td>@creditkarma</td>
+      <td>microsoft</td>
+      <td>@microsoft</td>
       <td>118</td>
     </tr>
     <tr>
       <th>45</th>
-      <td>microsoft</td>
-      <td>@microsoft</td>
+      <td>credit karma</td>
+      <td>@creditkarma</td>
       <td>118</td>
     </tr>
     <tr>
@@ -3843,13 +3854,13 @@ table {
       <th>49</th>
       <td>fisher investments</td>
       <td>@fisherinvest</td>
-      <td>99</td>
+      <td>100</td>
     </tr>
     <tr>
       <th>50</th>
       <td>amplifon</td>
       <td>@amplifon</td>
-      <td>92</td>
+      <td>97</td>
     </tr>
     <tr>
       <th>51</th>
@@ -3889,14 +3900,14 @@ table {
     </tr>
     <tr>
       <th>57</th>
-      <td>duracell</td>
-      <td>@duracell</td>
+      <td>philips</td>
+      <td>@philips</td>
       <td>75</td>
     </tr>
     <tr>
       <th>58</th>
-      <td>philips</td>
-      <td>@philips</td>
+      <td>duracell</td>
+      <td>@duracell</td>
       <td>75</td>
     </tr>
     <tr>
@@ -3919,14 +3930,14 @@ table {
     </tr>
     <tr>
       <th>62</th>
-      <td>finra</td>
-      <td>@finra</td>
+      <td>tempur-pedic</td>
+      <td>@tempurpedic</td>
       <td>67</td>
     </tr>
     <tr>
       <th>63</th>
-      <td>tempur-pedic</td>
-      <td>@tempurpedic</td>
+      <td>finra</td>
+      <td>@finra</td>
       <td>67</td>
     </tr>
     <tr>
@@ -3973,14 +3984,14 @@ table {
     </tr>
     <tr>
       <th>71</th>
-      <td>united airlines</td>
-      <td>@united</td>
+      <td>ibm</td>
+      <td>@ibm</td>
       <td>56</td>
     </tr>
     <tr>
       <th>72</th>
-      <td>ibm</td>
-      <td>@ibm</td>
+      <td>united airlines</td>
+      <td>@united</td>
       <td>56</td>
     </tr>
     <tr>
@@ -4027,26 +4038,26 @@ table {
     </tr>
     <tr>
       <th>80</th>
-      <td>expedia</td>
-      <td>@expedia</td>
-      <td>45</td>
-    </tr>
-    <tr>
-      <th>81</th>
       <td>bristol-myers squibb</td>
       <td>@bmsnews</td>
       <td>45</td>
     </tr>
     <tr>
+      <th>81</th>
+      <td>expedia</td>
+      <td>@expedia</td>
+      <td>45</td>
+    </tr>
+    <tr>
       <th>82</th>
-      <td>sprint</td>
-      <td>@sprint</td>
-      <td>44</td>
+      <td>essilor</td>
+      <td>@essilor</td>
+      <td>45</td>
     </tr>
     <tr>
       <th>83</th>
-      <td>motorola</td>
-      <td>@motorola</td>
+      <td>sprint</td>
+      <td>@sprint</td>
       <td>44</td>
     </tr>
     <tr>
@@ -4057,45 +4068,45 @@ table {
     </tr>
     <tr>
       <th>85</th>
+      <td>motorola</td>
+      <td>@motorola</td>
+      <td>44</td>
+    </tr>
+    <tr>
+      <th>86</th>
       <td>carfax</td>
       <td>@carfax</td>
       <td>43</td>
     </tr>
     <tr>
-      <th>86</th>
+      <th>87</th>
       <td>kellogg company</td>
       <td>@kelloggcompany</td>
       <td>42</td>
     </tr>
     <tr>
-      <th>87</th>
+      <th>88</th>
       <td>amway</td>
       <td>@amway</td>
       <td>40</td>
     </tr>
     <tr>
-      <th>88</th>
+      <th>89</th>
       <td>cancer treatment centers of america</td>
       <td>@cancercenter</td>
       <td>40</td>
     </tr>
     <tr>
-      <th>89</th>
+      <th>90</th>
       <td>univision communications</td>
       <td>@univision</td>
       <td>38</td>
     </tr>
     <tr>
-      <th>90</th>
+      <th>91</th>
       <td>sony</td>
       <td>@sony</td>
       <td>37</td>
-    </tr>
-    <tr>
-      <th>91</th>
-      <td>essilor</td>
-      <td>@essilor</td>
-      <td>36</td>
     </tr>
     <tr>
       <th>92</th>
@@ -4105,20 +4116,20 @@ table {
     </tr>
     <tr>
       <th>93</th>
+      <td>voya financial</td>
+      <td>@voya</td>
+      <td>35</td>
+    </tr>
+    <tr>
+      <th>94</th>
       <td>sears</td>
       <td>@sears</td>
       <td>35</td>
     </tr>
     <tr>
-      <th>94</th>
+      <th>95</th>
       <td>goldman sachs</td>
       <td>@goldmansachs</td>
-      <td>35</td>
-    </tr>
-    <tr>
-      <th>95</th>
-      <td>voya financial</td>
-      <td>@voya</td>
       <td>35</td>
     </tr>
     <tr>
@@ -4141,14 +4152,14 @@ table {
     </tr>
     <tr>
       <th>99</th>
-      <td>avanir pharmaceuticals</td>
-      <td>@avanirpharma</td>
+      <td>hbo</td>
+      <td>@hbo</td>
       <td>31</td>
     </tr>
     <tr>
       <th>100</th>
-      <td>hbo</td>
-      <td>@hbo</td>
+      <td>avanir pharmaceuticals</td>
+      <td>@avanirpharma</td>
       <td>31</td>
     </tr>
     <tr>
@@ -4159,44 +4170,44 @@ table {
     </tr>
     <tr>
       <th>102</th>
-      <td>transunion</td>
-      <td>@transunion</td>
-      <td>30</td>
-    </tr>
-    <tr>
-      <th>103</th>
-      <td>polaris industries</td>
-      <td>@polarisind</td>
-      <td>30</td>
-    </tr>
-    <tr>
-      <th>104</th>
       <td>adt</td>
       <td>@adt</td>
       <td>30</td>
     </tr>
     <tr>
-      <th>105</th>
-      <td>sealy</td>
-      <td>@sealy</td>
-      <td>29</td>
+      <th>103</th>
+      <td>transunion</td>
+      <td>@transunion</td>
+      <td>30</td>
     </tr>
     <tr>
-      <th>106</th>
+      <th>104</th>
+      <td>polaris industries</td>
+      <td>@polarisind</td>
+      <td>30</td>
+    </tr>
+    <tr>
+      <th>105</th>
       <td>kraft heinz company</td>
       <td>@kraftheinzco</td>
       <td>29</td>
     </tr>
     <tr>
+      <th>106</th>
+      <td>sealy</td>
+      <td>@sealy</td>
+      <td>29</td>
+    </tr>
+    <tr>
       <th>107</th>
-      <td>csx</td>
-      <td>@csx</td>
+      <td>toyota</td>
+      <td>@toyota</td>
       <td>27</td>
     </tr>
     <tr>
       <th>108</th>
-      <td>toyota</td>
-      <td>@toyota</td>
+      <td>csx</td>
+      <td>@csx</td>
       <td>27</td>
     </tr>
     <tr>
@@ -4255,50 +4266,50 @@ table {
     </tr>
     <tr>
       <th>118</th>
+      <td>walmart</td>
+      <td>@walmart</td>
+      <td>22</td>
+    </tr>
+    <tr>
+      <th>119</th>
       <td>avon products</td>
       <td>@avoninsider</td>
       <td>21</td>
     </tr>
     <tr>
-      <th>119</th>
+      <th>120</th>
       <td>charles schwab corporation</td>
       <td>@charlesschwab</td>
       <td>21</td>
     </tr>
     <tr>
-      <th>120</th>
+      <th>121</th>
       <td>amtrak</td>
       <td>@amtrak</td>
       <td>21</td>
     </tr>
     <tr>
-      <th>121</th>
+      <th>122</th>
       <td>nationwide insurance</td>
       <td>@nationwide</td>
       <td>21</td>
     </tr>
     <tr>
-      <th>122</th>
+      <th>123</th>
       <td>cvs health</td>
       <td>@cvshealth</td>
       <td>21</td>
     </tr>
     <tr>
-      <th>123</th>
-      <td>walmart</td>
-      <td>@walmart</td>
-      <td>21</td>
-    </tr>
-    <tr>
       <th>124</th>
-      <td>kohler</td>
-      <td>@kohler</td>
+      <td>gm</td>
+      <td>@gm</td>
       <td>20</td>
     </tr>
     <tr>
       <th>125</th>
-      <td>gm</td>
-      <td>@gm</td>
+      <td>kohler</td>
+      <td>@kohler</td>
       <td>20</td>
     </tr>
     <tr>
@@ -4315,38 +4326,38 @@ table {
     </tr>
     <tr>
       <th>128</th>
-      <td>chick-fil-a</td>
-      <td>@chickfila</td>
-      <td>18</td>
-    </tr>
-    <tr>
-      <th>129</th>
       <td>transitions optical</td>
       <td>@transitions</td>
       <td>18</td>
     </tr>
     <tr>
+      <th>129</th>
+      <td>chick-fil-a</td>
+      <td>@chickfila</td>
+      <td>18</td>
+    </tr>
+    <tr>
       <th>130</th>
-      <td>devon energy</td>
-      <td>@devonenergy</td>
-      <td>17</td>
-    </tr>
-    <tr>
-      <th>131</th>
-      <td>the coca-cola company</td>
-      <td>@cocacolaco</td>
-      <td>17</td>
-    </tr>
-    <tr>
-      <th>132</th>
       <td>ortho</td>
       <td>@ortho</td>
       <td>17</td>
     </tr>
     <tr>
-      <th>133</th>
+      <th>131</th>
       <td>custom ink</td>
       <td>@customink</td>
+      <td>17</td>
+    </tr>
+    <tr>
+      <th>132</th>
+      <td>devon energy</td>
+      <td>@devonenergy</td>
+      <td>17</td>
+    </tr>
+    <tr>
+      <th>133</th>
+      <td>the coca-cola company</td>
+      <td>@cocacolaco</td>
       <td>17</td>
     </tr>
     <tr>
@@ -4363,39 +4374,39 @@ table {
     </tr>
     <tr>
       <th>136</th>
-      <td>yum! brands</td>
-      <td>@yumbrands</td>
+      <td>aspen dental</td>
+      <td>@aspendental</td>
       <td>15</td>
     </tr>
     <tr>
       <th>137</th>
-      <td>bain &amp; company</td>
-      <td>@bainandcompany</td>
-      <td>15</td>
-    </tr>
-    <tr>
-      <th>138</th>
       <td>delta</td>
       <td>@delta</td>
       <td>15</td>
     </tr>
     <tr>
+      <th>138</th>
+      <td>bain &amp; company</td>
+      <td>@bainandcompany</td>
+      <td>15</td>
+    </tr>
+    <tr>
       <th>139</th>
+      <td>yum! brands</td>
+      <td>@yumbrands</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <th>140</th>
       <td>blackberry</td>
       <td>@blackberry</td>
       <td>14</td>
     </tr>
     <tr>
-      <th>140</th>
+      <th>141</th>
       <td>lincoln</td>
       <td>@lincolnmotorco</td>
       <td>14</td>
-    </tr>
-    <tr>
-      <th>141</th>
-      <td>united states postal service</td>
-      <td>@usps</td>
-      <td>13</td>
     </tr>
     <tr>
       <th>142</th>
@@ -4411,32 +4422,32 @@ table {
     </tr>
     <tr>
       <th>144</th>
-      <td>aspen dental</td>
-      <td>@aspendental</td>
+      <td>carvana</td>
+      <td>@carvana</td>
       <td>13</td>
     </tr>
     <tr>
       <th>145</th>
-      <td>carvana</td>
-      <td>@carvana</td>
-      <td>12</td>
+      <td>united states postal service</td>
+      <td>@usps</td>
+      <td>13</td>
     </tr>
     <tr>
       <th>146</th>
-      <td>wells fargo</td>
-      <td>@wellsfargo</td>
-      <td>12</td>
-    </tr>
-    <tr>
-      <th>147</th>
       <td>ford</td>
       <td>@ford</td>
       <td>12</td>
     </tr>
     <tr>
+      <th>147</th>
+      <td>wells fargo</td>
+      <td>@wellsfargo</td>
+      <td>12</td>
+    </tr>
+    <tr>
       <th>148</th>
-      <td>nordstrom</td>
-      <td>@nordstrom</td>
+      <td>sofi</td>
+      <td>@sofi</td>
       <td>11</td>
     </tr>
     <tr>
@@ -4453,68 +4464,68 @@ table {
     </tr>
     <tr>
       <th>151</th>
+      <td>nordstrom</td>
+      <td>@nordstrom</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <th>152</th>
       <td>dexcom</td>
       <td>@dexcom</td>
       <td>10</td>
     </tr>
     <tr>
-      <th>152</th>
+      <th>153</th>
       <td>the hartford</td>
       <td>@thehartford</td>
       <td>10</td>
     </tr>
     <tr>
-      <th>153</th>
+      <th>154</th>
       <td>ziprecruiter</td>
       <td>@ziprecruiter</td>
       <td>10</td>
     </tr>
     <tr>
-      <th>154</th>
-      <td>sofi</td>
-      <td>@sofi</td>
-      <td>10</td>
-    </tr>
-    <tr>
       <th>155</th>
-      <td>optum</td>
-      <td>@optum</td>
-      <td>9</td>
-    </tr>
-    <tr>
-      <th>156</th>
-      <td>the rockport group</td>
-      <td>@rockport_group</td>
-      <td>9</td>
-    </tr>
-    <tr>
-      <th>157</th>
-      <td>hotwire</td>
-      <td>@hotwire</td>
-      <td>9</td>
-    </tr>
-    <tr>
-      <th>158</th>
       <td>hilton</td>
       <td>@hiltonhotels</td>
       <td>9</td>
     </tr>
     <tr>
-      <th>159</th>
+      <th>156</th>
       <td>mcdonald's</td>
       <td>@mcdonaldscorp</td>
       <td>9</td>
     </tr>
     <tr>
-      <th>160</th>
+      <th>157</th>
+      <td>the rockport group</td>
+      <td>@rockport_group</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <th>158</th>
+      <td>healthmarkets</td>
+      <td>@healthmarkets</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <th>159</th>
       <td>pepsico</td>
       <td>@pepsico</td>
       <td>9</td>
     </tr>
     <tr>
+      <th>160</th>
+      <td>optum</td>
+      <td>@optum</td>
+      <td>9</td>
+    </tr>
+    <tr>
       <th>161</th>
-      <td>healthmarkets</td>
-      <td>@healthmarkets</td>
+      <td>hotwire</td>
+      <td>@hotwire</td>
       <td>9</td>
     </tr>
     <tr>
@@ -4531,74 +4542,74 @@ table {
     </tr>
     <tr>
       <th>164</th>
-      <td>honda</td>
-      <td>@honda</td>
-      <td>7</td>
-    </tr>
-    <tr>
-      <th>165</th>
-      <td>jackson hewitt</td>
-      <td>@jacksonhewitt</td>
-      <td>7</td>
-    </tr>
-    <tr>
-      <th>166</th>
-      <td>netflix</td>
-      <td>@netflix</td>
-      <td>7</td>
-    </tr>
-    <tr>
-      <th>167</th>
-      <td>nestle</td>
-      <td>@nestle</td>
-      <td>7</td>
-    </tr>
-    <tr>
-      <th>168</th>
-      <td>tommie copper</td>
-      <td>@tommiecopper</td>
-      <td>7</td>
-    </tr>
-    <tr>
-      <th>169</th>
-      <td>airbus</td>
-      <td>@airbus</td>
-      <td>7</td>
-    </tr>
-    <tr>
-      <th>170</th>
       <td>edward jones investments</td>
       <td>@edwardjones</td>
       <td>7</td>
     </tr>
     <tr>
-      <th>171</th>
+      <th>165</th>
+      <td>nestle</td>
+      <td>@nestle</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>166</th>
+      <td>jackson hewitt</td>
+      <td>@jacksonhewitt</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>167</th>
       <td>velcro</td>
       <td>@velcrobrand</td>
       <td>7</td>
     </tr>
     <tr>
-      <th>172</th>
-      <td>quicken loans</td>
-      <td>@quicken loans</td>
+      <th>168</th>
+      <td>airbus</td>
+      <td>@airbus</td>
       <td>7</td>
     </tr>
     <tr>
-      <th>173</th>
-      <td>lg corporation</td>
-      <td>@lgus</td>
+      <th>169</th>
+      <td>tommie copper</td>
+      <td>@tommiecopper</td>
       <td>7</td>
     </tr>
     <tr>
-      <th>174</th>
+      <th>170</th>
+      <td>honda</td>
+      <td>@honda</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>171</th>
       <td>devry university</td>
       <td>@devryuniv</td>
       <td>7</td>
     </tr>
     <tr>
-      <th>175</th>
+      <th>172</th>
+      <td>lg corporation</td>
+      <td>@lgus</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>173</th>
       <td>reckitt benckiser</td>
       <td>@discoverrb</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>174</th>
+      <td>quicken loans</td>
+      <td>@quicken loans</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>175</th>
+      <td>netflix</td>
+      <td>@netflix</td>
       <td>7</td>
     </tr>
     <tr>
@@ -4609,80 +4620,80 @@ table {
     </tr>
     <tr>
       <th>177</th>
-      <td>brightstar care</td>
-      <td>@brightstarcare</td>
-      <td>6</td>
-    </tr>
-    <tr>
-      <th>178</th>
-      <td>lockheed martin</td>
-      <td>@lockheedmartin</td>
-      <td>6</td>
-    </tr>
-    <tr>
-      <th>179</th>
-      <td>sap</td>
-      <td>@sap</td>
-      <td>6</td>
-    </tr>
-    <tr>
-      <th>180</th>
-      <td>keurig</td>
-      <td>@keurig</td>
-      <td>6</td>
-    </tr>
-    <tr>
-      <th>181</th>
-      <td>janssen pharmaceuticals</td>
-      <td>@janssenglobal</td>
-      <td>6</td>
-    </tr>
-    <tr>
-      <th>182</th>
-      <td>jpmorgan chase</td>
-      <td>@jpmorgan</td>
-      <td>6</td>
-    </tr>
-    <tr>
-      <th>183</th>
       <td>aviva</td>
       <td>@avivaplc</td>
       <td>6</td>
     </tr>
     <tr>
+      <th>178</th>
+      <td>janssen pharmaceuticals</td>
+      <td>@janssenglobal</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>179</th>
+      <td>lockheed martin</td>
+      <td>@lockheedmartin</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>180</th>
+      <td>jpmorgan chase</td>
+      <td>@jpmorgan</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>181</th>
+      <td>keurig</td>
+      <td>@keurig</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>182</th>
+      <td>brightstar care</td>
+      <td>@brightstarcare</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>183</th>
+      <td>sap</td>
+      <td>@sap</td>
+      <td>6</td>
+    </tr>
+    <tr>
       <th>184</th>
-      <td>tesla</td>
-      <td>@tesla</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <th>185</th>
-      <td>priceline</td>
-      <td>@priceline</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <th>186</th>
-      <td>trugreen</td>
-      <td>@trugreen</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <th>187</th>
       <td>cars.com</td>
       <td>@carsdotcom</td>
       <td>5</td>
     </tr>
     <tr>
+      <th>185</th>
+      <td>trugreen</td>
+      <td>@trugreen</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>186</th>
+      <td>amazon</td>
+      <td>@amazon</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>187</th>
+      <td>tesla</td>
+      <td>@tesla</td>
+      <td>5</td>
+    </tr>
+    <tr>
       <th>188</th>
-      <td>bp</td>
-      <td>@bp_plc</td>
+      <td>priceline</td>
+      <td>@priceline</td>
       <td>5</td>
     </tr>
     <tr>
       <th>189</th>
-      <td>amazon</td>
-      <td>@amazon</td>
+      <td>bp</td>
+      <td>@bp_plc</td>
       <td>5</td>
     </tr>
     <tr>
@@ -4693,62 +4704,62 @@ table {
     </tr>
     <tr>
       <th>191</th>
-      <td>kyocera</td>
-      <td>@kyoceramobile</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <th>192</th>
-      <td>dunkin brands</td>
-      <td>@dunkinbrands</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <th>193</th>
-      <td>blackrock</td>
-      <td>@blackrock</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <th>194</th>
-      <td>viacom</td>
-      <td>@viacom</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <th>195</th>
-      <td>zelle</td>
-      <td>@zelle</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <th>196</th>
       <td>asiana airlines</td>
       <td>@flyasiana</td>
       <td>4</td>
     </tr>
     <tr>
-      <th>197</th>
+      <th>192</th>
+      <td>zelle</td>
+      <td>@zelle</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>193</th>
+      <td>dunkin brands</td>
+      <td>@dunkinbrands</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>194</th>
       <td>chevron</td>
       <td>@chevron</td>
       <td>4</td>
     </tr>
     <tr>
-      <th>198</th>
+      <th>195</th>
       <td>ymca</td>
       <td>@ymca</td>
       <td>4</td>
     </tr>
     <tr>
+      <th>196</th>
+      <td>blackrock</td>
+      <td>@blackrock</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>197</th>
+      <td>darden restaurants</td>
+      <td>@dardengroup</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>198</th>
+      <td>truecar</td>
+      <td>@truecar</td>
+      <td>4</td>
+    </tr>
+    <tr>
       <th>199</th>
-      <td>splenda</td>
-      <td>@splenda</td>
+      <td>viacom</td>
+      <td>@viacom</td>
       <td>4</td>
     </tr>
     <tr>
       <th>200</th>
-      <td>costco</td>
-      <td>@costco</td>
+      <td>panera bread</td>
+      <td>@panerabread</td>
       <td>4</td>
     </tr>
     <tr>
@@ -4759,20 +4770,20 @@ table {
     </tr>
     <tr>
       <th>202</th>
-      <td>truecar</td>
-      <td>@truecar</td>
+      <td>kyocera</td>
+      <td>@kyoceramobile</td>
       <td>4</td>
     </tr>
     <tr>
       <th>203</th>
-      <td>panera bread</td>
-      <td>@panerabread</td>
+      <td>splenda</td>
+      <td>@splenda</td>
       <td>4</td>
     </tr>
     <tr>
       <th>204</th>
-      <td>darden restaurants</td>
-      <td>@dardengroup</td>
+      <td>costco</td>
+      <td>@costco</td>
       <td>4</td>
     </tr>
     <tr>
@@ -4789,14 +4800,14 @@ table {
     </tr>
     <tr>
       <th>207</th>
-      <td>sirius xm holdings</td>
-      <td>@siriusxm</td>
+      <td>bissell</td>
+      <td>@bissellclean</td>
       <td>3</td>
     </tr>
     <tr>
       <th>208</th>
-      <td>bissell</td>
-      <td>@bissellclean</td>
+      <td>sirius xm holdings</td>
+      <td>@siriusxm</td>
       <td>3</td>
     </tr>
     <tr>
@@ -5211,7 +5222,7 @@ table {
 </table>
     </div>
     <h4>Primetime top twitter accounts:</h3>
-    <p>@pfizer @subaru_usa @lillypad @gsk @geico @takedapharma @allstate @astrazeneca @allergan @usaa @bayer @libertymutual @novonordisk @sanofi @comcast @tdameritrade @celgene @drscholls @mercedesbenz @safelite @johndeere @citi @att @bauschlomb @troweprice</p>
+    <p>@pfizer @subaru_usa @lillypad @gsk @geico @takedapharma @allstate @astrazeneca @allergan @usaa @bayer @libertymutual @novonordisk @sanofi @comcast @tdameritrade @celgene @drscholls @mercedesbenz @johndeere @safelite @citi @att @bauschlomb @troweprice</p>
     <h2>Sources of Bias</h2>
     <p>The web archive isn't a perfect source of data, so here are a few ways it could be biased:</p>
     <ul>
