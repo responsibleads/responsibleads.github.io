@@ -8,3 +8,5 @@ data/pages/*
 index-tmpl.html
 notes/*
 __pycache__/*
+environment.yml
+
