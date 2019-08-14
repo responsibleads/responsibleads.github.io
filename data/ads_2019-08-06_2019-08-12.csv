@@ -1,0 +1,304 @@
+date,identifier,product,company_name,company_twitter
+2019-08-12T00:00:00Z,FOXNEWSW_20190812_010000_The_Next_Revolution_With_Steve_Hilton,wells fargo,wells fargo,wellsfargo
+2019-08-11T00:00:00Z,FOXNEWSW_20190811_050000_The_Greg_Gutfeld_Show,visionworks,visionworks,_visionworks
+2019-08-12T00:00:00Z,FOXNEWSW_20190812_050000_Life_Liberty__Levin,visionworks,visionworks,_visionworks
+2019-08-12T00:00:00Z,FOXNEWSW_20190812_040000_The_Next_Revolution_With_Steve_Hilton,visionworks,visionworks,_visionworks
+2019-08-08T00:00:00Z,FOXNEWSW_20190808_050000_Hannity,usaa,usaa,usaa
+2019-08-09T00:00:00Z,FOXNEWSW_20190809_160000_Outnumbered,usaa,usaa,usaa
+2019-08-09T00:00:00Z,FOXNEWSW_20190809_180000_The_Daily_Briefing_With_Dana_Perino,usaa,usaa,usaa
+2019-08-12T00:00:00Z,FOXNEWSW_20190812_200000_Your_World_With_Neil_Cavuto,usaa,usaa,usaa
+2019-08-07T00:00:00Z,FOXNEWSW_20190807_210000_The_Five,usaa,usaa,usaa
+2019-08-07T00:00:00Z,FOXNEWSW_20190807_040000_Tucker_Carlson_Tonight,usaa,usaa,usaa
+2019-08-08T00:00:00Z,FOXNEWSW_20190808_010000_Hannity,usaa,usaa,usaa
+2019-08-09T00:00:00Z,FOXNEWSW_20190809_060000_The_Ingraham_Angle,usaa,usaa,usaa
+2019-08-09T00:00:00Z,FOXNEWSW_20190809_020000_The_Ingraham_Angle,usaa,usaa,usaa
+2019-08-08T00:00:00Z,FOXNEWSW_20190808_200000_Your_World_With_Neil_Cavuto,usaa,usaa,usaa
+2019-08-08T00:00:00Z,FOXNEWSW_20190808_170000_Outnumbered_Overtime_With_Harris_Faulkner,usaa,usaa,usaa
+2019-08-06T00:00:00Z,FOXNEWSW_20190806_000000_Tucker_Carlson_Tonight,usaa,usaa,usaa
+2019-08-10T00:00:00Z,FOXNEWSW_20190810_020000_The_Ingraham_Angle,usaa,usaa,usaa
+2019-08-09T00:00:00Z,FOXNEWSW_20190809_190000_Shepard_Smith_Reporting,usaa,usaa,usaa
+2019-08-09T00:00:00Z,FOXNEWSW_20190809_200000_Your_World_With_Neil_Cavuto,usaa,usaa,usaa
+2019-08-11T00:00:00Z,FOXNEWSW_20190811_230000_Fox_News_Sunday_With_Chris_Wallace,usaa,usaa,usaa
+2019-08-11T00:00:00Z,FOXNEWSW_20190811_220000_FOX_Report_With_Jon_Scott,usaa,usaa,usaa
+2019-08-11T00:00:00Z,FOXNEWSW_20190811_180000_Fox_News_Sunday_With_Chris_Wallace,usaa,usaa,usaa
+2019-08-11T00:00:00Z,FOXNEWSW_20190811_170000_Americas_News_HQ,usaa,usaa,usaa
+2019-08-11T00:00:00Z,FOXNEWSW_20190811_160000_Americas_News_HQ,usaa,usaa,usaa
+2019-08-11T00:00:00Z,FOXNEWSW_20190811_140000_Sunday_Morning_Futures_With_Maria_Bartiromo,usaa,usaa,usaa
+2019-08-10T00:00:00Z,FOXNEWSW_20190810_230000_Life_Liberty__Levin,usaa,usaa,usaa
+2019-08-10T00:00:00Z,FOXNEWSW_20190810_200000_Americas_News_HQ,usaa,usaa,usaa
+2019-08-10T00:00:00Z,FOXNEWSW_20190810_180000_Americas_News_HQ,usaa,usaa,usaa
+2019-08-10T00:00:00Z,FOXNEWSW_20190810_140000_Cavuto_Live,usaa,usaa,usaa
+2019-08-10T00:00:00Z,FOXNEWSW_20190810_090000_The_Five,usaa,usaa,usaa
+2019-08-10T00:00:00Z,FOXNEWSW_20190810_060000_The_Ingraham_Angle,usaa,usaa,usaa
+2019-08-10T00:00:00Z,FOXNEWSW_20190810_050000_Hannity,usaa,usaa,usaa
+2019-08-07T00:00:00Z,FOXNEWSW_20190807_000000_Tucker_Carlson_Tonight,usaa,usaa,usaa
+2019-08-10T00:00:00Z,FOXNEWSW_20190810_010000_Hannity,usaa,usaa,usaa
+2019-08-07T00:00:00Z,FOXNEWSW_20190807_020000_The_Ingraham_Angle,usaa,usaa,usaa
+2019-08-12T00:00:00Z,FOXNEWSW_20190812_180000_The_Daily_Briefing_With_Dana_Perino,usaa,usaa,usaa
+2019-08-06T00:00:00Z,FOXNEWSW_20190806_170000_Outnumbered_Overtime_With_Harris_Faulkner,usaa,usaa,usaa
+2019-08-06T00:00:00Z,FOXNEWSW_20190806_190000_Shepard_Smith_Reporting,usaa,usaa,usaa
+2019-08-06T00:00:00Z,FOXNEWSW_20190806_040000_Tucker_Carlson_Tonight,usaa,usaa,usaa
+2019-08-06T00:00:00Z,FOXNEWSW_20190806_210000_The_Five,usaa,usaa,usaa
+2019-08-12T00:00:00Z,FOXNEWSW_20190812_030000_FOX_Nations_American_Justice,united states postal service,united states postal service,usps
+2019-08-09T00:00:00Z,FOXNEWSW_20190809_200000_Your_World_With_Neil_Cavuto,united states postal service,united states postal service,usps
+2019-08-11T00:00:00Z,FOXNEWSW_20190811_030000_Watters_World,united states postal service,united states postal service,usps
+2019-08-08T00:00:00Z,FOXNEWSW_20190808_210000_The_Five,united rentals,united rentals,united_rentals
+2019-08-06T00:00:00Z,FOXNEWSW_20190806_220000_Special_Report_With_Bret_Baier,united rentals,united rentals,united_rentals
+2019-08-09T00:00:00Z,FOXNEWSW_20190809_210000_The_Five,united rentals,united rentals,united_rentals
+2019-08-07T00:00:00Z,FOXNEWSW_20190807_030000_Fox_News__Night_With_Shannon_Bream,united rentals,united rentals,united_rentals
+2019-08-10T00:00:00Z,FOXNEWSW_20190810_220000_FOX_Report_With_Jon_Scott,united rentals,united rentals,united_rentals
+2019-08-07T00:00:00Z,FOXNEWSW_20190807_070000_Fox_News__Night_With_Shannon_Bream,united rentals,united rentals,united_rentals
+2019-08-12T00:00:00Z,FOXNEWSW_20190812_100000_FOX__Friends,toyota,toyota,toyota
+2019-08-09T00:00:00Z,FOXNEWSW_20190809_130000_Americas_Newsroom_With_Bill_Hemmer_and_Sandra_Smith,hartford,the hartford,thehartford
+2019-08-07T00:00:00Z,FOXNEWSW_20190807_130000_Americas_Newsroom_With_Bill_Hemmer_and_Sandra_Smith,hartford,the hartford,thehartford
+2019-08-12T00:00:00Z,FOXNEWSW_20190812_190000_Shepard_Smith_Reporting,hartford,the hartford,thehartford
+2019-08-08T00:00:00Z,FOXNEWSW_20190808_000000_Tucker_Carlson_Tonight,coke,the coca-cola company,cocacolaco
+2019-08-12T00:00:00Z,FOXNEWSW_20190812_050000_Life_Liberty__Levin,entyvio,takeda,takedapharma
+2019-08-11T00:00:00Z,FOXNEWSW_20190811_050000_The_Greg_Gutfeld_Show,entyvio,takeda,takedapharma
+2019-08-06T00:00:00Z,FOXNEWSW_20190806_230000_The_Story_With_Martha_MacCallum,entyvio,takeda,takedapharma
+2019-08-12T00:00:00Z,FOXNEWSW_20190812_040000_The_Next_Revolution_With_Steve_Hilton,entyvio,takeda,takedapharma
+2019-08-10T00:00:00Z,FOXNEWSW_20190810_100000_Fox_and_Friends_Saturday,entyvio,takeda,takedapharma
+2019-08-12T00:00:00Z,FOXNEWSW_20190812_010000_The_Next_Revolution_With_Steve_Hilton,subaru,subaru,subaru_usa
+2019-08-12T00:00:00Z,FOXNEWSW_20190812_010000_The_Next_Revolution_With_Steve_Hilton,subaru,subaru,subaru_usa
+2019-08-12T00:00:00Z,FOXNEWSW_20190812_010000_The_Next_Revolution_With_Steve_Hilton,subaru,subaru,subaru_usa
+2019-08-12T00:00:00Z,FOXNEWSW_20190812_040000_The_Next_Revolution_With_Steve_Hilton,subaru,subaru,subaru_usa
+2019-08-12T00:00:00Z,FOXNEWSW_20190812_010000_The_Next_Revolution_With_Steve_Hilton,subaru,subaru,subaru_usa
+2019-08-12T00:00:00Z,FOXNEWSW_20190812_040000_The_Next_Revolution_With_Steve_Hilton,subaru,subaru,subaru_usa
+2019-08-08T00:00:00Z,FOXNEWSW_20190808_210000_The_Five,sofi,sofi,sofi
+2019-08-12T00:00:00Z,FOXNEWSW_20190812_190000_Shepard_Smith_Reporting,sofi,sofi,sofi
+2019-08-08T00:00:00Z,FOXNEWSW_20190808_190000_Shepard_Smith_Reporting,sofi,sofi,sofi
+2019-08-12T00:00:00Z,FOXNEWSW_20190812_000000_FOX_Nations_American_Justice,samsung,samsung,samsung
+2019-08-06T00:00:00Z,FOXNEWSW_20190806_130000_Americas_Newsroom_With_Bill_Hemmer_and_Sandra_Smith,safelite,safelite,safelite
+2019-08-11T00:00:00Z,FOXNEWSW_20190811_170000_Americas_News_HQ,safelite,safelite,safelite
+2019-08-06T00:00:00Z,FOXNEWSW_20190806_210000_The_Five,safelite,safelite,safelite
+2019-08-11T00:00:00Z,FOXNEWSW_20190811_220000_FOX_Report_With_Jon_Scott,safelite,safelite,safelite
+2019-08-06T00:00:00Z,FOXNEWSW_20190806_020000_The_Ingraham_Angle,safelite,safelite,safelite
+2019-08-11T00:00:00Z,FOXNEWSW_20190811_180000_Fox_News_Sunday_With_Chris_Wallace,safelite,safelite,safelite
+2019-08-11T00:00:00Z,FOXNEWSW_20190811_210000_The_Greg_Gutfeld_Show,safelite,safelite,safelite
+2019-08-07T00:00:00Z,FOXNEWSW_20190807_220000_Special_Report_With_Bret_Baier,safelite,safelite,safelite
+2019-08-06T00:00:00Z,FOXNEWSW_20190806_180000_The_Daily_Briefing_With_Dana_Perino,safelite,safelite,safelite
+2019-08-12T00:00:00Z,FOXNEWSW_20190812_200000_Your_World_With_Neil_Cavuto,safelite,safelite,safelite
+2019-08-12T00:00:00Z,FOXNEWSW_20190812_190000_Shepard_Smith_Reporting,safelite,safelite,safelite
+2019-08-06T00:00:00Z,FOXNEWSW_20190806_220000_Special_Report_With_Bret_Baier,safelite,safelite,safelite
+2019-08-12T00:00:00Z,FOXNEWSW_20190812_170000_Outnumbered_Overtime_With_Harris_Faulkner,safelite,safelite,safelite
+2019-08-12T00:00:00Z,FOXNEWSW_20190812_160000_Outnumbered,safelite,safelite,safelite
+2019-08-07T00:00:00Z,FOXNEWSW_20190807_030000_Fox_News__Night_With_Shannon_Bream,safelite,safelite,safelite
+2019-08-07T00:00:00Z,FOXNEWSW_20190807_160000_Outnumbered,safelite,safelite,safelite
+2019-08-07T00:00:00Z,FOXNEWSW_20190807_190000_Shepard_Smith_Reporting,safelite,safelite,safelite
+2019-08-07T00:00:00Z,FOXNEWSW_20190807_070000_Fox_News__Night_With_Shannon_Bream,safelite,safelite,safelite
+2019-08-06T00:00:00Z,FOXNEWSW_20190806_160000_Outnumbered,safelite,safelite,safelite
+2019-08-06T00:00:00Z,FOXNEWSW_20190806_170000_Outnumbered_Overtime_With_Harris_Faulkner,safelite,safelite,safelite
+2019-08-12T00:00:00Z,FOXNEWSW_20190812_130000_Americas_Newsroom_With_Bill_Hemmer_and_Sandra_Smith,safelite,safelite,safelite
+2019-08-07T00:00:00Z,FOXNEWSW_20190807_210000_The_Five,safelite,safelite,safelite
+2019-08-06T00:00:00Z,FOXNEWSW_20190806_200000_Your_World_With_Neil_Cavuto,safelite,safelite,safelite
+2019-08-07T00:00:00Z,FOXNEWSW_20190807_230000_The_Story_With_Martha_MacCallum,safelite,safelite,safelite
+2019-08-09T00:00:00Z,FOXNEWSW_20190809_090000_Fox_and_Friends_First,dawn ultra,procter & gamble,proctergamble
+2019-08-11T00:00:00Z,FOXNEWSW_20190811_030000_Watters_World,dawn ultra,procter & gamble,proctergamble
+2019-08-07T00:00:00Z,FOXNEWSW_20190807_070000_Fox_News__Night_With_Shannon_Bream,dawn ultra,procter & gamble,proctergamble
+2019-08-12T00:00:00Z,FOXNEWSW_20190812_030000_FOX_Nations_American_Justice,dawn ultra,procter & gamble,proctergamble
+2019-08-07T00:00:00Z,FOXNEWSW_20190807_200000_Your_World_With_Neil_Cavuto,dawn ultra,procter & gamble,proctergamble
+2019-08-07T00:00:00Z,FOXNEWSW_20190807_030000_Fox_News__Night_With_Shannon_Bream,dawn ultra,procter & gamble,proctergamble
+2019-08-06T00:00:00Z,FOXNEWSW_20190806_170000_Outnumbered_Overtime_With_Harris_Faulkner,cosentyx,novartis,novartis
+2019-08-08T00:00:00Z,FOXNEWSW_20190808_190000_Shepard_Smith_Reporting,newday usa,newday usa,newdayusa
+2019-08-09T00:00:00Z,FOXNEWSW_20190809_060000_The_Ingraham_Angle,newday usa,newday usa,newdayusa
+2019-08-09T00:00:00Z,FOXNEWSW_20190809_070000_Fox_News__Night_With_Shannon_Bream,newday usa,newday usa,newdayusa
+2019-08-06T00:00:00Z,FOXNEWSW_20190806_190000_Shepard_Smith_Reporting,newday usa,newday usa,newdayusa
+2019-08-08T00:00:00Z,FOXNEWSW_20190808_080000_Fox_and_Friends_First,newday usa,newday usa,newdayusa
+2019-08-08T00:00:00Z,FOXNEWSW_20190808_080000_Fox_and_Friends_First,newday usa,newday usa,newdayusa
+2019-08-08T00:00:00Z,FOXNEWSW_20190808_060000_The_Ingraham_Angle,newday usa,newday usa,newdayusa
+2019-08-06T00:00:00Z,FOXNEWSW_20190806_070000_Fox_News__Night_With_Shannon_Bream,newday usa,newday usa,newdayusa
+2019-08-12T00:00:00Z,FOXNEWSW_20190812_170000_Outnumbered_Overtime_With_Harris_Faulkner,newday usa,newday usa,newdayusa
+2019-08-12T00:00:00Z,FOXNEWSW_20190812_060000_Fox_News_Sunday_With_Chris_Wallace,newday usa,newday usa,newdayusa
+2019-08-12T00:00:00Z,FOXNEWSW_20190812_190000_Shepard_Smith_Reporting,newday usa,newday usa,newdayusa
+2019-08-07T00:00:00Z,FOXNEWSW_20190807_060000_The_Ingraham_Angle,newday usa,newday usa,newdayusa
+2019-08-07T00:00:00Z,FOXNEWSW_20190807_070000_Fox_News__Night_With_Shannon_Bream,newday usa,newday usa,newdayusa
+2019-08-12T00:00:00Z,FOXNEWSW_20190812_070000_MediaBuzz,newday usa,newday usa,newdayusa
+2019-08-06T00:00:00Z,FOXNEWSW_20190806_130000_Americas_Newsroom_With_Bill_Hemmer_and_Sandra_Smith,newday usa,newday usa,newdayusa
+2019-08-08T00:00:00Z,FOXNEWSW_20190808_160000_Outnumbered,newday usa,newday usa,newdayusa
+2019-08-06T00:00:00Z,FOXNEWSW_20190806_210000_The_Five,mercedes-benz,mercedes-benz,mercedesbenz
+2019-08-07T00:00:00Z,FOXNEWSW_20190807_200000_Your_World_With_Neil_Cavuto,mercedes-benz,mercedes-benz,mercedesbenz
+2019-08-12T00:00:00Z,FOXNEWSW_20190812_190000_Shepard_Smith_Reporting,mercedes-benz,mercedes-benz,mercedesbenz
+2019-08-11T00:00:00Z,FOXNEWSW_20190811_200000_Americas_News_HQ,mercedes-benz,mercedes-benz,mercedesbenz
+2019-08-07T00:00:00Z,FOXNEWSW_20190807_230000_The_Story_With_Martha_MacCallum,mercedes-benz,mercedes-benz,mercedesbenz
+2019-08-06T00:00:00Z,FOXNEWSW_20190806_200000_Your_World_With_Neil_Cavuto,mercedes-benz,mercedes-benz,mercedesbenz
+2019-08-06T00:00:00Z,FOXNEWSW_20190806_180000_The_Daily_Briefing_With_Dana_Perino,mercedes-benz,mercedes-benz,mercedesbenz
+2019-08-11T00:00:00Z,FOXNEWSW_20190811_020000_The_Greg_Gutfeld_Show,zoltar,liberty mutual,libertymutual
+2019-08-09T00:00:00Z,FOXNEWSW_20190809_030000_Fox_News__Night_With_Shannon_Bream,zoltar,liberty mutual,libertymutual
+2019-08-11T00:00:00Z,FOXNEWSW_20190811_200000_Americas_News_HQ,kohler,kohler,kohler
+2019-08-10T00:00:00Z,FOXNEWSW_20190810_140000_Cavuto_Live,kohler,kohler,kohler
+2019-08-10T00:00:00Z,FOXNEWSW_20190810_200000_Americas_News_HQ,kohler,kohler,kohler
+2019-08-11T00:00:00Z,FOXNEWSW_20190811_220000_FOX_Report_With_Jon_Scott,kohler,kohler,kohler
+2019-08-09T00:00:00Z,FOXNEWSW_20190809_170000_Outnumbered_Overtime_With_Harris_Faulkner,humana,humana,humana
+2019-08-06T00:00:00Z,FOXNEWSW_20190806_070000_Fox_News__Night_With_Shannon_Bream,humana,humana,humana
+2019-08-12T00:00:00Z,FOXNEWSW_20190812_090000_Fox_and_Friends_First,humana,humana,humana
+2019-08-12T00:00:00Z,FOXNEWSW_20190812_000000_FOX_Nations_American_Justice,hilton,hilton,hiltonhotels
+2019-08-12T00:00:00Z,FOXNEWSW_20190812_030000_FOX_Nations_American_Justice,hilton,hilton,hiltonhotels
+2019-08-07T00:00:00Z,FOXNEWSW_20190807_030000_Fox_News__Night_With_Shannon_Bream,hilton,hilton,hiltonhotels
+2019-08-12T00:00:00Z,FOXNEWSW_20190812_160000_Outnumbered,biotene,glaxosmithkline,gsk
+2019-08-10T00:00:00Z,FOXNEWSW_20190810_190000_The_Journal_Editorial_Report,geico,geico,geico
+2019-08-12T00:00:00Z,FOXNEWSW_20190812_190000_Shepard_Smith_Reporting,geico,geico,geico
+2019-08-12T00:00:00Z,FOXNEWSW_20190812_200000_Your_World_With_Neil_Cavuto,geico,geico,geico
+2019-08-11T00:00:00Z,FOXNEWSW_20190811_200000_Americas_News_HQ,geico,geico,geico
+2019-08-11T00:00:00Z,FOXNEWSW_20190811_190000_The_Journal_Editorial_Report,geico,geico,geico
+2019-08-12T00:00:00Z,FOXNEWSW_20190812_050000_Life_Liberty__Levin,geico,geico,geico
+2019-08-10T00:00:00Z,FOXNEWSW_20190810_140000_Cavuto_Live,geico,geico,geico
+2019-08-10T00:00:00Z,FOXNEWSW_20190810_230000_Life_Liberty__Levin,geico,geico,geico
+2019-08-11T00:00:00Z,FOXNEWSW_20190811_160000_Americas_News_HQ,geico,geico,geico
+2019-08-11T00:00:00Z,FOXNEWSW_20190811_170000_Americas_News_HQ,geico,geico,geico
+2019-08-11T00:00:00Z,FOXNEWSW_20190811_230000_Fox_News_Sunday_With_Chris_Wallace,geico,geico,geico
+2019-08-12T00:00:00Z,FOXNEWSW_20190812_010000_The_Next_Revolution_With_Steve_Hilton,geico,geico,geico
+2019-08-10T00:00:00Z,FOXNEWSW_20190810_090000_The_Five,geico,geico,geico
+2019-08-11T00:00:00Z,FOXNEWSW_20190811_100000_Fox_and_Friends_Sunday,geico,geico,geico
+2019-08-10T00:00:00Z,FOXNEWSW_20190810_220000_FOX_Report_With_Jon_Scott,geico,geico,geico
+2019-08-12T00:00:00Z,FOXNEWSW_20190812_160000_Outnumbered,geico,geico,geico
+2019-08-09T00:00:00Z,FOXNEWSW_20190809_060000_The_Ingraham_Angle,fisher investments,fisher investments,fisherinvest
+2019-08-09T00:00:00Z,FOXNEWSW_20190809_020000_The_Ingraham_Angle,fisher investments,fisher investments,fisherinvest
+2019-08-06T00:00:00Z,FOXNEWSW_20190806_210000_The_Five,farmers,farmers insurance group,wearefarmers
+2019-08-11T00:00:00Z,FOXNEWSW_20190811_200000_Americas_News_HQ,farmers,farmers insurance group,wearefarmers
+2019-08-09T00:00:00Z,FOXNEWSW_20190809_230000_The_Story_With_Martha_MacCallum,farmers,farmers insurance group,wearefarmers
+2019-08-11T00:00:00Z,FOXNEWSW_20190811_100000_Fox_and_Friends_Sunday,expedia,expedia,expedia
+2019-08-11T00:00:00Z,FOXNEWSW_20190811_150000_MediaBuzz,expedia,expedia,expedia
+2019-08-11T00:00:00Z,FOXNEWSW_20190811_140000_Sunday_Morning_Futures_With_Maria_Bartiromo,expedia,expedia,expedia
+2019-08-10T00:00:00Z,FOXNEWSW_20190810_140000_Cavuto_Live,expedia,expedia,expedia
+2019-08-11T00:00:00Z,FOXNEWSW_20190811_160000_Americas_News_HQ,expedia,expedia,expedia
+2019-08-10T00:00:00Z,FOXNEWSW_20190810_160000_Americas_News_HQ,expedia,expedia,expedia
+2019-08-10T00:00:00Z,FOXNEWSW_20190810_190000_The_Journal_Editorial_Report,expedia,expedia,expedia
+2019-08-06T00:00:00Z,FOXNEWSW_20190806_090000_Fox_and_Friends_First,expedia,expedia,expedia
+2019-08-10T00:00:00Z,FOXNEWSW_20190810_100000_Fox_and_Friends_Saturday,expedia,expedia,expedia
+2019-08-09T00:00:00Z,FOXNEWSW_20190809_180000_The_Daily_Briefing_With_Dana_Perino,expedia,expedia,expedia
+2019-08-08T00:00:00Z,FOXNEWSW_20190808_090000_Fox_and_Friends_First,expedia,expedia,expedia
+2019-08-09T00:00:00Z,FOXNEWSW_20190809_190000_Shepard_Smith_Reporting,expedia,expedia,expedia
+2019-08-12T00:00:00Z,FOXNEWSW_20190812_160000_Outnumbered,expedia,expedia,expedia
+2019-08-07T00:00:00Z,FOXNEWSW_20190807_160000_Outnumbered,expedia,expedia,expedia
+2019-08-08T00:00:00Z,FOXNEWSW_20190808_180000_The_Daily_Briefing_With_Dana_Perino,expedia,expedia,expedia
+2019-08-06T00:00:00Z,FOXNEWSW_20190806_200000_Your_World_With_Neil_Cavuto,expedia,expedia,expedia
+2019-08-09T00:00:00Z,FOXNEWSW_20190809_170000_Outnumbered_Overtime_With_Harris_Faulkner,expedia,expedia,expedia
+2019-08-11T00:00:00Z,FOXNEWSW_20190811_090000_FOX_Report_With_Jon_Scott,expedia,expedia,expedia
+2019-08-11T00:00:00Z,FOXNEWSW_20190811_190000_The_Journal_Editorial_Report,expedia,expedia,expedia
+2019-08-06T00:00:00Z,FOXNEWSW_20190806_170000_Outnumbered_Overtime_With_Harris_Faulkner,expedia,expedia,expedia
+2019-08-07T00:00:00Z,FOXNEWSW_20190807_040000_Tucker_Carlson_Tonight,essilor,essilor,essilor
+2019-08-11T00:00:00Z,FOXNEWSW_20190811_040000_Justice_With_Judge_Jeanine,essilor,essilor,essilor
+2019-08-10T00:00:00Z,FOXNEWSW_20190810_040000_Tucker_Carlson_Tonight,essilor,essilor,essilor
+2019-08-09T00:00:00Z,FOXNEWSW_20190809_040000_Tucker_Carlson_Tonight,essilor,essilor,essilor
+2019-08-08T00:00:00Z,FOXNEWSW_20190808_050000_Hannity,essilor,essilor,essilor
+2019-08-11T00:00:00Z,FOXNEWSW_20190811_230000_Fox_News_Sunday_With_Chris_Wallace,trulicity,eli lilly,lillypad
+2019-08-10T00:00:00Z,FOXNEWSW_20190810_230000_Life_Liberty__Levin,jardiance,eli lilly,lillypad
+2019-08-11T00:00:00Z,FOXNEWSW_20190811_150000_MediaBuzz,trulicity,eli lilly,lillypad
+2019-08-10T00:00:00Z,FOXNEWSW_20190810_090000_The_Five,jardiance,eli lilly,lillypad
+2019-08-12T00:00:00Z,FOXNEWSW_20190812_000000_FOX_Nations_American_Justice,scholl,dr. scholl's,drscholls
+2019-08-08T00:00:00Z,FOXNEWSW_20190808_220000_Special_Report_With_Bret_Baier,scholl,dr. scholl's,drscholls
+2019-08-08T00:00:00Z,FOXNEWSW_20190808_010000_Hannity,scholl,dr. scholl's,drscholls
+2019-08-11T00:00:00Z,FOXNEWSW_20190811_020000_The_Greg_Gutfeld_Show,scholl,dr. scholl's,drscholls
+2019-08-09T00:00:00Z,FOXNEWSW_20190809_220000_Special_Report_With_Bret_Baier,custom ink,custom ink,customink
+2019-08-09T00:00:00Z,FOXNEWSW_20190809_080000_Fox_and_Friends_First,custom ink,custom ink,customink
+2019-08-07T00:00:00Z,FOXNEWSW_20190807_030000_Fox_News__Night_With_Shannon_Bream,custom ink,custom ink,customink
+2019-08-07T00:00:00Z,FOXNEWSW_20190807_080000_Fox_and_Friends_First,custom ink,custom ink,customink
+2019-08-07T00:00:00Z,FOXNEWSW_20190807_090000_Fox_and_Friends_First,custom ink,custom ink,customink
+2019-08-09T00:00:00Z,FOXNEWSW_20190809_090000_Fox_and_Friends_First,custom ink,custom ink,customink
+2019-08-07T00:00:00Z,FOXNEWSW_20190807_160000_Outnumbered,custom ink,custom ink,customink
+2019-08-08T00:00:00Z,FOXNEWSW_20190808_030000_Fox_News__Night_With_Shannon_Bream,custom ink,custom ink,customink
+2019-08-09T00:00:00Z,FOXNEWSW_20190809_070000_Fox_News__Night_With_Shannon_Bream,custom ink,custom ink,customink
+2019-08-08T00:00:00Z,FOXNEWSW_20190808_080000_Fox_and_Friends_First,custom ink,custom ink,customink
+2019-08-12T00:00:00Z,FOXNEWSW_20190812_050000_Life_Liberty__Levin,custom ink,custom ink,customink
+2019-08-11T00:00:00Z,FOXNEWSW_20190811_180000_Fox_News_Sunday_With_Chris_Wallace,xfinity,comcast,comcast
+2019-08-12T00:00:00Z,FOXNEWSW_20190812_100000_FOX__Friends,xfinity,comcast,comcast
+2019-08-12T00:00:00Z,FOXNEWSW_20190812_060000_Fox_News_Sunday_With_Chris_Wallace,xfinity,comcast,comcast
+2019-08-06T00:00:00Z,FOXNEWSW_20190806_050000_Hannity,xfinity,comcast,comcast
+2019-08-06T00:00:00Z,FOXNEWSW_20190806_040000_Tucker_Carlson_Tonight,xfinity,comcast,comcast
+2019-08-11T00:00:00Z,FOXNEWSW_20190811_150000_MediaBuzz,xfinity,comcast,comcast
+2019-08-10T00:00:00Z,FOXNEWSW_20190810_040000_Tucker_Carlson_Tonight,xfinity,comcast,comcast
+2019-08-08T00:00:00Z,FOXNEWSW_20190808_040000_Tucker_Carlson_Tonight,comcast,comcast,comcast
+2019-08-10T00:00:00Z,FOXNEWSW_20190810_230000_Life_Liberty__Levin,xfinity,comcast,comcast
+2019-08-06T00:00:00Z,FOXNEWSW_20190806_180000_The_Daily_Briefing_With_Dana_Perino,xfinity,comcast,comcast
+2019-08-11T00:00:00Z,FOXNEWSW_20190811_070000_Justice_With_Judge_Jeanine,xfinity,comcast,comcast
+2019-08-09T00:00:00Z,FOXNEWSW_20190809_090000_Fox_and_Friends_First,xfinity,comcast,comcast
+2019-08-09T00:00:00Z,FOXNEWSW_20190809_080000_Fox_and_Friends_First,xfinity,comcast,comcast
+2019-08-09T00:00:00Z,FOXNEWSW_20190809_220000_Special_Report_With_Bret_Baier,comcast business,comcast,comcast
+2019-08-09T00:00:00Z,FOXNEWSW_20190809_220000_Special_Report_With_Bret_Baier,comcast,comcast,comcast
+2019-08-09T00:00:00Z,FOXNEWSW_20190809_230000_The_Story_With_Martha_MacCallum,comcast business,comcast,comcast
+2019-08-09T00:00:00Z,FOXNEWSW_20190809_060000_The_Ingraham_Angle,xfinity,comcast,comcast
+2019-08-06T00:00:00Z,FOXNEWSW_20190806_160000_Outnumbered,xfinity,comcast,comcast
+2019-08-10T00:00:00Z,FOXNEWSW_20190810_080000_Hannity,xfinity,comcast,comcast
+2019-08-07T00:00:00Z,FOXNEWSW_20190807_160000_Outnumbered,xfinity,comcast,comcast
+2019-08-10T00:00:00Z,FOXNEWSW_20190810_100000_Fox_and_Friends_Saturday,xfinity,comcast,comcast
+2019-08-08T00:00:00Z,FOXNEWSW_20190808_160000_Outnumbered,xfinity,comcast,comcast
+2019-08-07T00:00:00Z,FOXNEWSW_20190807_230000_The_Story_With_Martha_MacCallum,xfinity,comcast,comcast
+2019-08-11T00:00:00Z,FOXNEWSW_20190811_060000_Watters_World,xfinity,comcast,comcast
+2019-08-06T00:00:00Z,FOXNEWSW_20190806_090000_Fox_and_Friends_First,xfinity,comcast,comcast
+2019-08-08T00:00:00Z,FOXNEWSW_20190808_000000_Tucker_Carlson_Tonight,comcast,comcast,comcast
+2019-08-08T00:00:00Z,FOXNEWSW_20190808_060000_The_Ingraham_Angle,xfinity mobile,comcast,comcast
+2019-08-08T00:00:00Z,FOXNEWSW_20190808_080000_Fox_and_Friends_First,xfinity,comcast,comcast
+2019-08-06T00:00:00Z,FOXNEWSW_20190806_170000_Outnumbered_Overtime_With_Harris_Faulkner,xfinity,comcast,comcast
+2019-08-07T00:00:00Z,FOXNEWSW_20190807_070000_Fox_News__Night_With_Shannon_Bream,xfinity,comcast,comcast
+2019-08-08T00:00:00Z,FOXNEWSW_20190808_230000_The_Story_With_Martha_MacCallum,otezla,celgene,celgene
+2019-08-08T00:00:00Z,FOXNEWSW_20190808_190000_Shepard_Smith_Reporting,otezla,celgene,celgene
+2019-08-07T00:00:00Z,FOXNEWSW_20190807_220000_Special_Report_With_Bret_Baier,otezla,celgene,celgene
+2019-08-06T00:00:00Z,FOXNEWSW_20190806_210000_The_Five,otezla,celgene,celgene
+2019-08-12T00:00:00Z,FOXNEWSW_20190812_030000_FOX_Nations_American_Justice,otezla,celgene,celgene
+2019-08-08T00:00:00Z,FOXNEWSW_20190808_190000_Shepard_Smith_Reporting,otezla,celgene,celgene
+2019-08-12T00:00:00Z,FOXNEWSW_20190812_010000_The_Next_Revolution_With_Steve_Hilton,otezla,celgene,celgene
+2019-08-12T00:00:00Z,FOXNEWSW_20190812_030000_FOX_Nations_American_Justice,otezla,celgene,celgene
+2019-08-07T00:00:00Z,FOXNEWSW_20190807_220000_Special_Report_With_Bret_Baier,otezla,celgene,celgene
+2019-08-12T00:00:00Z,FOXNEWSW_20190812_000000_FOX_Nations_American_Justice,otezla,celgene,celgene
+2019-08-09T00:00:00Z,FOXNEWSW_20190809_190000_Shepard_Smith_Reporting,otezla,celgene,celgene
+2019-08-08T00:00:00Z,FOXNEWSW_20190808_210000_The_Five,otezla,celgene,celgene
+2019-08-12T00:00:00Z,FOXNEWSW_20190812_010000_The_Next_Revolution_With_Steve_Hilton,otezla,celgene,celgene
+2019-08-12T00:00:00Z,FOXNEWSW_20190812_000000_FOX_Nations_American_Justice,otezla,celgene,celgene
+2019-08-11T00:00:00Z,FOXNEWSW_20190811_020000_The_Greg_Gutfeld_Show,otezla,celgene,celgene
+2019-08-11T00:00:00Z,FOXNEWSW_20190811_000000_Watters_World,otezla,celgene,celgene
+2019-08-11T00:00:00Z,FOXNEWSW_20190811_000000_Watters_World,otezla,celgene,celgene
+2019-08-10T00:00:00Z,FOXNEWSW_20190810_230000_Life_Liberty__Levin,otezla,celgene,celgene
+2019-08-10T00:00:00Z,FOXNEWSW_20190810_230000_Life_Liberty__Levin,otezla,celgene,celgene
+2019-08-11T00:00:00Z,FOXNEWSW_20190811_030000_Watters_World,otezla,celgene,celgene
+2019-08-11T00:00:00Z,FOXNEWSW_20190811_190000_The_Journal_Editorial_Report,otezla,celgene,celgene
+2019-08-11T00:00:00Z,FOXNEWSW_20190811_030000_Watters_World,otezla,celgene,celgene
+2019-08-06T00:00:00Z,FOXNEWSW_20190806_160000_Outnumbered,otezla,celgene,celgene
+2019-08-10T00:00:00Z,FOXNEWSW_20190810_030000_Fox_News__Night_With_Shannon_Bream,otezla,celgene,celgene
+2019-08-07T00:00:00Z,FOXNEWSW_20190807_210000_The_Five,otezla,celgene,celgene
+2019-08-06T00:00:00Z,FOXNEWSW_20190806_230000_The_Story_With_Martha_MacCallum,otezla,celgene,celgene
+2019-08-08T00:00:00Z,FOXNEWSW_20190808_030000_Fox_News__Night_With_Shannon_Bream,otezla,celgene,celgene
+2019-08-09T00:00:00Z,FOXNEWSW_20190809_200000_Your_World_With_Neil_Cavuto,otezla,celgene,celgene
+2019-08-07T00:00:00Z,FOXNEWSW_20190807_030000_Fox_News__Night_With_Shannon_Bream,otezla,celgene,celgene
+2019-08-09T00:00:00Z,FOXNEWSW_20190809_210000_The_Five,cancer treatment centers of america,cancer treatment centers of america,cancercenter
+2019-08-12T00:00:00Z,FOXNEWSW_20190812_220000_Special_Report_With_Bret_Baier,symbicort,astrazeneca,astrazeneca
+2019-08-12T00:00:00Z,FOXNEWSW_20190812_100000_FOX__Friends,symbicort,astrazeneca,astrazeneca
+2019-08-06T00:00:00Z,FOXNEWSW_20190806_040000_Tucker_Carlson_Tonight,aspen dental,aspen dental,aspendental
+2019-08-08T00:00:00Z,FOXNEWSW_20190808_210000_The_Five,aspen dental,aspen dental,aspendental
+2019-08-09T00:00:00Z,FOXNEWSW_20190809_210000_The_Five,aspen dental,aspen dental,aspendental
+2019-08-06T00:00:00Z,FOXNEWSW_20190806_000000_Tucker_Carlson_Tonight,aspen dental,aspen dental,aspendental
+2019-08-12T00:00:00Z,FOXNEWSW_20190812_080000_Fox_and_Friends_First,brita,amgen,amgen
+2019-08-12T00:00:00Z,FOXNEWSW_20190812_130000_Americas_Newsroom_With_Bill_Hemmer_and_Sandra_Smith,aimovig,amgen,amgen
+2019-08-11T00:00:00Z,FOXNEWSW_20190811_080000_The_Greg_Gutfeld_Show,brita,amgen,amgen
+2019-08-06T00:00:00Z,FOXNEWSW_20190806_010000_Hannity,brita,amgen,amgen
+2019-08-08T00:00:00Z,FOXNEWSW_20190808_180000_The_Daily_Briefing_With_Dana_Perino,aimovig,amgen,amgen
+2019-08-12T00:00:00Z,FOXNEWSW_20190812_030000_FOX_Nations_American_Justice,brita,amgen,amgen
+2019-08-09T00:00:00Z,FOXNEWSW_20190809_160000_Outnumbered,aimovig,amgen,amgen
+2019-08-10T00:00:00Z,FOXNEWSW_20190810_230000_Life_Liberty__Levin,brita,amgen,amgen
+2019-08-11T00:00:00Z,FOXNEWSW_20190811_150000_MediaBuzz,aimovig,amgen,amgen
+2019-08-11T00:00:00Z,FOXNEWSW_20190811_050000_The_Greg_Gutfeld_Show,brita,amgen,amgen
+2019-08-06T00:00:00Z,FOXNEWSW_20190806_230000_The_Story_With_Martha_MacCallum,brita,amgen,amgen
+2019-08-12T00:00:00Z,FOXNEWSW_20190812_200000_Your_World_With_Neil_Cavuto,aag,american advisors group,aagreverse
+2019-08-07T00:00:00Z,FOXNEWSW_20190807_130000_Americas_Newsroom_With_Bill_Hemmer_and_Sandra_Smith,aag,american advisors group,aagreverse
+2019-08-08T00:00:00Z,FOXNEWSW_20190808_170000_Outnumbered_Overtime_With_Harris_Faulkner,allstate,allstate,allstate
+2019-08-09T00:00:00Z,FOXNEWSW_20190809_200000_Your_World_With_Neil_Cavuto,allstate,allstate,allstate
+2019-08-09T00:00:00Z,FOXNEWSW_20190809_210000_The_Five,allstate,allstate,allstate
+2019-08-10T00:00:00Z,FOXNEWSW_20190810_090000_The_Five,allstate,allstate,allstate
+2019-08-10T00:00:00Z,FOXNEWSW_20190810_140000_Cavuto_Live,allstate,allstate,allstate
+2019-08-12T00:00:00Z,FOXNEWSW_20190812_200000_Your_World_With_Neil_Cavuto,humira,abbvie,abbvie
+2019-08-09T00:00:00Z,FOXNEWSW_20190809_200000_Your_World_With_Neil_Cavuto,humira,abbvie,abbvie
+2019-08-11T00:00:00Z,FOXNEWSW_20190811_200000_Americas_News_HQ,humira,abbvie,abbvie
+2019-08-11T00:00:00Z,FOXNEWSW_20190811_140000_Sunday_Morning_Futures_With_Maria_Bartiromo,humira,abbvie,abbvie
+2019-08-11T00:00:00Z,FOXNEWSW_20190811_090000_FOX_Report_With_Jon_Scott,humira,abbvie,abbvie
+2019-08-10T00:00:00Z,FOXNEWSW_20190810_220000_FOX_Report_With_Jon_Scott,humira,abbvie,abbvie
+2019-08-08T00:00:00Z,FOXNEWSW_20190808_160000_Outnumbered,humira,abbvie,abbvie
+2019-08-08T00:00:00Z,FOXNEWSW_20190808_030000_Fox_News__Night_With_Shannon_Bream,humira,abbvie,abbvie
+2019-08-07T00:00:00Z,FOXNEWSW_20190807_210000_The_Five,humira,abbvie,abbvie
+2019-08-07T00:00:00Z,FOXNEWSW_20190807_190000_Shepard_Smith_Reporting,humira,abbvie,abbvie
+2019-08-07T00:00:00Z,FOXNEWSW_20190807_030000_Fox_News__Night_With_Shannon_Bream,humira,abbvie,abbvie
+2019-08-06T00:00:00Z,FOXNEWSW_20190806_220000_Special_Report_With_Bret_Baier,humira,abbvie,abbvie
+2019-08-06T00:00:00Z,FOXNEWSW_20190806_090000_Fox_and_Friends_First,humira,abbvie,abbvie
+2019-08-12T00:00:00Z,FOXNEWSW_20190812_230000_The_Story_With_Martha_MacCallum,humira,abbvie,abbvie
+2019-08-06T00:00:00Z,FOXNEWSW_20190806_160000_Outnumbered,va home loan,newday usa,newdayusa
+2019-08-08T00:00:00Z,FOXNEWSW_20190808_170000_Outnumbered_Overtime_With_Harris_Faulkner,va home loan,newday usa,newdayusa
+2019-08-12T00:00:00Z,FOXNEWSW_20190812_010000_The_Next_Revolution_With_Steve_Hilton,chevrolet,chevrolet,chevrolet
+2019-08-12T00:00:00Z,FOXNEWSW_20190812_050000_Life_Liberty__Levin,at ancestry.com,ancestry,ancestry
