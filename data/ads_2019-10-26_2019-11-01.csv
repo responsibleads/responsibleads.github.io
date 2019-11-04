@@ -1,0 +1,227 @@
+date,identifier,product,company_name,company_twitter
+2019-10-27T00:00:00Z,FOXNEWSW_20191027_200000_Americas_News_HQ,voya,voya financial,voya
+2019-10-26T00:00:00Z,FOXNEWSW_20191026_060000_The_Ingraham_Angle,voya,voya financial,voya
+2019-10-27T00:00:00Z,FOXNEWSW_20191027_090000_FOX_Report_With_Jon_Scott,verizon,verizon,verizonwireless
+2019-10-30T00:00:00Z,FOXNEWSW_20191030_200000_Your_World_With_Neil_Cavuto,verizon,verizon,verizonwireless
+2019-10-30T00:00:00Z,FOXNEWSW_20191030_220000_Special_Report_With_Bret_Baier,verizon,verizon,verizonwireless
+2019-10-27T00:00:00Z,FOXNEWSW_20191027_210000_The_Greg_Gutfeld_Show,verizon,verizon,verizonwireless
+2019-11-01T00:00:00Z,FOXNEWSW_20191101_220000_Special_Report_With_Bret_Baier,verizon,verizon,verizonwireless
+2019-10-30T00:00:00Z,FOXNEWSW_20191030_130000_Americas_Newsroom_With_Bill_Hemmer_and_Sandra_Smith,verizon,verizon,verizonwireless
+2019-10-26T00:00:00Z,FOXNEWSW_20191026_180000_Americas_News_HQ,usaa,usaa,usaa
+2019-10-27T00:00:00Z,FOXNEWSW_20191027_090000_FOX_Report_With_Jon_Scott,usaa,usaa,usaa
+2019-10-27T00:00:00Z,FOXNEWSW_20191027_140000_Sunday_Morning_Futures_With_Maria_Bartiromo,usaa,usaa,usaa
+2019-11-01T00:00:00Z,FOXNEWSW_20191101_200000_Your_World_With_Neil_Cavuto,usaa,usaa,usaa
+2019-10-29T00:00:00Z,FOXNEWSW_20191029_200000_Your_World_With_Neil_Cavuto,usaa,usaa,usaa
+2019-10-28T00:00:00Z,FOXNEWSW_20191028_180000_The_Daily_Briefing_With_Dana_Perino,usaa,usaa,usaa
+2019-10-26T00:00:00Z,FOXNEWSW_20191026_230000_Life_Liberty__Levin,usaa,usaa,usaa
+2019-10-27T00:00:00Z,FOXNEWSW_20191027_180000_Fox_News_Sunday_With_Chris_Wallace,usaa,usaa,usaa
+2019-10-31T00:00:00Z,FOXNEWSW_20191031_230000_The_Story_With_Martha_MacCallum,usaa,usaa,usaa
+2019-10-26T00:00:00Z,FOXNEWSW_20191026_140000_Cavuto_Live,usaa,usaa,usaa
+2019-10-30T00:00:00Z,FOXNEWSW_20191030_200000_Your_World_With_Neil_Cavuto,usaa,usaa,usaa
+2019-10-29T00:00:00Z,FOXNEWSW_20191029_220000_Special_Report_With_Bret_Baier,usaa,usaa,usaa
+2019-10-26T00:00:00Z,FOXNEWSW_20191026_090000_The_Five,usaa,usaa,usaa
+2019-10-28T00:00:00Z,FOXNEWSW_20191028_210000_The_Five,usaa,usaa,usaa
+2019-10-27T00:00:00Z,FOXNEWSW_20191027_200000_Americas_News_HQ,usaa,usaa,usaa
+2019-10-31T00:00:00Z,FOXNEWSW_20191031_180000_The_Daily_Briefing_With_Dana_Perino,unitedhealthcare,unitedhealthcare,uhc
+2019-10-31T00:00:00Z,FOXNEWSW_20191031_180000_The_Daily_Briefing_With_Dana_Perino,unitedhealthcare insurance company,unitedhealthcare,uhc
+2019-11-01T00:00:00Z,FOXNEWSW_20191101_200000_Your_World_With_Neil_Cavuto,unitedhealthcare insurance company,unitedhealthcare,uhc
+2019-10-31T00:00:00Z,FOXNEWSW_20191031_190000_Fox_News_Reporting,unitedhealthcare insurance company,unitedhealthcare,uhc
+2019-11-01T00:00:00Z,FOXNEWSW_20191101_180000_The_Daily_Briefing_With_Dana_Perino,unitedhealthcare,unitedhealthcare,uhc
+2019-10-29T00:00:00Z,FOXNEWSW_20191029_190000_Fox_News_Reporting,unitedhealthcare insurance company,unitedhealthcare,uhc
+2019-10-29T00:00:00Z,FOXNEWSW_20191029_190000_Fox_News_Reporting,unitedhealthcare,unitedhealthcare,uhc
+2019-10-31T00:00:00Z,FOXNEWSW_20191031_200000_Your_World_With_Neil_Cavuto,unitedhealthcare insurance company,unitedhealthcare,uhc
+2019-11-01T00:00:00Z,FOXNEWSW_20191101_180000_The_Daily_Briefing_With_Dana_Perino,unitedhealthcare insurance company,unitedhealthcare,uhc
+2019-10-30T00:00:00Z,FOXNEWSW_20191030_200000_Your_World_With_Neil_Cavuto,unitedhealthcare insurance company,unitedhealthcare,uhc
+2019-10-26T00:00:00Z,FOXNEWSW_20191026_160000_Americas_News_HQ,unitedhealthcare,unitedhealthcare,uhc
+2019-10-28T00:00:00Z,FOXNEWSW_20191028_030000_Town_Hall_America_with_Harris_Faulkner_Police_Emergency,tracfone,tracfone,tracfonecalls
+2019-11-01T00:00:00Z,FOXNEWSW_20191101_030000_Fox_News__Night_With_Shannon_Bream,tracfone,tracfone,tracfonecalls
+2019-10-27T00:00:00Z,FOXNEWSW_20191027_190000_The_Journal_Editorial_Report,tracfone,tracfone,tracfonecalls
+2019-10-28T00:00:00Z,FOXNEWSW_20191028_040000_The_Next_Revolution_With_Steve_Hilton,entyvio,takeda,takedapharma
+2019-10-27T00:00:00Z,FOXNEWSW_20191027_030000_Watters_World,entyvio,takeda,takedapharma
+2019-10-28T00:00:00Z,FOXNEWSW_20191028_050000_Life_Liberty__Levin,entyvio,takeda,takedapharma
+2019-10-27T00:00:00Z,FOXNEWSW_20191027_050000_The_Greg_Gutfeld_Show,entyvio,takeda,takedapharma
+2019-10-26T00:00:00Z,FOXNEWSW_20191026_090000_The_Five,sofi,sofi,sofi
+2019-10-28T00:00:00Z,FOXNEWSW_20191028_230000_The_Story_With_Martha_MacCallum,vicks sinex,procter & gamble,proctergamble
+2019-10-28T00:00:00Z,FOXNEWSW_20191028_000000_Town_Hall_America_with_Harris_Faulkner_Police_Emergency,little fleet,prestige consumer healthcare,
+2019-10-27T00:00:00Z,FOXNEWSW_20191027_020000_The_Greg_Gutfeld_Show,little fleet,prestige consumer healthcare,
+2019-10-31T00:00:00Z,FOXNEWSW_20191031_190000_Fox_News_Reporting,pg&e,pg&e,pge4me
+2019-10-27T00:00:00Z,FOXNEWSW_20191027_200000_Americas_News_HQ,pg&e,pg&e,pge4me
+2019-11-01T00:00:00Z,FOXNEWSW_20191101_180000_The_Daily_Briefing_With_Dana_Perino,cosentyx,novartis,novartis
+2019-10-28T00:00:00Z,FOXNEWSW_20191028_090000_Fox_and_Friends_First,norton,norton,nortononline
+2019-10-29T00:00:00Z,FOXNEWSW_20191029_070000_Fox_News__Night_With_Shannon_Bream,norton,norton,nortononline
+2019-10-31T00:00:00Z,FOXNEWSW_20191031_080000_Fox_and_Friends_First,norton,norton,nortononline
+2019-10-26T00:00:00Z,FOXNEWSW_20191026_060000_The_Ingraham_Angle,norton,norton,nortononline
+2019-10-31T00:00:00Z,FOXNEWSW_20191031_070000_Fox_News__Night_With_Shannon_Bream,norton,norton,nortononline
+2019-11-01T00:00:00Z,FOXNEWSW_20191101_070000_Fox_News__Night_With_Shannon_Bream,norton,norton,nortononline
+2019-10-30T00:00:00Z,FOXNEWSW_20191030_070000_Fox_News__Night_With_Shannon_Bream,norton,norton,nortononline
+2019-10-30T00:00:00Z,FOXNEWSW_20191030_080000_Fox_and_Friends_First,norton,norton,nortononline
+2019-11-01T00:00:00Z,FOXNEWSW_20191101_000000_Tucker_Carlson_Tonight,newday,newday usa,newdayusa
+2019-10-29T00:00:00Z,FOXNEWSW_20191029_000000_Tucker_Carlson_Tonight,newday usa,newday usa,newdayusa
+2019-11-01T00:00:00Z,FOXNEWSW_20191101_190000_Fox_News_Reporting,newday usa,newday usa,newdayusa
+2019-10-28T00:00:00Z,FOXNEWSW_20191028_130000_Americas_Newsroom_With_Bill_Hemmer_and_Sandra_Smith,newday usa,newday usa,newdayusa
+2019-10-30T00:00:00Z,FOXNEWSW_20191030_180000_The_Daily_Briefing_With_Dana_Perino,newday usa,newday usa,newdayusa
+2019-10-30T00:00:00Z,FOXNEWSW_20191030_160000_Outnumbered,newday usa,newday usa,newdayusa
+2019-10-29T00:00:00Z,FOXNEWSW_20191029_170000_Outnumbered_Overtime_With_Harris_Faulkner,newday usa,newday usa,newdayusa
+2019-10-26T00:00:00Z,FOXNEWSW_20191026_180000_Americas_News_HQ,mercedes-benz,mercedes-benz,mercedesbenz
+2019-10-27T00:00:00Z,FOXNEWSW_20191027_170000_Americas_News_HQ,mercedes-benz,mercedes-benz,mercedesbenz
+2019-11-01T00:00:00Z,FOXNEWSW_20191101_090000_Fox_and_Friends_First,mcdonald,mcdonald's,mcdonaldscorp
+2019-10-30T00:00:00Z,FOXNEWSW_20191030_080000_Fox_and_Friends_First,lifelock,lifelock,lifelock
+2019-10-29T00:00:00Z,FOXNEWSW_20191029_080000_Fox_and_Friends_First,lifelock,lifelock,lifelock
+2019-10-31T00:00:00Z,FOXNEWSW_20191031_070000_Fox_News__Night_With_Shannon_Bream,lifelock,lifelock,lifelock
+2019-10-26T00:00:00Z,FOXNEWSW_20191026_060000_The_Ingraham_Angle,lifelock,lifelock,lifelock
+2019-10-26T00:00:00Z,FOXNEWSW_20191026_060000_The_Ingraham_Angle,lifelock.com tv,lifelock,lifelock
+2019-10-31T00:00:00Z,FOXNEWSW_20191031_080000_Fox_and_Friends_First,lifelock,lifelock,lifelock
+2019-10-27T00:00:00Z,FOXNEWSW_20191027_090000_FOX_Report_With_Jon_Scott,lifelock,lifelock,lifelock
+2019-10-30T00:00:00Z,FOXNEWSW_20191030_070000_Fox_News__Night_With_Shannon_Bream,lifelock,lifelock,lifelock
+2019-10-29T00:00:00Z,FOXNEWSW_20191029_070000_Fox_News__Night_With_Shannon_Bream,lifelock,lifelock,lifelock
+2019-11-01T00:00:00Z,FOXNEWSW_20191101_080000_Fox_and_Friends_First,lifelock,lifelock,lifelock
+2019-10-28T00:00:00Z,FOXNEWSW_20191028_090000_Fox_and_Friends_First,lifelock,lifelock,lifelock
+2019-10-29T00:00:00Z,FOXNEWSW_20191029_070000_Fox_News__Night_With_Shannon_Bream,lifelock.com tv,lifelock,lifelock
+2019-10-31T00:00:00Z,FOXNEWSW_20191031_090000_Fox_and_Friends_First,zoltar,liberty mutual,libertymutual
+2019-11-01T00:00:00Z,FOXNEWSW_20191101_190000_Fox_News_Reporting,zoltar,liberty mutual,libertymutual
+2019-10-27T00:00:00Z,FOXNEWSW_20191027_190000_The_Journal_Editorial_Report,zoltar,liberty mutual,libertymutual
+2019-10-30T00:00:00Z,FOXNEWSW_20191030_230000_The_Story_With_Martha_MacCallum,liberty mutual,liberty mutual,libertymutual
+2019-10-30T00:00:00Z,FOXNEWSW_20191030_090000_Fox_and_Friends_First,legacybox,legacybox,legacybox
+2019-10-26T00:00:00Z,FOXNEWSW_20191026_230000_Life_Liberty__Levin,oscar mayer deli fresh your,kraft heinz company,kraftheinzco
+2019-10-27T00:00:00Z,FOXNEWSW_20191027_210000_The_Greg_Gutfeld_Show,kraft,kraft heinz company,kraftheinzco
+2019-10-29T00:00:00Z,FOXNEWSW_20191029_130000_Americas_Newsroom_With_Bill_Hemmer_and_Sandra_Smith,kohler,kohler,kohler
+2019-10-29T00:00:00Z,FOXNEWSW_20191029_130000_Americas_Newsroom_With_Bill_Hemmer_and_Sandra_Smith,humana,humana,humana
+2019-10-30T00:00:00Z,FOXNEWSW_20191030_170000_Outnumbered_Overtime_With_Harris_Faulkner,humana,humana,humana
+2019-10-29T00:00:00Z,FOXNEWSW_20191029_100000_FOX__Friends,humana,humana,humana
+2019-11-01T00:00:00Z,FOXNEWSW_20191101_130000_Americas_Newsroom_With_Bill_Hemmer_and_Sandra_Smith,humana,humana,humana
+2019-10-30T00:00:00Z,FOXNEWSW_20191030_160000_Outnumbered,humana,humana,humana
+2019-11-01T00:00:00Z,FOXNEWSW_20191101_180000_The_Daily_Briefing_With_Dana_Perino,humana,humana,humana
+2019-10-29T00:00:00Z,FOXNEWSW_20191029_170000_Outnumbered_Overtime_With_Harris_Faulkner,humana,humana,humana
+2019-11-01T00:00:00Z,FOXNEWSW_20191101_170000_Outnumbered_Overtime_With_Harris_Faulkner,humana,humana,humana
+2019-11-01T00:00:00Z,FOXNEWSW_20191101_160000_Outnumbered,humana,humana,humana
+2019-10-29T00:00:00Z,FOXNEWSW_20191029_190000_Fox_News_Reporting,humana,humana,humana
+2019-11-01T00:00:00Z,FOXNEWSW_20191101_100000_FOX__Friends,humana,humana,humana
+2019-10-28T00:00:00Z,FOXNEWSW_20191028_190000_Fox_News_Reporting,humana,humana,humana
+2019-10-27T00:00:00Z,FOXNEWSW_20191027_200000_Americas_News_HQ,humana,humana,humana
+2019-11-01T00:00:00Z,FOXNEWSW_20191101_230000_The_Story_With_Martha_MacCallum,humana,humana,humana
+2019-10-31T00:00:00Z,FOXNEWSW_20191031_130000_Americas_Newsroom_With_Bill_Hemmer_and_Sandra_Smith,humana,humana,humana
+2019-10-28T00:00:00Z,FOXNEWSW_20191028_130000_Americas_Newsroom_With_Bill_Hemmer_and_Sandra_Smith,humana,humana,humana
+2019-10-26T00:00:00Z,FOXNEWSW_20191026_190000_The_Journal_Editorial_Report,humana,humana,humana
+2019-10-27T00:00:00Z,FOXNEWSW_20191027_190000_The_Journal_Editorial_Report,humana,humana,humana
+2019-10-26T00:00:00Z,FOXNEWSW_20191026_200000_Americas_News_HQ,humana,humana,humana
+2019-10-31T00:00:00Z,FOXNEWSW_20191031_170000_Outnumbered_Overtime_With_Harris_Faulkner,humana,humana,humana
+2019-10-27T00:00:00Z,FOXNEWSW_20191027_180000_Fox_News_Sunday_With_Chris_Wallace,humana,humana,humana
+2019-10-27T00:00:00Z,FOXNEWSW_20191027_170000_Americas_News_HQ,humana,humana,humana
+2019-10-31T00:00:00Z,FOXNEWSW_20191031_230000_The_Story_With_Martha_MacCallum,humana,humana,humana
+2019-10-27T00:00:00Z,FOXNEWSW_20191027_160000_Americas_News_HQ,humana,humana,humana
+2019-10-30T00:00:00Z,FOXNEWSW_20191030_080000_Fox_and_Friends_First,healthmarkets,healthmarkets,healthmarkets
+2019-10-27T00:00:00Z,FOXNEWSW_20191027_200000_Americas_News_HQ,healthmarkets,healthmarkets,healthmarkets
+2019-10-31T00:00:00Z,FOXNEWSW_20191031_060000_The_Ingraham_Angle,healthmarkets,healthmarkets,healthmarkets
+2019-10-27T00:00:00Z,FOXNEWSW_20191027_060000_Watters_World,healthmarkets,healthmarkets,healthmarkets
+2019-10-28T00:00:00Z,FOXNEWSW_20191028_080000_Fox_and_Friends_First,healthmarkets,healthmarkets,healthmarkets
+2019-10-31T00:00:00Z,FOXNEWSW_20191031_200000_Your_World_With_Neil_Cavuto,geico,geico,geico
+2019-10-29T00:00:00Z,FOXNEWSW_20191029_210000_The_Five,geico,geico,geico
+2019-11-01T00:00:00Z,FOXNEWSW_20191101_200000_Your_World_With_Neil_Cavuto,geico,geico,geico
+2019-10-31T00:00:00Z,FOXNEWSW_20191031_220000_Special_Report_With_Bret_Baier,geico,geico,geico
+2019-10-28T00:00:00Z,FOXNEWSW_20191028_210000_The_Five,geico,geico,geico
+2019-10-26T00:00:00Z,FOXNEWSW_20191026_160000_Americas_News_HQ,geico,geico,geico
+2019-10-28T00:00:00Z,FOXNEWSW_20191028_230000_The_Story_With_Martha_MacCallum,geico,geico,geico
+2019-10-27T00:00:00Z,FOXNEWSW_20191027_180000_Fox_News_Sunday_With_Chris_Wallace,geico,geico,geico
+2019-10-29T00:00:00Z,FOXNEWSW_20191029_200000_Your_World_With_Neil_Cavuto,geico,geico,geico
+2019-10-31T00:00:00Z,FOXNEWSW_20191031_190000_Fox_News_Reporting,geico,geico,geico
+2019-10-29T00:00:00Z,FOXNEWSW_20191029_030000_Fox_News__Night_With_Shannon_Bream,geico,geico,geico
+2019-10-28T00:00:00Z,FOXNEWSW_20191028_050000_Life_Liberty__Levin,geico,geico,geico
+2019-10-28T00:00:00Z,FOXNEWSW_20191028_040000_The_Next_Revolution_With_Steve_Hilton,geico,geico,geico
+2019-11-01T00:00:00Z,FOXNEWSW_20191101_190000_Fox_News_Reporting,geico,geico,geico
+2019-10-28T00:00:00Z,FOXNEWSW_20191028_020000_Life_Liberty__Levin,geico,geico,geico
+2019-10-28T00:00:00Z,FOXNEWSW_20191028_010000_The_Next_Revolution_With_Steve_Hilton,geico,geico,geico
+2019-10-30T00:00:00Z,FOXNEWSW_20191030_220000_Special_Report_With_Bret_Baier,geico,geico,geico
+2019-10-27T00:00:00Z,FOXNEWSW_20191027_230000_Fox_News_Sunday_With_Chris_Wallace,geico,geico,geico
+2019-10-27T00:00:00Z,FOXNEWSW_20191027_150000_MediaBuzz,jardiance,eli lilly,lillypad
+2019-10-29T00:00:00Z,FOXNEWSW_20191029_220000_Special_Report_With_Bret_Baier,jardiance,eli lilly,lillypad
+2019-10-27T00:00:00Z,FOXNEWSW_20191027_080000_The_Greg_Gutfeld_Show,xfinity,comcast,comcast
+2019-10-28T00:00:00Z,FOXNEWSW_20191028_080000_Fox_and_Friends_First,comcast business,comcast,comcast
+2019-10-27T00:00:00Z,FOXNEWSW_20191027_150000_MediaBuzz,comcast business,comcast,comcast
+2019-10-27T00:00:00Z,FOXNEWSW_20191027_160000_Americas_News_HQ,comcast business,comcast,comcast
+2019-10-28T00:00:00Z,FOXNEWSW_20191028_000000_Town_Hall_America_with_Harris_Faulkner_Police_Emergency,cigna,cigna,cigna
+2019-10-31T00:00:00Z,FOXNEWSW_20191031_090000_Fox_and_Friends_First,chevy,chevrolet,chevrolet
+2019-10-28T00:00:00Z,FOXNEWSW_20191028_050000_Life_Liberty__Levin,chevy,chevrolet,chevrolet
+2019-10-27T00:00:00Z,FOXNEWSW_20191027_180000_Fox_News_Sunday_With_Chris_Wallace,chevy,chevrolet,chevrolet
+2019-11-01T00:00:00Z,FOXNEWSW_20191101_100000_FOX__Friends,chevy,chevrolet,chevrolet
+2019-10-27T00:00:00Z,FOXNEWSW_20191027_210000_The_Greg_Gutfeld_Show,chevy,chevrolet,chevrolet
+2019-11-01T00:00:00Z,FOXNEWSW_20191101_090000_Fox_and_Friends_First,chevy,chevrolet,chevrolet
+2019-10-31T00:00:00Z,FOXNEWSW_20191031_200000_Your_World_With_Neil_Cavuto,schwab,charles schwab corporation,charlesschwab
+2019-10-27T00:00:00Z,FOXNEWSW_20191027_220000_FOX_Report_With_Jon_Scott,schwab,charles schwab corporation,charlesschwab
+2019-10-27T00:00:00Z,FOXNEWSW_20191027_170000_Americas_News_HQ,schwab,charles schwab corporation,charlesschwab
+2019-10-30T00:00:00Z,FOXNEWSW_20191030_230000_The_Story_With_Martha_MacCallum,otezla,celgene,celgene
+2019-10-31T00:00:00Z,FOXNEWSW_20191031_230000_The_Story_With_Martha_MacCallum,otezla,celgene,celgene
+2019-10-31T00:00:00Z,FOXNEWSW_20191031_190000_Fox_News_Reporting,otezla,celgene,celgene
+2019-10-31T00:00:00Z,FOXNEWSW_20191031_220000_Special_Report_With_Bret_Baier,otezla,celgene,celgene
+2019-11-01T00:00:00Z,FOXNEWSW_20191101_230000_The_Story_With_Martha_MacCallum,otezla,celgene,celgene
+2019-10-30T00:00:00Z,FOXNEWSW_20191030_220000_Special_Report_With_Bret_Baier,otezla,celgene,celgene
+2019-10-28T00:00:00Z,FOXNEWSW_20191028_030000_Town_Hall_America_with_Harris_Faulkner_Police_Emergency,otezla,celgene,celgene
+2019-11-01T00:00:00Z,FOXNEWSW_20191101_220000_Special_Report_With_Bret_Baier,otezla,celgene,celgene
+2019-11-01T00:00:00Z,FOXNEWSW_20191101_210000_The_Five,otezla,celgene,celgene
+2019-10-27T00:00:00Z,FOXNEWSW_20191027_020000_The_Greg_Gutfeld_Show,otezla,celgene,celgene
+2019-10-27T00:00:00Z,FOXNEWSW_20191027_030000_Watters_World,otezla,celgene,celgene
+2019-10-27T00:00:00Z,FOXNEWSW_20191027_090000_FOX_Report_With_Jon_Scott,otezla,celgene,celgene
+2019-10-27T00:00:00Z,FOXNEWSW_20191027_160000_Americas_News_HQ,otezla,celgene,celgene
+2019-10-27T00:00:00Z,FOXNEWSW_20191027_220000_FOX_Report_With_Jon_Scott,otezla,celgene,celgene
+2019-10-28T00:00:00Z,FOXNEWSW_20191028_010000_The_Next_Revolution_With_Steve_Hilton,otezla,celgene,celgene
+2019-10-28T00:00:00Z,FOXNEWSW_20191028_010000_The_Next_Revolution_With_Steve_Hilton,otezla,celgene,celgene
+2019-10-28T00:00:00Z,FOXNEWSW_20191028_020000_Life_Liberty__Levin,otezla,celgene,celgene
+2019-10-28T00:00:00Z,FOXNEWSW_20191028_020000_Life_Liberty__Levin,otezla,celgene,celgene
+2019-10-30T00:00:00Z,FOXNEWSW_20191030_090000_Fox_and_Friends_First,otezla,celgene,celgene
+2019-10-31T00:00:00Z,FOXNEWSW_20191031_210000_The_Five,otezla,celgene,celgene
+2019-10-28T00:00:00Z,FOXNEWSW_20191028_030000_Town_Hall_America_with_Harris_Faulkner_Police_Emergency,otezla,celgene,celgene
+2019-10-31T00:00:00Z,FOXNEWSW_20191031_210000_The_Five,otezla,celgene,celgene
+2019-10-28T00:00:00Z,FOXNEWSW_20191028_190000_Fox_News_Reporting,otezla,celgene,celgene
+2019-10-28T00:00:00Z,FOXNEWSW_20191028_210000_The_Five,otezla,celgene,celgene
+2019-10-28T00:00:00Z,FOXNEWSW_20191028_220000_Special_Report_With_Bret_Baier,otezla,celgene,celgene
+2019-11-01T00:00:00Z,FOXNEWSW_20191101_170000_Outnumbered_Overtime_With_Harris_Faulkner,otezla,celgene,celgene
+2019-10-29T00:00:00Z,FOXNEWSW_20191029_220000_Special_Report_With_Bret_Baier,otezla,celgene,celgene
+2019-10-29T00:00:00Z,FOXNEWSW_20191029_230000_The_Story_With_Martha_MacCallum,otezla,celgene,celgene
+2019-10-30T00:00:00Z,FOXNEWSW_20191030_030000_Fox_News__Night_With_Shannon_Bream,otezla,celgene,celgene
+2019-10-28T00:00:00Z,FOXNEWSW_20191028_020000_Life_Liberty__Levin,carvana,carvana,carvana
+2019-10-28T00:00:00Z,FOXNEWSW_20191028_000000_Town_Hall_America_with_Harris_Faulkner_Police_Emergency,carvana,carvana,carvana
+2019-10-28T00:00:00Z,FOXNEWSW_20191028_030000_Town_Hall_America_with_Harris_Faulkner_Police_Emergency,cancer treatment centers of america,cancer treatment centers of america,cancercenter
+2019-10-26T00:00:00Z,FOXNEWSW_20191026_010000_Hannity,bp,bp,bp_plc
+2019-11-01T00:00:00Z,FOXNEWSW_20191101_190000_Fox_News_Reporting,bayer,bayer,bayer
+2019-10-31T00:00:00Z,FOXNEWSW_20191031_230000_The_Story_With_Martha_MacCallum,bayer,bayer,bayer
+2019-10-29T00:00:00Z,FOXNEWSW_20191029_160000_Outnumbered,bayer,bayer,bayer
+2019-10-31T00:00:00Z,FOXNEWSW_20191031_170000_Outnumbered_Overtime_With_Harris_Faulkner,bayer,bayer,bayer
+2019-10-29T00:00:00Z,FOXNEWSW_20191029_230000_The_Story_With_Martha_MacCallum,bayer,bayer,bayer
+2019-10-28T00:00:00Z,FOXNEWSW_20191028_180000_The_Daily_Briefing_With_Dana_Perino,bayer,bayer,bayer
+2019-10-28T00:00:00Z,FOXNEWSW_20191028_020000_Life_Liberty__Levin,bayer,bayer,bayer
+2019-10-26T00:00:00Z,FOXNEWSW_20191026_140000_Cavuto_Live,brilinta,astrazeneca,astrazeneca
+2019-10-27T00:00:00Z,FOXNEWSW_20191027_000000_Watters_World,brilinta,astrazeneca,astrazeneca
+2019-10-27T00:00:00Z,FOXNEWSW_20191027_150000_MediaBuzz,brilinta,astrazeneca,astrazeneca
+2019-10-28T00:00:00Z,FOXNEWSW_20191028_000000_Town_Hall_America_with_Harris_Faulkner_Police_Emergency,brilinta,astrazeneca,astrazeneca
+2019-10-28T00:00:00Z,FOXNEWSW_20191028_050000_Life_Liberty__Levin,brilinta,astrazeneca,astrazeneca
+2019-10-28T00:00:00Z,FOXNEWSW_20191028_050000_Life_Liberty__Levin,aspen dental,aspen dental,aspendental
+2019-10-30T00:00:00Z,FOXNEWSW_20191030_010000_Hannity,aspen dental,aspen dental,aspendental
+2019-10-30T00:00:00Z,FOXNEWSW_20191030_040000_Tucker_Carlson_Tonight,aspen dental,aspen dental,aspendental
+2019-10-26T00:00:00Z,FOXNEWSW_20191026_000000_Tucker_Carlson_Tonight,aspen dental,aspen dental,aspendental
+2019-11-01T00:00:00Z,FOXNEWSW_20191101_000000_Tucker_Carlson_Tonight,aspen dental,aspen dental,aspendental
+2019-10-27T00:00:00Z,FOXNEWSW_20191027_050000_The_Greg_Gutfeld_Show,aspen dental,aspen dental,aspendental
+2019-10-26T00:00:00Z,FOXNEWSW_20191026_030000_Fox_News__Night_With_Shannon_Bream,aspen dental,aspen dental,aspendental
+2019-10-29T00:00:00Z,FOXNEWSW_20191029_210000_The_Five,aspen dental,aspen dental,aspendental
+2019-10-29T00:00:00Z,FOXNEWSW_20191029_130000_Americas_Newsroom_With_Bill_Hemmer_and_Sandra_Smith,aag,american advisors group,aagreverse
+2019-10-29T00:00:00Z,FOXNEWSW_20191029_180000_The_Daily_Briefing_With_Dana_Perino,aag,american advisors group,aagreverse
+2019-10-31T00:00:00Z,FOXNEWSW_20191031_200000_Your_World_With_Neil_Cavuto,aag,american advisors group,aagreverse
+2019-10-30T00:00:00Z,FOXNEWSW_20191030_130000_Americas_Newsroom_With_Bill_Hemmer_and_Sandra_Smith,aag,american advisors group,aagreverse
+2019-10-31T00:00:00Z,FOXNEWSW_20191031_170000_Outnumbered_Overtime_With_Harris_Faulkner,aag,american advisors group,aagreverse
+2019-10-31T00:00:00Z,FOXNEWSW_20191031_180000_The_Daily_Briefing_With_Dana_Perino,aag,american advisors group,aagreverse
+2019-11-01T00:00:00Z,FOXNEWSW_20191101_220000_Special_Report_With_Bret_Baier,allstate,allstate,allstate
+2019-10-31T00:00:00Z,FOXNEWSW_20191031_210000_The_Five,allstate,allstate,allstate
+2019-10-31T00:00:00Z,FOXNEWSW_20191031_220000_Special_Report_With_Bret_Baier,humira,abbvie,abbvie
+2019-10-26T00:00:00Z,FOXNEWSW_20191026_160000_Americas_News_HQ,humira,abbvie,abbvie
+2019-10-29T00:00:00Z,FOXNEWSW_20191029_160000_Outnumbered,humira,abbvie,abbvie
+2019-11-01T00:00:00Z,FOXNEWSW_20191101_160000_Outnumbered,humira,abbvie,abbvie
+2019-10-28T00:00:00Z,FOXNEWSW_20191028_230000_The_Story_With_Martha_MacCallum,humira,abbvie,abbvie
+2019-10-30T00:00:00Z,FOXNEWSW_20191030_090000_Fox_and_Friends_First,humira,abbvie,abbvie
+2019-10-30T00:00:00Z,FOXNEWSW_20191030_190000_Fox_News_Reporting,humira,abbvie,abbvie
+2019-10-27T00:00:00Z,FOXNEWSW_20191027_190000_The_Journal_Editorial_Report,humira,abbvie,abbvie
+2019-10-31T00:00:00Z,FOXNEWSW_20191031_200000_Your_World_With_Neil_Cavuto,aarp,aarp,aarp
+2019-10-29T00:00:00Z,FOXNEWSW_20191029_200000_Your_World_With_Neil_Cavuto,aarp,aarp,aarp
+2019-10-31T00:00:00Z,FOXNEWSW_20191031_190000_Fox_News_Reporting,aarp,aarp,aarp
+2019-10-31T00:00:00Z,FOXNEWSW_20191031_180000_The_Daily_Briefing_With_Dana_Perino,aarp,aarp,aarp
+2019-10-28T00:00:00Z,FOXNEWSW_20191028_200000_Your_World_With_Neil_Cavuto,aarp,aarp,aarp
+2019-11-01T00:00:00Z,FOXNEWSW_20191101_180000_The_Daily_Briefing_With_Dana_Perino,aarp,aarp,aarp
+2019-10-30T00:00:00Z,FOXNEWSW_20191030_190000_Fox_News_Reporting,aarp,aarp,aarp
+2019-10-27T00:00:00Z,FOXNEWSW_20191027_210000_The_Greg_Gutfeld_Show,shipsticks.com,ship sticks,shipsticks
