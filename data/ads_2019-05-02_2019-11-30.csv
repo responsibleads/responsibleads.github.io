@@ -7493,99 +7493,25 @@ date,identifier,product,company_name,company_twitter
 2019-10-31T00:00:00Z,FOXNEWSW_20191031_200000_Your_World_With_Neil_Cavuto,aarp,aarp,aarp
 2019-11-14T00:00:00Z,FOXNEWSW_20191114_210000_Your_World_With_Neil_Cavuto,aarp,aarp,aarp
 2019-10-24T00:00:00Z,FOXNEWSW_20191024_170000_Outnumbered_Overtime_With_Harris_Faulkner,3m,3m,3m
-2019-11-10T00:00:00Z,FOXNEWSW_20191110_030000_The_Greg_Gutfeld_Show,comcast spotlight,,
-2019-11-10T00:00:00Z,FOXNEWSW_20191110_030000_The_Greg_Gutfeld_Show,effectv,,
-2019-11-10T00:00:00Z,FOXNEWSW_20191110_040000_Watters_World,biden joe biden,,
-2019-11-10T00:00:00Z,FOXNEWSW_20191110_060000_The_Greg_Gutfeld_Show,cent boneless wings,,
-2019-11-13T00:00:00Z,FOXNEWSW_20191113_100000_Fox_and_Friends_First,brianna williams,,
-2019-11-14T00:00:00Z,FOXNEWSW_20191114_180000_Outnumbered_Overtime_With_Harris_Faulkner,perimeter,,
-2019-11-15T00:00:00Z,FOXNEWSW_20191115_170000_Outnumbered,politico,,
-2019-09-17T00:00:00Z,FOXNEWSW_20190917_210000_The_Five,glc,,
-2019-09-18T00:00:00Z,FOXNEWSW_20190918_090000_Fox_and_Friends_First,glc,,
-2019-09-19T00:00:00Z,FOXNEWSW_20190919_220000_Special_Report_With_Bret_Baier,saab,,
-2019-09-20T00:00:00Z,FOXNEWSW_20190920_030000_Fox_News__Night_With_Shannon_Bream,saab,,
-2019-09-20T00:00:00Z,FOXNEWSW_20190920_080000_Fox_and_Friends_First,cis,,
-2019-09-20T00:00:00Z,FOXNEWSW_20190920_100000_FOX__Friends,saab,,
-2019-10-18T00:00:00Z,FOXNEWSW_20191018_070000_Fox_News__Night_With_Shannon_Bream,eliza cummings,,
-2019-10-18T00:00:00Z,FOXNEWSW_20191018_160000_Outnumbered,brewer,,
-2019-08-19T00:00:00Z,FOXNEWSW_20190819_070000_MediaBuzz,national enquirer,,
-2019-08-23T00:00:00Z,FOXNEWSW_20190823_200000_Your_World_With_Neil_Cavuto,mcdonald 's u.s.a.,,
-2019-05-23T00:00:00Z,FOXNEWSW_20190523_210000_The_Five,johnnie walker,,
-2019-05-28T00:00:00Z,FOXNEWSW_20190528_000000_Tucker_Carlson_Tonight_Special_Ultimate_Final_Exam,vodka,,
-2019-05-28T00:00:00Z,FOXNEWSW_20190528_040000_Tucker_Carlson_Tonight_Special_Ultimate_Final_Exam,vodka,,
-2019-05-28T00:00:00Z,FOXNEWSW_20190528_080000_Fox_and_Friends_First,ihop,,
-2019-06-07T00:00:00Z,FOXNEWSW_20190607_190000_Shepard_Smith_Reporting,harley,,
-2019-07-16T00:00:00Z,FOXNEWSW_20190716_000000_Tucker_Carlson_Tonight,casio,,
-2019-07-16T00:00:00Z,FOXNEWSW_20190716_010000_Hannity,casio,,
-2019-07-16T00:00:00Z,FOXNEWSW_20190716_210000_The_Five,jetblue,,
-2019-07-20T00:00:00Z,FOXNEWSW_20190720_030000_Fox_News__Night_With_Shannon_Bream,alzheimer 's association walk,,
-2019-08-02T00:00:00Z,FOXNEWSW_20190802_040000_Tucker_Carlson_Tonight,nucor,,
-2019-08-05T00:00:00Z,FOXNEWSW_20190805_220000_Special_Report_With_Bret_Baier,shriners hospitals for children,,
-2019-06-14T00:00:00Z,FOXNEWSW_20190614_190000_Shepard_Smith_Reporting,linkedin,,
-2019-06-14T00:00:00Z,FOXNEWSW_20190614_190000_Shepard_Smith_Reporting,linkedin,,
-2019-06-18T00:00:00Z,FOXNEWSW_20190618_080000_Fox_and_Friends_First,southwest airlines,,
-2019-08-07T00:00:00Z,FOXNEWSW_20190807_060000_The_Ingraham_Angle,cnet,,
-2019-08-09T00:00:00Z,FOXNEWSW_20190809_090000_Fox_and_Friends_First,nbc universal,,
-2019-08-09T00:00:00Z,FOXNEWSW_20190809_160000_Outnumbered,equinox,,
-2019-08-09T00:00:00Z,FOXNEWSW_20190809_230000_The_Story_With_Martha_MacCallum,nbc universal,,
-2019-07-10T00:00:00Z,FOXNEWSW_20190710_030000_Fox_News__Night_With_Shannon_Bream,alz.org walk,,
-2019-08-31T00:00:00Z,FOXNEWSW_20190831_220000_FOX_Report_With_Jon_Scott,cinergy,,
-2019-09-01T00:00:00Z,FOXNEWSW_20190901_080000_The_Greg_Gutfeld_Show,jd power,,
-2019-09-02T00:00:00Z,FOXNEWSW_20190902_010000_The_Next_Revolution_With_Steve_Hilton,mcdonald 's,,
-2019-09-02T00:00:00Z,FOXNEWSW_20190902_010000_The_Next_Revolution_With_Steve_Hilton,maytag,,
-2019-09-02T00:00:00Z,FOXNEWSW_20190902_040000_The_Next_Revolution_With_Steve_Hilton,mcdonald 's,,
-2019-09-02T00:00:00Z,FOXNEWSW_20190902_040000_The_Next_Revolution_With_Steve_Hilton,maytag,,
-2019-09-04T00:00:00Z,FOXNEWSW_20190904_090000_Fox_and_Friends_First,royal caribbean,,
-2019-09-04T00:00:00Z,FOXNEWSW_20190904_230000_The_Story_With_Martha_MacCallum,shriners hospitals for children,,
-2019-05-30T00:00:00Z,FOXNEWSW_20190530_090000_Fox_and_Friends_First,campbells,,
-2019-05-31T00:00:00Z,FOXNEWSW_20190531_000000_Tucker_Carlson_Tonight,ihop,,
-2019-06-05T00:00:00Z,FOXNEWSW_20190605_230000_The_Story_With_Martha_MacCallum,shriners hospitals for children,,
-2019-07-26T00:00:00Z,FOXNEWSW_20190726_190000_Shepard_Smith_Reporting,alz.org walk,,
-2019-09-23T00:00:00Z,FOXNEWSW_20190923_160000_Outnumbered,newsday,,
-2019-09-23T00:00:00Z,FOXNEWSW_20190923_200000_Your_World_With_Neil_Cavuto,glc,,
-2019-09-24T00:00:00Z,FOXNEWSW_20190924_080000_Fox_and_Friends_First,jcpenney,,
-2019-09-24T00:00:00Z,FOXNEWSW_20190924_090000_Fox_and_Friends_First,jcpenney,,
-2019-09-24T00:00:00Z,FOXNEWSW_20190924_130000_Americas_Newsroom_With_Bill_Hemmer_and_Sandra_Smith,micron,,
-2019-09-25T00:00:00Z,FOXNEWSW_20190925_090000_Fox_and_Friends_First,takei,,
-2019-09-26T00:00:00Z,FOXNEWSW_20190926_000000_Tucker_Carlson_Tonight,anheuser-busch,,
-2019-09-26T00:00:00Z,FOXNEWSW_20190926_040000_Tucker_Carlson_Tonight,anheuser-busch,,
-2019-09-26T00:00:00Z,FOXNEWSW_20190926_090000_Fox_and_Friends_First,ihop,,
-2019-09-26T00:00:00Z,FOXNEWSW_20190926_090000_Fox_and_Friends_First,glc,,
-2019-10-20T00:00:00Z,FOXNEWSW_20191020_020000_The_Greg_Gutfeld_Show,armour,,
-2019-10-20T00:00:00Z,FOXNEWSW_20191020_050000_The_Greg_Gutfeld_Show,armour,,
-2019-10-20T00:00:00Z,FOXNEWSW_20191020_080000_The_Greg_Gutfeld_Show,armour,,
-2019-10-20T00:00:00Z,FOXNEWSW_20191020_210000_The_Greg_Gutfeld_Show,armour,,
-2019-10-21T00:00:00Z,FOXNEWSW_20191021_090000_Fox_and_Friends_First,fulcrum bioenergy,,
-2019-10-22T00:00:00Z,FOXNEWSW_20191022_030000_Fox_News__Night_With_Shannon_Bream,goiwagon,,
-2019-10-23T00:00:00Z,FOXNEWSW_20191023_230000_The_Story_With_Martha_MacCallum,nbc universal,,
-2019-10-25T00:00:00Z,FOXNEWSW_20191025_070000_Fox_News__Night_With_Shannon_Bream,national enquirer,,
-2019-10-25T00:00:00Z,FOXNEWSW_20191025_090000_Fox_and_Friends_First,med d. walgreens,,
-2019-10-25T00:00:00Z,FOXNEWSW_20191025_090000_Fox_and_Friends_First,medicare part d,,
-2019-09-28T00:00:00Z,FOXNEWSW_20190928_220000_FOX_Report_With_Jon_Scott,glc,,
-2019-09-29T00:00:00Z,FOXNEWSW_20190929_060000_Watters_World,comcast business securityedge,,
-2019-09-29T00:00:00Z,FOXNEWSW_20190929_140000_Sunday_Morning_Futures_With_Maria_Bartiromo,gcc,,
-2019-10-01T00:00:00Z,FOXNEWSW_20191001_080000_Fox_and_Friends_First,big mac,,
-2019-10-02T00:00:00Z,FOXNEWSW_20191002_180000_The_Daily_Briefing_With_Dana_Perino,nokia,,
-2019-10-02T00:00:00Z,FOXNEWSW_20191002_200000_Your_World_With_Neil_Cavuto,sca,,
-2019-10-03T00:00:00Z,FOXNEWSW_20191003_190000_Shepard_Smith_Reporting,mgm,,
-2019-10-04T00:00:00Z,FOXNEWSW_20191004_030000_Fox_News__Night_With_Shannon_Bream,grill combos,,
-2019-10-04T00:00:00Z,FOXNEWSW_20191004_040000_Tucker_Carlson_Tonight,reginald,,
-2019-10-05T00:00:00Z,FOXNEWSW_20191005_000000_Tucker_Carlson_Tonight,cpl,,
-2019-10-07T00:00:00Z,FOXNEWSW_20191007_000000_Fox_Nation_In_Depth,st. jude,,
-2019-10-07T00:00:00Z,FOXNEWSW_20191007_010000_The_Next_Revolution_With_Steve_Hilton,grill combos,,
-2019-11-16T00:00:00Z,FOXNEWSW_20191116_040000_Fox_News__Night_With_Shannon_Bream,ultra wideband,,
-2019-11-17T00:00:00Z,FOXNEWSW_20191117_060000_The_Greg_Gutfeld_Show,henleys,,
-2019-11-18T00:00:00Z,FOXNEWSW_20191118_220000_The_Five,shriners hospitals for children,,
-2019-11-20T00:00:00Z,FOXNEWSW_20191120_040000_Fox_News__Night_With_Shannon_Bream,aaa,,
-2019-10-29T00:00:00Z,FOXNEWSW_20191029_080000_Fox_and_Friends_First,royal caribbean,,
-2019-10-29T00:00:00Z,FOXNEWSW_20191029_180000_The_Daily_Briefing_With_Dana_Perino,royal caribbean,,
-2019-10-30T00:00:00Z,FOXNEWSW_20191030_210000_The_Five,shriners hospitals for children,,
-2019-11-01T00:00:00Z,FOXNEWSW_20191101_190000_Fox_News_Reporting,crespo,,
-2019-11-01T00:00:00Z,FOXNEWSW_20191101_190000_Fox_News_Reporting,keegan randall,,
-2019-11-01T00:00:00Z,FOXNEWSW_20191101_200000_Your_World_With_Neil_Cavuto,popeye,,
-2019-11-28T00:00:00Z,FOXNEWSW_20191128_210000_Your_World_With_Neil_Cavuto,aaa,,
-2019-11-02T00:00:00Z,FOXNEWSW_20191102_220000_FOX_Report_With_Jon_Scott,bnb,,
-2019-11-04T00:00:00Z,FOXNEWSW_20191104_210000_Your_World_With_Neil_Cavuto,mcdonald 's,,
-2019-11-05T00:00:00Z,FOXNEWSW_20191105_200000_Fox_News_Reporting,popeye,,
-2019-11-07T00:00:00Z,FOXNEWSW_20191107_200000_Fox_News_Reporting,va streamline refi,,
-2019-11-07T00:00:00Z,FOXNEWSW_20191107_220000_The_Five,shriners hospitals for children,,
+2019-11-10T00:00:00Z,FOXNEWSW_20191110_030000_The_Greg_Gutfeld_Show,comcast spotlight,comcast,comcast
+2019-11-10T00:00:00Z,FOXNEWSW_20191110_030000_The_Greg_Gutfeld_Show,effectv,comcast,comcast
+2019-11-10T00:00:00Z,FOXNEWSW_20191110_060000_The_Greg_Gutfeld_Show,cent boneless wings,applebee's,applebees
+2019-09-17T00:00:00Z,FOXNEWSW_20190917_210000_The_Five,glc,mercedes-benz,mercedesbenz
+2019-09-18T00:00:00Z,FOXNEWSW_20190918_090000_Fox_and_Friends_First,glc,mercedes-benz,mercedesbenz
+2019-07-20T00:00:00Z,FOXNEWSW_20190720_030000_Fox_News__Night_With_Shannon_Bream,alzheimer 's association walk,alzheimer's association,alzassociation
+2019-08-05T00:00:00Z,FOXNEWSW_20190805_220000_Special_Report_With_Bret_Baier,shriners hospitals for children,shriners hospitals for children,shrinershosp
+2019-07-10T00:00:00Z,FOXNEWSW_20190710_030000_Fox_News__Night_With_Shannon_Bream,alz.org walk,alzheimer's association,alzassociation
+2019-09-04T00:00:00Z,FOXNEWSW_20190904_230000_The_Story_With_Martha_MacCallum,shriners hospitals for children,shriners hospitals for children,shrinershosp
+2019-06-05T00:00:00Z,FOXNEWSW_20190605_230000_The_Story_With_Martha_MacCallum,shriners hospitals for children,shriners hospitals for children,shrinershosp
+2019-07-26T00:00:00Z,FOXNEWSW_20190726_190000_Shepard_Smith_Reporting,alz.org walk,alzheimer's association,alzassociation
+2019-09-23T00:00:00Z,FOXNEWSW_20190923_200000_Your_World_With_Neil_Cavuto,glc,mercedes-benz,mercedesbenz
+2019-09-26T00:00:00Z,FOXNEWSW_20190926_090000_Fox_and_Friends_First,glc,mercedes-benz,mercedesbenz
+2019-10-25T00:00:00Z,FOXNEWSW_20191025_090000_Fox_and_Friends_First,med d. walgreens,walgreens,walgreens
+2019-10-25T00:00:00Z,FOXNEWSW_20191025_090000_Fox_and_Friends_First,medicare part d,walgreens,walgreens
+2019-09-28T00:00:00Z,FOXNEWSW_20190928_220000_FOX_Report_With_Jon_Scott,glc,mercedes-benz,mercedesbenz
+2019-09-29T00:00:00Z,FOXNEWSW_20190929_060000_Watters_World,comcast business securityedge,comcast,comcast
+2019-11-16T00:00:00Z,FOXNEWSW_20191116_040000_Fox_News__Night_With_Shannon_Bream,ultra wideband,verizon,verizonwireless
+2019-11-18T00:00:00Z,FOXNEWSW_20191118_220000_The_Five,shriners hospitals for children,shriners hospitals for children,shrinershosp
+2019-10-30T00:00:00Z,FOXNEWSW_20191030_210000_The_Five,shriners hospitals for children,shriners hospitals for children,shrinershosp
+2019-11-07T00:00:00Z,FOXNEWSW_20191107_200000_Fox_News_Reporting,va streamline refi,newday usa,newdayusa
+2019-11-07T00:00:00Z,FOXNEWSW_20191107_220000_The_Five,shriners hospitals for children,shriners hospitals for children,shrinershosp
