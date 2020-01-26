@@ -1,4 +1,4 @@
-company_name,company_twitter,parent_company,rel_end,description
+company_name,company_twitter,notes
 geico,geico,
 allstate,allstate,
 usaa,usaa,
@@ -282,7 +282,7 @@ oxiclean,toughstains,
 old navy,oldnavy,
 jpmorgan chase,jpmorgan,
 alcoa,alcoa,
-monsanto,,"No twitter available."
+monsanto"No twitter available."
 airasia,airasia,
 yahoo,yahoo,
 barnes & noble,bnbuzz,
@@ -353,7 +353,7 @@ petsmart,petsmart,
 life line screening,life_line,
 united rentals,united_rentals,
 boost drinks,boost_drinks,
-prestige consumer healthcare,,no known twitter account
+prestige consumer healthcare,no known twitter account
 dell,dell,
 babbel,babbel,
 lincoln financial,lincolnfingroup,
