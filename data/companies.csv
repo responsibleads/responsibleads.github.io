@@ -1,4 +1,4 @@
-company_name,company_twitter,description
+company_name,company_twitter,parent_company,rel_end,description
 geico,geico,
 allstate,allstate,
 usaa,usaa,
@@ -372,4 +372,3 @@ shriners hospitals for children,shrinershosp,
 intuit,intuit,
 bloomin brands,bloominbrands,
 rosland capital,roslandcapital1,
-
