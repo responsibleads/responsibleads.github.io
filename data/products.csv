@@ -1,802 +1,803 @@
 product,company_name,rel_end
-geico,geico
-allstate,allstate
-usaa,usaa
-humira,abbvie
-at&t,at&t
-otezla,celgene
-chantix,pfizer
-eliquis,pfizer
-lyrica,pfizer
-subaru,subaru
-verizon,verizon
-victoza,novo nordisk
-cialis,eli lilly
-entyvio,takeda
-celebrex,pfizer
-safelite,safelite
-liberty mutual,liberty mutual
-unitedhealthcare insurance company,unitedhealthcare
-liberty mutual insurance,liberty mutual
-mercedes-benz,mercedes-benz
-advil,advil
-google,google
-lifelock,lifelock
-comcast business,comcast
-dr. scholl,dr. scholl's
-scottrade,td ameritrade
-citi,citigroup
-spiriva,pfizer
-facebook,facebook
-tresiba,novo nordisk
-breo,glaxosmithkline
-volkswagen,volkswagen
-jublia,bausch health
-motorola,motorola
-entresto,novartis
-comcast,comcast
-symbicort,astrazeneca
-john deere,john deere
-biotene,glaxosmithkline
-tamiflu,roche
-advair,glaxosmithkline
-nfl,nfl
-aleve,bayer
-aarp,aarp
-farxiga,astrazeneca
-prevnar,pfizer
-nissan,nissan
-nascar,nascar
-toujeo,sanofi
-centrum,pfizer
-anoro,glaxosmithkline
-cymbalta,eli lilly
-credit karma,credit karma
-boeing,boeing
-t. rowe price,t. rowe price
-linzess,allergan
-myrbetriq,astellas
-lunesta,sunovian
-philips sonicare,philips
-pg&e,pg&e
-enbrel,amgen
-ozempic,novo nordisk
-tena,essity
-ace,ace hardware
-esurance,esurance
-jardiance,eli lilly
-hp,hp
-hpe,hp
-audi,audi
-harvoni,gilead sciences
-phillips,phillips 66
-humana,humana
-directv,at&t
-unitedhealthcare,unitedhealthcare
-starbucks,starbucks
-glucerna,abbott
-viagra,pfizer
-tempur-pedic,tempur-pedic
-viberzi,allergan
-gillette,procter & gamble
-nexium,astrazeneca
-pradaxa,boehringer ingelheim
-cosentyx,novartis
-purina,purina
-apple,apple
-t. rowe,t. rowe price
-prevagen,quincy bioscience
-espn,espn
-centurylink,centurylink
-idaho potatoes,idaho potato commission
-chevy,chevrolet
-aflac,aflac
-schwab,charles schwab corporation
-expedia,expedia
-prego,campbell soup company
-ocuvite,bausch health
-osteo bi-flex,nature's bounty
-cancer treatment centers of america,cancer treatment centers of america
-dulcolax,sanofi
-sony,sony
-clorox,clorox
-axiron,eli lilly
-brilinta,astrazeneca
-kellogg,kellogg company
-bank of america,bank of america
-idaho potato,idaho potato commission
-duracell,duracell
-alka-seltzer heartburn reliefchews,bayer
-zantac,sanofi
-transamerica,transamerica corporation
-januvia,merck
-taltz,eli lilly
-cool mint zantac,glaxosmithkline
-newday usa,newday usa
-miralax,bayer
-brokercheck,finra
-cvs health,cvs health
-bravecto,merck
-adt,adt
-exxon,exxon mobil
-cigna,cigna
-gm,gm
-subaru legacy,subaru
-volvo,volvo
-samsung,samsung
-siemens,siemens
-coricidin hbp,bayer
-xfinity xfi,comcast
-goldman sachs,goldman sachs
-microsoft cloud,microsoft
-hartford,the hartford
-orencia,bristol-myers squibb
-fisher investments,fisher investments
-lipitor,pfizer
-allstate value plan,allstate
-toyota,toyota
-levemir,novo nordisk
-carfax,carfax
-voya,voya financial
-united states postal service,united states postal service
-polaris,polaris industries
-upmc,university of pittsburgh medical center
-red lobster,red lobster
-crestor,astrazeneca
-scotts,scotts miracle-gro
-badda boom,choice hotels
-gaviscon,glaxosmithkline
-brightstar care,brightstar care
-reuters,reuters
-bp,bp
-edward jones,edward jones investments
-transitions signature,transitions optical
-nike,nike
-amtrak,amtrak
-namzaric,allergan
-nexium level protection,astrazeneca
-nissan sentra,nissan
-prudential,prudential financial
-bayer advanced aspirin,bayer
-movantik,astrazeneca
-sears optical,sears
-prolia,amgen
-ibm,ibm
-badda book,choice hotels
-neulasta onpro,amgen
-legalzoom,legalzoom
-brita,amgen
-hbo,hbo
-amd,amd
-citi double cash,citigroup
-neulasta,amgen
-bayer back & body,bayer
-xerox,xerox
-pnc,pnc bank
-eggland,eggland's best
-amazon,amazon
-amway,amway
-tylenol,johnson & johnson
-hertz,hertz
-bexsero,glaxosmithkline
-sprint,sprint
-bayer pro ultra,bayer
-namenda,allergan
-lendingtree,lendingtree
-premarin vaginal cream,pfizer
-united airlines,united airlines
-honda,honda
-ge,general electric
-crest hd,crest
-crest pro-health advanced,crest
-botox,allergan
-bayer aspirin,bayer
-lg,lg corporation
-merrill edge,bank of america
-univision,univision communications
-mitsubishi,mitsubishi
-xarelto,johnson & johnson
-ctca,cancer treatment centers of america
-delta,delta
-verizon center for customers,verizon
-custom ink,custom ink
-mobil,exxon mobil
-intel,intel
-nuedexta,avanir pharmaceuticals
-nissan rogue,nissan
-miracle-ear,amplifon
-scholl,dr. scholl's
-xeljanz,pfizer
-hp moonshot,hp
-united mileageplus explorer card,united airlines
-reddi-wip,conagra brands
-allstate company,allstate
-posturepedic,sealy
-droid razr maxx hd,motorola
-tresiba ready tresiba,novo nordisk
-tommie copper,tommie copper
-zicam,matrixx initiatives
-wells fargo,wells fargo
-the home depot,the home depot
-bing,microsoft
-beautyrest,simmons bedding company
-mercedes,mercedes-benz
-deere,john deere
-blackberry,blackberry
-boost high protein,nestle
-massmutual,massachusetts mutual
-leesa mattress,leesa mattress
-vraylar,allergan
-green giant,general mills
-united states postal,united states postal service
-avon,avon products
-levemir flextouch,novo nordisk
-hertz gold plus rewards,hertz
-hp instant ink,hp
-csx,csx
-schwab bank,charles schwab corporation
-midas,midas
-aviva,aviva
-poligrip,glaxosmithkline
-applebee,applebee's
-spiriva respimat,boehringer ingelheim
-helzberg diamonds,helzberg diamonds
-verizon wireless,verizon
-office depot officemax,office depot
-ortho home defense max,ortho
-truecar,truecar
-pacific life,pacific life
-chick-fil-a,chick-fil-a
-pepsi,pepsico
-gevalia,kraft heinz company
-bny mellon wealth management,bny mellon
-keytruda,merck
-ensure active heart health,abbott
-sears,sears
-opdivo,bristol-myers squibb
-lotrimin ultra,bayer
-tyco integrated security,tyco international
-costco,costco
-la quinta,la quinta by wyndham
-tanzeum,glaxosmithkline
-nationwide insurance,nationwide insurance
-yum,yum! brands
-moody 's,moody's corporation
-crest pro-health,crest
-tesla,tesla
-bayer,bayer
-bain,bain & company
-devry university,devry university
-tremfya,johnson & johnson
-tresiba reason,novo nordisk
-pnc investments,pnc bank
-walmart,walmart
-xfi,comcast
-volkswagen passat,volkswagen
-crest,crest
-citibank,citigroup
-nordstrom,nordstrom
-airbus,airbus
-dexcom,dexcom
-fiat,fiat chrysler automobiles
-coca-cola,the coca-cola company
-nfl mobile,nfl
-mcdonald,mcdonald's
-kohler,kohler
-kfc,yum! brands
-botox cosmetic,allergan
-thinkorswim,td ameritrade
-nespresso,nestle
-devon,devon energy
-aetna,aetna
-fico,fico
-tripadvisor,tripadvisor
-eggland 's best,eggland's best
-husqvarna,husqvarna
-gnc,gnc
-glucerna hunger smart,abbott
-healthmarkets,healthmarkets
-cisco,cisco
-ikea,ikea
-chevron,chevron
-philips lifeline,philips
-pfizer,pfizer
-new glucerna,abbott
-new ensure max protein,abbott
-aarp medicarecomplete,aarp
-the united states postal service,united states postal service
-stelara,huidarts
-la quinta inns & suites,la quinta by wyndham
-xfinity,comcast
-fidelity,fidelity investments
-laquinta,la quinta by wyndham
-new ensure active high protein,abbott
-humana medicare advantage,humana
-aarp auto insurance program,aarp
-trugreen,trugreen
-alka seltzer heartburn reliefchews,bayer
-g.e.,general electric
-aig,aig
-contrave,takeda
-asiana,asiana airlines
-htc,htc
-charmin ultra soft,procter & gamble
-nokia lumia,nokia
-mcdonalds,mcdonald's
-unitedhealthcare medicare solutions,unitedhealthcare
-netflix,netflix
-mucinex dm,reckitt benckiser
-etrade,etrade
-truvia,the coca-cola company
-hearusa,hearusa
-beneful,purina
-cortana,microsoft
-verzenio,eli lilly
-epclusa,gileadsciences
-astrazeneca,astrazeneca
-carvana,carvana
-nissan murano,nissan
-ge software,general electric
-sealy,sealy
-aspen,aspen dental
-aspen dental,aspen dental
-plenti,american express
-ibrance,pfizer
-invokana,janssen pharmaceuticals
-lipper,reuters
-olive garden,darden restaurants
-an allstate,allstate
-caterpillar,caterpillar
-new alka seltzer,bayer
-porsche,volkswagen
-hoveround,hoveround
-exxonmobil,exxon mobil
-benefiber healthy shape,glaxosmithkline
-rockport,the rockport group
-office depot office max,office depot
-aarp hearing care program,aarp
-alka seltzer reliefchews,bayer
-skype,microsoft
-fixodent,procter & gamble
-etanercept,amgen
-flonase allergy relief,glaxosmithkline
-omnaris,sunovian
-mucinex,reckitt benckiser
-nestle,nestle
-droid maxx,motorola
-behr ultra,masco corporation
-blackrock,blackrock
-benefiber,glaxosmithkline
-droid razr,motorola
-lexus es,toyota
-sirius,sirius xm holdings
-transunion.com,transunion
-hilton,hilton
-audible originals,amazon
-alka seltzer,bayer
-droid ultra,motorola
-allstate agents,allstate
-phonak,sonova
-advantix ii,bayer
-us postal service,united states postal service
-travelocity,expedia
-applebee 's,applebee's
-advil congestion relief,pfizer
-tacoma,toyota
-charmin ultra strong,procter & gamble
-liberty mutual base policy,liberty mutual
-whilen enbrel,amgen
-staples,staples
-latisse,lupin
-officemax,office depot
-alli,glaxosmithkline
-levemir flexpen,novo nordisk
-crest whitestrips,crest
-chico 's and chicos.com,chico's
-ubs,ubs
-corolla,toyota
-restasis multidose,allergan
-kraft,kraft heinz company
-kmart,kmart
-beneful healthy smile snacks,purina
-wal-mart,walmart
-aimovig,amgen
-liberty mutual new car replacement,liberty mutual
-optum,optum
-merrill,merrill lynch
-aol,verizon
-chico 's leggings,chico's
-hyundai,hyundai
-oracle,oracle
-centrum multigummies,pfizer
-samsung galaxy,samsung
-grant thornton,grant thornton
-fancy feast broths,nestle
-lockheed martin,lockheed martin
-metamucil,procter & gamble
-napa,napa
-kia,kia
-samsung galaxy tab,samsung
-bae,baesystems
-exxon mobil,exxon mobil
-philips norelco,philips
-mozilla,mozilla
-sunsweet,sunsweet growers
-farmville,zynga
-norfolk southern,norfolk southern
-zelle,zelle
-bass pro shops,bass pro shops
-try head & shoulders instant relief,procter & gamble
-ebates,ebates
-stearns & foster,sealy
-farmers,farmers insurance group
-safelite-dot-com,safelite
-equifax,equifax
-alamo,alamo
-sargento balanced breaks,sargento
-abreva,glaxosmithkline
-adp,adp
-purina puppy chow,purina
-liberty mutual deductible fund,liberty mutual
-lufthansa,lufthansa
-beautyrest pocketed coils,simmons bedding company
-lendingtree.com,lendingtree
-passat tdi clean diesel,volkswagen
-jackson hewitt,jackson hewitt
-cologuard,exact sciences corporation
-honey nut cheerios,general mills
-northrop grumman,northrop grumman
-volkswagen golf,volkswagen
-navy federal credit union,navy federal credit union
-one phillips ' colon health probiotic,bayer
-subaru outback,subaru
-dunkin,dunkin brands
-hotwire,hotwire
-beautyrest recharge sleep system,simmons bedding company
-coca cola,the coca-cola company
-schwab etf onesource,charles schwab corporation
-beneful healthy smile food and snacks,purina
-ameritrade,td ameritrade
-nissan pathfinder,nissan
-coleman,coleman
-duracell quantum,duracell
-bissell,bissell
-flexpen,novo nordisk
-pennzoil,royal dutch shell
-aarp medicare,aarp
-berkshire hathaway,berkshire hathaway
-downy fabric conditioner,procter & gamble
-progresso,general mills
-mastercard,mastercard
-new coppertone sport,bayer
-lexus,toyota
-geico insurance agency,geico
-swiffer wetjet,procter & gamble
-oscar mayer deli fresh,kraft heinz company
-halliburton,halliburton
-metlife,metlife
-beautyrest black,simmons bedding company
-office depot & officemax,office depot
-serta icomfort,simmons bedding company
-ask an allstate,allstate
-lincoln mkx,lincoln
-bankamerideals,bank of america
-atkins,atkins
-thermacare heatwraps,pfizer
-ensure enlive,abbott
-microsoft,microsoft
-splenda naturals,splenda
-gillette fusion proglide,procter & gamble
-match.com,match
-lincoln mkc,lincoln
-subaru forester,subaru
-walgreens,walgreens
-super poligrip,glaxosmithkline
-charmin ultra mega roll,procter & gamble
-ally bank,ally financial
-j.c. penney,j.c. penney
-mazda,mazda
-nintendo,nintendo
-volkswagen springtoberfest,volkswagen
-tracfone,tracfone
-panera bread,panera bread
-dhl,dhl
-amc,amc
-hsbc,hsbc
-comcast business internet,comcast
-serta,simmons bedding company
-ziprecruiter,ziprecruiter
-cialis tadalafil,eli lilly
-purina dog chow light & healthy,purina
-phillips fiber good gummies,bayer
-new centrum,pfizer
-xfi pods,comcast
-samsung stratosphere,samsung
-priceline,priceline
-cars.com,cars.com
-mattel,mattel
-toyota camry,toyota
-crest 3d white whitestrips,crest
-sap,sap
-advil cold & sinus,pfizer
-advil liqui,pfizer
-be stouffer 's mac & cheese,nestle
-walgreen,walgreens
-vicks vapocool,procter & gamble
-tylenol arthritis,johnson & johnson
-bentley,bentley
-febreze unstopables,procter & gamble
-carrabba 's,carrabba's
-la quinta inns,la quinta by wyndham
-united states postal service priority,united states postal service
-oxiclean,oxiclean
-verizon edge,verizon
-old navy,old navy
-prego alfredo,campbell soup company
-jpmorgan,jpmorgan chase
-johnson & johnson,johnson & johnson
-alcoa,alcoa
-united health,unitedhealthcare
-choice hotels,choice hotels
-monsanto,monsanto
-samsung galaxy camera,samsung
-seroquel,astrazeneca
-at&t network,at&t
-alka seltzer fruit chews,bayer
-airasia,airasia
-yahoo,yahoo
-barnes & noble,barnes & noble
-amerivest,td ameritrade
-aczone gel,allergan
-duracell slamtones,duracell
-cars.com research,cars.com
-american airlines,american airlines
-transunion,transunion
-campbels chunky,campbell soup company
-ymca,ymca
-nabisco,kraft heinz company
-td ameritrade,td ameritrade
-sears hometown store,sears
-oscar mayer,kraft heinz company
-velcro,velcro
-cheerios,general mills
-comcast nbcuniversal,comcast
-hp big data,hp
-hp security solutions,hp
-opentable,opentable
-choicehotels.com,choice hotels
-usaa bank,usaa
-kyocera duracore,kyocera
-season of audi,audi
-aleve pm,bayer
-droid bionic,motorola
-crizal,essilor
-lysol,reckitt benckiser
-lincoln mkz,lincoln
-ford service credit card,ford
-charles schwab,charles schwab corporation
-gm financial,general motors
-pandora,pandora
-panera,panera bread
-booz allen,booz allen hamilton
-mercedes-benz gla,mercedes-benz
-new beneful healthy fiesta,purina
-varilux,essilor
-corner of happy and healthy,walgreens
-ford service credit credit card,ford
-sargento sweet balanced breaks,sargento
-armor all original protectant,armor all
-new purina dog chow light & healthy,purina
-chevy silverado,chevrolet
-keurig,keurig
-novolog flexpen,novo nordisk
-phillips ' digestive health,bayer
-hasbro,hasbro
-mcafee,mcafee
-j.p. morgan,jpmorgan chase
-pixel phone,google
-trintellix,takeda
-norton,norton
-directv nfl,at&t
-merck,merck
-heineken,heineken
-barclays,barclays
-excedrin migraine,glaxosmithkline
-tdi clean diesel,volkswagen
-tampax pearl,proctor & gamble
-citi.com pricerewind,citigroup
-citigroup,citigroup
-accident forgiveness liberty mutual,liberty mutual
-experian credit tracker,experian
-verizon ellipsis,verizon
-nickelodeon,viacom
-nicoderm,glaxosmithkline
-xiidra,shire
-coors,molson coors
-michelin,michelin
-audi sales event,audi
-alka-seltzer heartburn relief gummies,bayer
-jp morgan,jpmorgan chase
-mylan,mylan
-at experian.com,experian
-merrill lynch,merrill lynch
-petco,petco
-orbitz,orbitz
-mercedes-benz financial services,mercedes-benz
-medifacts for post shredded wheat,post consumer brands
-cintas,cintas
-adidas,adidas
-ford escape,ford
-chevy employee discount,chevrolet
-volkswagen alltrack,volkswagen
-verizon smart rewards,verizon
-philips norelco shaver,philips
-lantus,sanofi
-audible,amazon
-nicoderm cq,glaxosmithkline
-coppertone sport,bayer
-us bank,u.s. bank
-dr. scholls,dr. scholl's
-thrivent mutual funds,thrivent financial
-best of geico,geico
-hewlett packard enterprise,hp
-fiat chrysler,fiat chrysler automobiles
-purina dog chow,purina
-volkswagen tdi clean diesel event,volkswagen
-volkswagen reward card,volkswagen
-viacom,viacom
-aarp medicare supplement plans,aarp
-ford edge,ford
-multigrain cheerios,general mills
-american airline,american airlines
-crest sensi-stop strips,crest
-air canada,air canada
-kaiser permanente,kaiser permanente
-aarp medicare plans,aarp
-cabela 's,cabela's
-oakley,oakley
-microsoft office,microsoft
-credit karma.com,credit karma
-blackstone,the blackstone group
-verizon xlte,verizon
-whirlpool,whirlpool corporation
-goodyear,goodyear
-abercrombie,abercrombie
-reebok,reebok
-taco bell,taco bell
-ben & jerry 's,ben & jerry's
-pillsbury,general mills
-office depot,office depot
-logitech,logitech
-union pacific,union pacific
-maxperks,office depot
-tesco,tesco
-express whitestrips,crest
-whitestrips whiten,crest
-whitestrips,crest
-bosley,bosley
-u.s. postal,united states postal service
-united continental,united airlines
-raytheon,raytheon
-usps.com,united states postal service
-the united states postal,united states postal service
-premarin vaginal cream,pfizer
-lq.com,la quinta by wyndham
-venture card,capital one
-samsung galaxy s3,samsung
-tampax pearl,procter & gamble
-colgate,colgate palmolive
-bausch + lomb,bausch health
-essilor,essilor
-hgtv,discovery inc
-coke,the coca-cola company
-trulicity,eli lilly
-subaru forester,subaru
-chrysler,fiat chrysler automobiles
-cvs,cvs health
-samuel adams,the boston beer company
-safeway,safeway
-new cascade platinum,procter & gamble
-badda boom !,choice hotels
-xfinity home,comcast
-quicken loans,quicken loans
-purple pill,astrazeneca
-credit karma tax,credit karma
-dyson,dyson
-braun,procter & gamble
-new friskies plus,nestle
-chipotle,chipotle
-experian,experian
-xperio uv,essilor
-dawn ultra,procter & gamble
-bolder grill combos,applebee's
-john deere dealer,john deere
-heinz,kraft heinz company
-sofi,sofi
-seresto,bayer
-downy free & gentle,procter & gamble
-togo,togo's
-allegra,sanofi
-hampton.com,hilton
-wayfair,wayfair
-national psoriasis foundation,procter & gamble
-chevy blazer,chevrolet
-new colossal shrimp & salmon,red lobster
-new cedar-plank lobster & shrimp,red lobster
-xfinity service,comcast
-voice control,comcast
-applebee 's new loaded chicken fajitas,applebee's
-booking.com,booking.com
-penske,penske
-drivewise,allstate
-ancestry.com,ancestry
-visionworks,visionworks
-aag,american advisors group
-better life,quincy bioscience
-xfinity mobile,comcast
-newday,newday usa
-oscar mayer deli fresh your,kraft heinz company
-subaru ascent,subaru
-petsmart,petsmart
-lincoln summer invitation,lincoln
-hilton price match guarantee,hilton
-life line screening,life line screening
-power of prevention,life line screening
-united rentals,united rentals
-zoltar,liberty mutual
-va home loan,newday usa
-chevrolet,chevrolet
-at ancestry.com,ancestry
-hilton.com,hilton
-gillette skinguard,procter & gamble
-boost,boost drinks
-high protein nutritional drink,boost drinks
-vicks sinex,procter & gamble
-little fleet,prestige consumer healthcare
-dell small business technology advisors,dell
-babbel,babbel
-lincolnfinancial.com,lincoln financial
-lightsource,bp
-cascade platinum,procter & gamble
-tiaa,tiaa
-lifelock.com tv,lifelock
-downy wrinkleguard,procter & gamble
-girls clubs of america,boys and girls clubs of america
-legacybox,legacybox
-dodge power dollars,fiat chrysler automobiles
-refi,newday usa
-chrysler pacifica,fiat chrysler automobiles
-downy infusions calm,procter & gamble
-downy,procter & gamble
-buick,gm
-nick -rsb- legacybox,legacybox
-3m,3m
-shipsticks.com,ship sticks
-emirates,emirates
-big idaho potato truck,idaho potato commission
-epson,epson
-pacifica limited,fiat chrysler automobiles
-united explorer card,united airlines
-tracfone wireless,tracfone
-applebee 's new sizzlin,applebee's
-natural reflections ladies ' cozy socks,bass pro shops
-safelite advantage,safelite
-va streamline refi,newday usa
-comcast spotlight,comcast
-effectv,comcast
-cent boneless wings,applebee's
-glc,mercedes-benz
-alzheimer 's association walk,alzheimer's association
-shriners hospitals for children,shriners hospitals for children
-alz.org walk,alzheimer's association
-med d. walgreens,walgreens
-medicare part d,walgreens
-glc mercedes-benz
-comcast business securityedge,comcast
-ultra wideband,verizon
-dupixent,sanofi
-bounce wrinkle guard,procter & gamble
-intuit quickbooks,intuit
-hilton app,hilton
-outback steakhouse,bloomin brands
-rosland capital,rosland capital
+3m,3m,
+aarp medicare,aarp,
+aarp medicare plans,aarp,
+aarp auto insurance program,aarp,
+aarp,aarp,
+aarp hearing care program,aarp,
+aarp medicarecomplete,aarp,
+aarp medicare supplement plans,aarp,
+glucerna hunger smart,abbott,
+new ensure max protein,abbott,
+ensure enlive,abbott,
+glucerna,abbott,
+new ensure active high protein,abbott,
+new glucerna,abbott,
+ensure active heart health,abbott,
+humira,abbvie,
+abercrombie,abercrombie,
+ace,ace hardware,
+adidas,adidas,
+adp,adp,
+adt,adt,
+advil,advil,
+aetna,aetna,
+aflac,aflac,
+aig,aig,
+air canada,air canada,
+airasia,airasia,
+airbus,airbus,
+alamo,alamo,
+alcoa,alcoa,
+viberzi,allergan,
+namenda,allergan,
+botox cosmetic,allergan,
+botox,allergan,
+restasis multidose,allergan,
+vraylar,allergan,
+namzaric,allergan,
+aczone gel,allergan,
+linzess,allergan,
+allstate,allstate,
+an allstate,allstate,
+allstate value plan,allstate,
+allstate company,allstate,
+ask an allstate,allstate,
+drivewise,allstate,
+allstate agents,allstate,
+ally bank,ally financial,
+alzheimer 's association walk,alzheimer's association,
+alz.org walk,alzheimer's association,
+audible,amazon,
+audible originals,amazon,
+amazon,amazon,
+amc,amc,
+amd,amd,
+aag,american advisors group,
+american airlines,american airlines,
+american airline,american airlines,
+plenti,american express,
+prolia,amgen,
+neulasta onpro,amgen,
+brita,amgen,
+neulasta,amgen,
+enbrel,amgen,
+whilen enbrel,amgen,
+aimovig,amgen,
+etanercept,amgen,
+miracle-ear,amplifon,
+amtrak,amtrak,
+amway,amway,
+ancestry.com,ancestry,
+at ancestry.com,ancestry,
+apple,apple,
+applebee,applebee's,
+applebee 's new sizzlin,applebee's,
+applebee 's new loaded chicken fajitas,applebee's,
+bolder grill combos,applebee's,
+cent boneless wings,applebee's,
+applebee 's,applebee's,
+armor all original protectant,armor all,
+asiana,asiana airlines,
+aspen dental,aspen dental,
+aspen,aspen dental,
+myrbetriq,astellas,
+astrazeneca,astrazeneca,
+purple pill,astrazeneca,
+crestor,astrazeneca,
+seroquel,astrazeneca,
+brilinta,astrazeneca,
+movantik,astrazeneca,
+nexium,astrazeneca,
+symbicort,astrazeneca,
+farxiga,astrazeneca,
+nexium level protection,astrazeneca,
+at&t network,at&t,
+directv,at&t,
+directv nfl,at&t,
+at&t,at&t,
+atkins,atkins,
+season of audi,audi,
+audi sales event,audi,
+audi,audi,
+nuedexta,avanir pharmaceuticals,
+aviva,aviva,
+avon,avon products,
+babbel,babbel,
+bae,baesystems,
+bain,bain & company,
+bank of america,bank of america,
+merrill edge,bank of america,
+bankamerideals,bank of america,
+barclays,barclays,
+barnes & noble,barnes & noble,
+bass pro shops,bass pro shops,
+natural reflections ladies ' cozy socks,bass pro shops,
+bausch + lomb,bausch health,
+jublia,bausch health,
+ocuvite,bausch health,
+bayer aspirin,bayer,
+aleve,bayer,
+coppertone sport,bayer,
+bayer advanced aspirin,bayer,
+bayer,bayer,
+bayer pro ultra,bayer,
+bayer back & body,bayer,
+one phillips ' colon health probiotic,bayer,
+advantix ii,bayer,
+lotrimin ultra,bayer,
+alka seltzer reliefchews,bayer,
+alka-seltzer heartburn relief gummies,bayer,
+phillips fiber good gummies,bayer,
+phillips ' digestive health,bayer,
+alka seltzer fruit chews,bayer,
+seresto,bayer,
+alka seltzer,bayer,
+new alka seltzer,bayer,
+aleve pm,bayer,
+alka seltzer heartburn reliefchews,bayer,
+coricidin hbp,bayer,
+miralax,bayer,
+alka-seltzer heartburn reliefchews,bayer,
+new coppertone sport,bayer,
+ben & jerry 's,ben & jerry's,
+bentley,bentley,
+berkshire hathaway,berkshire hathaway,
+bissell,bissell,
+blackberry,blackberry,
+blackrock,blackrock,
+outback steakhouse,bloomin brands,
+bny mellon wealth management,bny mellon,
+pradaxa,boehringer ingelheim,
+spiriva respimat,boehringer ingelheim,
+boeing,boeing,
+booking.com,booking.com,
+high protein nutritional drink,boost drinks,
+boost,boost drinks,
+booz allen,booz allen hamilton,
+bosley,bosley,
+girls clubs of america,boys and girls clubs of america,
+bp,bp,
+lightsource,bp,
+brightstar care,brightstar care,
+opdivo,bristol-myers squibb,
+orencia,bristol-myers squibb,
+cabela 's,cabela's,
+campbels chunky,campbell soup company,
+prego,campbell soup company,
+prego alfredo,campbell soup company,
+ctca,cancer treatment centers of america,
+cancer treatment centers of america,cancer treatment centers of america,
+venture card,capital one,
+carfax,carfax,
+carrabba 's,carrabba's,
+cars.com,cars.com,
+cars.com research,cars.com,
+carvana,carvana,
+caterpillar,caterpillar,
+otezla,celgene,2019-08-15T00:00:00Z
+otezla,amgen,
+centurylink,centurylink,
+schwab bank,charles schwab corporation,
+schwab etf onesource,charles schwab corporation,
+schwab,charles schwab corporation,
+charles schwab,charles schwab corporation,
+chevy blazer,chevrolet,
+chevrolet,chevrolet,
+chevy employee discount,chevrolet,
+chevy,chevrolet,
+chevy silverado,chevrolet,
+chevron,chevron,
+chick-fil-a,chick-fil-a,
+chico 's leggings,chico's,
+chico 's and chicos.com,chico's,
+chipotle,chipotle,
+choicehotels.com,choice hotels,
+badda book,choice hotels,
+badda boom !,choice hotels,
+badda boom,choice hotels,
+choice hotels,choice hotels,
+cigna,cigna,
+cintas,cintas,
+cisco,cisco,
+citigroup,citigroup,
+citi double cash,citigroup,
+citi,citigroup,
+citibank,citigroup,
+citi.com pricerewind,citigroup,
+clorox,clorox,
+coleman,coleman,
+colgate,colgate palmolive,
+xfinity,comcast,
+comcast business,comcast,
+xfi,comcast,
+xfinity service,comcast,
+xfinity mobile,comcast,
+xfinity xfi,comcast,
+comcast business securityedge,comcast,
+xfinity home,comcast,
+comcast nbcuniversal,comcast,
+effectv,comcast,
+xfi pods,comcast,
+comcast,comcast,
+comcast spotlight,comcast,
+comcast business internet,comcast,
+voice control,comcast,
+reddi-wip,conagra brands,
+costco,costco,
+credit karma.com,credit karma,
+credit karma,credit karma,
+credit karma tax,credit karma,
+express whitestrips,crest,
+crest 3d white whitestrips,crest,
+crest hd,crest,
+crest pro-health advanced,crest,
+whitestrips whiten,crest,
+whitestrips,crest,
+crest,crest,
+crest pro-health,crest,
+crest whitestrips,crest,
+crest sensi-stop strips,crest,
+csx,csx,
+custom ink,custom ink,
+cvs health,cvs health,
+cvs,cvs health,
+olive garden,darden restaurants,
+dell small business technology advisors,dell,
+delta,delta,
+devon,devon energy,
+devry university,devry university,
+dexcom,dexcom,
+dhl,dhl,
+hgtv,discovery inc,
+scholl,dr. scholl's,
+dr. scholl,dr. scholl's,
+dr. scholls,dr. scholl's,
+dunkin,dunkin brands,
+duracell slamtones,duracell,
+duracell,duracell,
+duracell quantum,duracell,
+dyson,dyson,
+ebates,ebates,
+edward jones,edward jones investments,
+eggland,eggland's best,
+eggland 's best,eggland's best,
+cialis,eli lilly,
+cymbalta,eli lilly,
+taltz,eli lilly,
+trulicity,eli lilly,
+cialis tadalafil,eli lilly,
+verzenio,eli lilly,
+axiron,eli lilly,
+jardiance,eli lilly,
+emirates,emirates,
+epson,epson,
+equifax,equifax,
+espn,espn,
+varilux,essilor,
+xperio uv,essilor,
+essilor,essilor,
+crizal,essilor,
+tena,essity,
+esurance,esurance,
+etrade,etrade,
+cologuard,exact sciences corporation,
+travelocity,expedia,
+expedia,expedia,
+at experian.com,experian,
+experian credit tracker,experian,
+experian,experian,
+exxon mobil,exxon mobil,
+exxonmobil,exxon mobil,
+exxon,exxon mobil,
+mobil,exxon mobil,
+facebook,facebook,
+farmers,farmers insurance group,
+fiat,fiat chrysler automobiles,
+fiat chrysler,fiat chrysler automobiles,
+chrysler pacifica,fiat chrysler automobiles,
+pacifica limited,fiat chrysler automobiles,
+dodge power dollars,fiat chrysler automobiles,
+chrysler,fiat chrysler automobiles,
+fico,fico,
+fidelity,fidelity investments,
+brokercheck,finra,
+fisher investments,fisher investments,
+ford service credit card,ford,
+ford escape,ford,
+ford edge,ford,
+ford service credit credit card,ford,
+geico,geico,
+geico insurance agency,geico,
+best of geico,geico,
+ge,general electric,
+g.e.,general electric,
+ge software,general electric,
+cheerios,general mills,
+honey nut cheerios,general mills,
+progresso,general mills,
+pillsbury,general mills,
+green giant,general mills,
+multigrain cheerios,general mills,
+gm financial,general motors,
+harvoni,gilead sciences,
+epclusa,gileadsciences,
+bexsero,glaxosmithkline,
+gaviscon,glaxosmithkline,
+alli,glaxosmithkline,
+nicoderm cq,glaxosmithkline,
+cool mint zantac,glaxosmithkline,
+anoro,glaxosmithkline,
+benefiber healthy shape,glaxosmithkline,
+advair,glaxosmithkline,
+nicoderm,glaxosmithkline,
+flonase allergy relief,glaxosmithkline,
+breo,glaxosmithkline,
+super poligrip,glaxosmithkline,
+excedrin migraine,glaxosmithkline,
+biotene,glaxosmithkline,
+poligrip,glaxosmithkline,
+tanzeum,glaxosmithkline,
+abreva,glaxosmithkline,
+benefiber,glaxosmithkline,
+buick,gm,
+gm,gm,
+gnc,gnc,
+goldman sachs,goldman sachs,
+goodyear,goodyear,
+pixel phone,google,
+google,google,
+grant thornton,grant thornton,
+halliburton,halliburton,
+hasbro,hasbro,
+hbo,hbo,
+healthmarkets,healthmarkets,
+hearusa,hearusa,
+heineken,heineken,
+helzberg diamonds,helzberg diamonds,
+hertz,hertz,
+hertz gold plus rewards,hertz,
+hilton app,hilton,
+hampton.com,hilton,
+hilton,hilton,
+hilton.com,hilton,
+hilton price match guarantee,hilton,
+honda,honda,
+hotwire,hotwire,
+hoveround,hoveround,
+hp instant ink,hp,
+hpe,hp,
+hewlett packard enterprise,hp,
+hp security solutions,hp,
+hp,hp,
+hp big data,hp,
+hp moonshot,hp,
+hsbc,hsbc,
+htc,htc,
+stelara,huidarts,
+humana,humana,
+humana medicare advantage,humana,
+husqvarna,husqvarna,
+hyundai,hyundai,
+ibm,ibm,
+idaho potatoes,idaho potato commission,
+big idaho potato truck,idaho potato commission,
+idaho potato,idaho potato commission,
+ikea,ikea,
+intel,intel,
+intuit quickbooks,intuit,
+j.c. penney,j.c. penney,
+jackson hewitt,jackson hewitt,
+invokana,janssen pharmaceuticals,
+john deere dealer,john deere,
+deere,john deere,
+john deere,john deere,
+tremfya,johnson & johnson,
+johnson & johnson,johnson & johnson,
+tylenol arthritis,johnson & johnson,
+tylenol,johnson & johnson,
+xarelto,johnson & johnson,
+jpmorgan,jpmorgan chase,
+jp morgan,jpmorgan chase,
+j.p. morgan,jpmorgan chase,
+kaiser permanente,kaiser permanente,
+kellogg,kellogg company,
+keurig,keurig,
+kia,kia,
+kmart,kmart,
+kohler,kohler,
+oscar mayer deli fresh,kraft heinz company,
+gevalia,kraft heinz company,
+oscar mayer,kraft heinz company,
+nabisco,kraft heinz company,
+oscar mayer deli fresh your,kraft heinz company,
+kraft,kraft heinz company,
+heinz,kraft heinz company,
+kyocera duracore,kyocera,
+la quinta,la quinta by wyndham,
+lq.com,la quinta by wyndham,
+la quinta inns,la quinta by wyndham,
+laquinta,la quinta by wyndham,
+la quinta inns & suites,la quinta by wyndham,
+leesa mattress,leesa mattress,
+nick -rsb- legacybox,legacybox,
+legacybox,legacybox,
+legalzoom,legalzoom,
+lendingtree,lendingtree,
+lendingtree.com,lendingtree,
+lg,lg corporation,
+zoltar,liberty mutual,
+accident forgiveness liberty mutual,liberty mutual,
+liberty mutual,liberty mutual,
+liberty mutual new car replacement,liberty mutual,
+liberty mutual insurance,liberty mutual,
+liberty mutual deductible fund,liberty mutual,
+liberty mutual base policy,liberty mutual,
+power of prevention,life line screening,
+life line screening,life line screening,
+lifelock,lifelock,
+lifelock.com tv,lifelock,
+lincoln mkx,lincoln,
+lincoln mkc,lincoln,
+lincoln summer invitation,lincoln,
+lincoln mkz,lincoln,
+lincolnfinancial.com,lincoln financial,
+lockheed martin,lockheed martin,
+logitech,logitech,
+lufthansa,lufthansa,
+latisse,lupin,
+behr ultra,masco corporation,
+massmutual,massachusetts mutual,
+mastercard,mastercard,
+match.com,match,
+zicam,matrixx initiatives,
+mattel,mattel,
+mazda,mazda,
+mcafee,mcafee,
+mcdonalds,mcdonald's,
+mcdonald,mcdonald's,
+mercedes-benz,mercedes-benz,
+mercedes-benz financial services,mercedes-benz,
+mercedes-benz gla,mercedes-benz,
+mercedes,mercedes-benz,
+glc,mercedes-benz,
+keytruda,merck,
+merck,merck,
+bravecto,merck,
+januvia,merck,
+merrill,merrill lynch,
+merrill lynch,merrill lynch,
+metlife,metlife,
+michelin,michelin,
+microsoft cloud,microsoft,
+microsoft office,microsoft,
+bing,microsoft,
+microsoft,microsoft,
+cortana,microsoft,
+skype,microsoft,
+midas,midas,
+mitsubishi,mitsubishi,
+coors,molson coors,
+monsanto,monsanto,
+moody 's,moody's corporation,
+motorola,motorola,
+droid bionic,motorola,
+droid razr maxx hd,motorola,
+droid ultra,motorola,
+droid razr,motorola,
+droid maxx,motorola,
+mozilla,mozilla,
+mylan,mylan,
+napa,napa,
+nascar,nascar,
+nationwide insurance,nationwide insurance,
+osteo bi-flex,nature's bounty,
+navy federal credit union,navy federal credit union,
+be stouffer 's mac & cheese,nestle,
+nestle,nestle,
+fancy feast broths,nestle,
+new friskies plus,nestle,
+boost high protein,nestle,
+nespresso,nestle,
+netflix,netflix,
+newday,newday usa,
+newday usa,newday usa,
+va streamline refi,newday usa,
+refi,newday usa,
+va home loan,newday usa,
+nfl,nfl,
+nfl mobile,nfl,
+nike,nike,
+nintendo,nintendo,
+nissan sentra,nissan,
+nissan pathfinder,nissan,
+nissan,nissan,
+nissan rogue,nissan,
+nissan murano,nissan,
+nokia lumia,nokia,
+nordstrom,nordstrom,
+norfolk southern,norfolk southern,
+northrop grumman,northrop grumman,
+norton,norton,
+entresto,novartis,
+cosentyx,novartis,
+tresiba reason,novo nordisk,
+levemir,novo nordisk,
+levemir flexpen,novo nordisk,
+novolog flexpen,novo nordisk,
+flexpen,novo nordisk,
+levemir flextouch,novo nordisk,
+tresiba ready tresiba,novo nordisk,
+tresiba,novo nordisk,
+victoza,novo nordisk,
+ozempic,novo nordisk,
+oakley,oakley,
+office depot,office depot,
+officemax,office depot,
+maxperks,office depot,
+office depot & officemax,office depot,
+office depot office max,office depot,
+office depot officemax,office depot,
+old navy,old navy,
+opentable,opentable,
+optum,optum,
+oracle,oracle,
+orbitz,orbitz,
+ortho home defense max,ortho,
+oxiclean,oxiclean,
+pacific life,pacific life,
+pandora,pandora,
+panera bread,panera bread,
+panera,panera bread,
+penske,penske,
+pepsi,pepsico,
+petco,petco,
+petsmart,petsmart,
+eliquis,pfizer,
+premarin vaginal cream,pfizer,
+centrum multigummies,pfizer,
+chantix,pfizer,
+centrum,pfizer,
+xeljanz,pfizer,
+lyrica,pfizer,
+prevnar,pfizer,
+viagra,pfizer,
+ibrance,pfizer,
+spiriva,pfizer,
+advil congestion relief,pfizer,
+lipitor,pfizer,
+new centrum,pfizer,
+premarin vaginal cream,pfizer,
+celebrex,pfizer,
+advil liqui,pfizer,
+advil cold & sinus,pfizer,
+pfizer,pfizer,
+thermacare heatwraps,pfizer,
+pg&e,pg&e,
+philips lifeline,philips,
+philips norelco shaver,philips,
+philips norelco,philips,
+philips sonicare,philips,
+phillips,phillips 66,
+pnc investments,pnc bank,
+pnc,pnc bank,
+polaris,polaris industries,
+medifacts for post shredded wheat,post consumer brands,
+little fleet,prestige consumer healthcare,
+priceline,priceline,
+charmin ultra strong,procter & gamble,
+bounce wrinkle guard,procter & gamble,
+new cascade platinum,procter & gamble,
+fixodent,procter & gamble,
+dawn ultra,procter & gamble,
+downy,procter & gamble,
+charmin ultra soft,procter & gamble,
+swiffer wetjet,procter & gamble,
+gillette fusion proglide,procter & gamble,
+downy fabric conditioner,procter & gamble,
+braun,procter & gamble,
+gillette skinguard,procter & gamble,
+vicks sinex,procter & gamble,
+downy free & gentle,procter & gamble,
+febreze unstopables,procter & gamble,
+vicks vapocool,procter & gamble,
+downy wrinkleguard,procter & gamble,
+try head & shoulders instant relief,procter & gamble,
+downy infusions calm,procter & gamble,
+tampax pearl,procter & gamble,
+metamucil,procter & gamble,
+gillette,procter & gamble,
+national psoriasis foundation,procter & gamble,
+cascade platinum,procter & gamble,
+charmin ultra mega roll,procter & gamble,
+tampax pearl,proctor & gamble,
+prudential,prudential financial,
+purina dog chow,purina,
+beneful healthy smile snacks,purina,
+beneful healthy smile food and snacks,purina,
+purina dog chow light & healthy,purina,
+beneful,purina,
+new purina dog chow light & healthy,purina,
+purina,purina,
+new beneful healthy fiesta,purina,
+purina puppy chow,purina,
+quicken loans,quicken loans,
+better life,quincy bioscience,
+prevagen,quincy bioscience,
+raytheon,raytheon,
+lysol,reckitt benckiser,
+mucinex dm,reckitt benckiser,
+mucinex,reckitt benckiser,
+new colossal shrimp & salmon,red lobster,
+new cedar-plank lobster & shrimp,red lobster,
+red lobster,red lobster,
+reebok,reebok,
+lipper,reuters,
+reuters,reuters,
+tamiflu,roche,
+rosland capital,rosland capital,
+pennzoil,royal dutch shell,
+safelite advantage,safelite,
+safelite-dot-com,safelite,
+safelite,safelite,
+safeway,safeway,
+samsung galaxy,samsung,
+samsung galaxy s3,samsung,
+samsung stratosphere,samsung,
+samsung galaxy tab,samsung,
+samsung galaxy camera,samsung,
+samsung,samsung,
+lantus,sanofi,
+dupixent,sanofi,
+dulcolax,sanofi,
+allegra,sanofi,
+zantac,sanofi,
+toujeo,sanofi,
+sap,sap,
+sargento balanced breaks,sargento,
+sargento sweet balanced breaks,sargento,
+scotts,scotts miracle-gro,
+sealy,sealy,
+stearns & foster,sealy,
+posturepedic,sealy,
+sears hometown store,sears,
+sears,sears,
+sears optical,sears,
+shipsticks.com,ship sticks,
+xiidra,shire,
+shriners hospitals for children,shriners hospitals for children,
+siemens,siemens,
+beautyrest pocketed coils,simmons bedding company,
+beautyrest,simmons bedding company,
+beautyrest recharge sleep system,simmons bedding company,
+serta,simmons bedding company,
+beautyrest black,simmons bedding company,
+serta icomfort,simmons bedding company,
+sirius,sirius xm holdings,
+sofi,sofi,
+phonak,sonova,
+sony,sony,
+splenda naturals,splenda,
+sprint,sprint,
+staples,staples,
+starbucks,starbucks,
+subaru legacy,subaru,
+subaru outback,subaru,
+subaru forester,subaru,
+subaru ascent,subaru,
+subaru,subaru,
+subaru forester,subaru,
+lunesta,sunovian,
+omnaris,sunovian,
+sunsweet,sunsweet growers,
+t. rowe,t. rowe price,
+t. rowe price,t. rowe price,
+taco bell,taco bell,
+trintellix,takeda,
+contrave,takeda,
+entyvio,takeda,
+ameritrade,td ameritrade,
+scottrade,td ameritrade,
+thinkorswim,td ameritrade,
+amerivest,td ameritrade,
+td ameritrade,td ameritrade,
+tempur-pedic,tempur-pedic,
+tesco,tesco,
+tesla,tesla,
+blackstone,the blackstone group,
+samuel adams,the boston beer company,
+coke,the coca-cola company,
+truvia,the coca-cola company,
+coca cola,the coca-cola company,
+coca-cola,the coca-cola company,
+hartford,the hartford,
+the home depot,the home depot,
+rockport,the rockport group,
+thrivent mutual funds,thrivent financial,
+tiaa,tiaa,
+togo,togo's,
+tommie copper,tommie copper,
+corolla,toyota,
+lexus,toyota,
+tacoma,toyota,
+toyota camry,toyota,
+lexus es,toyota,
+toyota,toyota,
+tracfone,tracfone,
+tracfone wireless,tracfone,
+transamerica,transamerica corporation,
+transitions signature,transitions optical,
+transunion.com,transunion,
+transunion,transunion,
+tripadvisor,tripadvisor,
+truecar,truecar,
+trugreen,trugreen,
+tyco integrated security,tyco international,
+us bank,u.s. bank,
+ubs,ubs,
+union pacific,union pacific,
+united continental,united airlines,
+united explorer card,united airlines,
+united mileageplus explorer card,united airlines,
+united airlines,united airlines,
+united rentals,united rentals,
+united states postal service priority,united states postal service,
+united states postal service,united states postal service,
+united states postal,united states postal service,
+us postal service,united states postal service,
+the united states postal service,united states postal service,
+usps.com,united states postal service,
+u.s. postal,united states postal service,
+the united states postal,united states postal service,
+united health,unitedhealthcare,
+unitedhealthcare insurance company,unitedhealthcare,
+unitedhealthcare medicare solutions,unitedhealthcare,
+unitedhealthcare,unitedhealthcare,
+upmc,university of pittsburgh medical center,
+univision,univision communications,
+usaa,usaa,
+usaa bank,usaa,
+velcro,velcro,
+verizon,verizon,
+verizon edge,verizon,
+ultra wideband,verizon,
+verizon smart rewards,verizon,
+verizon ellipsis,verizon,
+aol,verizon,
+verizon xlte,verizon,
+verizon wireless,verizon,
+verizon center for customers,verizon,
+viacom,viacom,
+nickelodeon,viacom,
+visionworks,visionworks,
+volkswagen reward card,volkswagen,
+passat tdi clean diesel,volkswagen,
+volkswagen tdi clean diesel event,volkswagen,
+porsche,volkswagen,
+volkswagen,volkswagen,
+volkswagen springtoberfest,volkswagen,
+volkswagen golf,volkswagen,
+volkswagen passat,volkswagen,
+tdi clean diesel,volkswagen,
+volkswagen alltrack,volkswagen,
+volvo,volvo,
+voya,voya financial,
+medicare part d,walgreens,
+med d. walgreens,walgreens,
+corner of happy and healthy,walgreens,
+walgreen,walgreens,
+walgreens,walgreens,
+wal-mart,walmart,
+walmart,walmart,
+wayfair,wayfair,
+wells fargo,wells fargo,
+whirlpool,whirlpool corporation,
+xerox,xerox,
+yahoo,yahoo,
+ymca,ymca,
+yum,yum! brands,
+kfc,yum! brands,
+zelle,zelle,
+ziprecruiter,ziprecruiter,
+farmville,zynga,
+glc mercedes-benz,,
