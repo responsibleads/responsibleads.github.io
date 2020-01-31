@@ -3,6 +3,7 @@
 *.ipynb
 data/backup/*
 data/pages/*
+data/temp.csv
 *.json
 *.py
 index-tmpl.html
