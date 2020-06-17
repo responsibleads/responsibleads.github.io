@@ -1,10 +1,10 @@
 company_name,keywords,count
 usaa,usaa,956
-amgen,"otezla, brita, aimovig",866
-comcast,"xfinity, comcast business, comcast",754
+amgen,"otezla, brita, aimovig, amgen",866
+comcast,"xfinity, comcast business, comcast, xfinity voice remote, xfinity service, comcast business securityedge, xfinity home, xfinity mobile, comcast spotlight, effectv, comcast business security edge",754
 geico,geico,658
 safelite,"safelite, safelite advantage",606
-newday usa,"newday usa, va streamline refi, va home loan",456
+newday usa,"newday usa, va streamline refi, va home loan, refi, newday, va streamline",456
 abbvie,humira,392
 carvana,carvana,277
 allstate,"allstate, drivewise",236
@@ -12,12 +12,12 @@ humana,humana,224
 american advisors group,aag,218
 astrazeneca,"brilinta, symbicort, astrazeneca",205
 expedia,"expedia, travelocity",190
-subaru,"subaru, subaru ascent, subaru outback",186
-eli lilly,"trulicity, jardiance, taltz",178
+subaru,"subaru, subaru ascent, subaru outback, subaru loves",186
+eli lilly,"trulicity, jardiance, taltz, verzenio, trulicity.com",178
 verizon,"verizon, verizon stream tv, ultra wideband",168
 t-mobile,t-mobile,165
 celgene,otezla,164
-chevrolet,"chevy, chevy employee discount, chevy silverado",155
+chevrolet,"chevy, chevy employee discount, chevy silverado, chevrolet, chevy blazer, silverado",155
 mercedes-benz,"mercedes-benz, glc",145
 novartis,"cosentyx, novartis, entresto",144
 healthmarkets,healthmarkets,137
@@ -25,7 +25,7 @@ aspen dental,"aspen dental, aspen",134
 liberty mutual,"zoltar, liberty mutual",124
 takeda,entyvio,115
 legacybox,"legacybox, nick -rsb- legacybox",107
-procter & gamble,"dawn ultra, gillette, vicks sinex",97
+procter & gamble,"dawn ultra, gillette, vicks sinex, cascade platinum, bounce wrinkle guard, braun, vicks vapocool, downy, downy wrinkleguard, downy infusions calm",97
 matrixx initiatives,zicam,91
 at&t,"at&t, directv",89
 dr. scholl's,scholl,83
@@ -36,7 +36,7 @@ charles schwab corporation,schwab,77
 custom ink,custom ink,74
 norton,norton,72
 sofi,sofi,72
-walgreens,"walgreens, walgreen, med d. walgreens",70
+walgreens,"walgreens, walgreen, med d. walgreens, medicare part d",70
 bayer,"bayer, coricidin hbp",66
 voya financial,voya,65
 cigna,cigna,64
@@ -44,12 +44,12 @@ fisher investments,fisher investments,59
 unitedhealthcare,"unitedhealthcare insurance company, unitedhealthcare",57
 intuit,"intuit quickbooks, quickbooks.com smallbusinesshelp intuit quickbooks",51
 eggland's best,eggland,48
-applebee's,"applebee, applebee 's new sizzlin, cent boneless wings",48
+applebee's,"applebee, applebee 's new sizzlin, cent boneless wings, applebee 's new loaded chicken fajitas",48
 tracfone,"tracfone, tracfone wireless",45
 essilor,essilor,44
-kraft heinz company,"heinz, kraft, oscar mayer",43
+kraft heinz company,"heinz, kraft, oscar mayer, oscar mayer deli fresh your, oscar mayer front yard cookout",43
 cancer treatment centers of america,cancer treatment centers of america,42
-hilton,"hilton, hilton price match guarantee, hilton app",42
+hilton,"hilton, hilton price match guarantee, hilton app, hilton.com",42
 bp,"bp, lightsource",41
 aarp,aarp,41
 glaxosmithkline,"biotene, nucala",38
@@ -71,7 +71,7 @@ wayfair,wayfair,20
 volkswagen,volkswagen,20
 microsoft,"microsoft, bing",18
 toyota,"toyota, tacoma",18
-fiat chrysler automobiles,"chrysler pacifica, dodge power dollars, pacifica limited",18
+fiat chrysler automobiles,"chrysler pacifica, dodge power dollars, pacifica limited, chrysler",18
 oracle,"netsuite, oracle",15
 prestige consumer healthcare,little fleet,15
 bass pro shops,"bass pro shops, natural reflections ladies ' cozy socks",15
