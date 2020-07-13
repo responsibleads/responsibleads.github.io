@@ -1,178 +1,181 @@
 company_name,keywords,count
-usaa,usaa,877
-amgen,"otezla, brita, aimovig, amgen",847
-comcast,"xfinity, comcast business, xfinity voice remote, comcast, xfinity service, comcast business securityedge, xfinity home, comcast spotlight, xfinity mobile, effectv, comcast business security edge",749
+amgen,"otezla, brita, aimovig, amgen",901
+usaa,usaa,809
+comcast,"xfinity, comcast business, xfinity voice remote, comcast, xfinity service, comcast business securityedge, xfinity home, xfinity mobile, comcast spotlight, effectv, comcast business security edge",729
 safelite,"safelite, safelite advantage",606
-geico,geico,604
-newday usa,"newday usa, va streamline refi, va home loan, refi, va streamline, newday",452
-abbvie,humira,358
-carvana,carvana,270
-allstate,"allstate, drivewise",252
-american advisors group,aag,226
-humana,humana,221
-subaru,"subaru, subaru ascent, subaru outback, subaru loves",212
-astrazeneca,"brilinta, symbicort, astrazeneca",192
-eli lilly,"trulicity, jardiance, verzenio, trulicity.com",181
-verizon,"verizon, verizon stream tv, ultra wideband",168
+geico,geico,555
+newday usa,"newday usa, va streamline refi, va home loan, refi, va streamline, newday",443
+abbvie,humira,346
+carvana,carvana,267
+allstate,"allstate, drivewise",264
+american advisors group,aag,228
+humana,humana,216
+subaru,"subaru, subaru ascent, subaru outback, subaru loves",208
+astrazeneca,"brilinta, symbicort, astrazeneca",187
+eli lilly,"trulicity, jardiance, verzenio, trulicity.com",182
+verizon,"verizon, ultra wideband, verizon stream tv",168
 t-mobile,t-mobile,165
-expedia,"expedia, travelocity",164
 chevrolet,"chevy, chevy employee discount, chevy silverado, chevrolet, chevy blazer, silverado",155
-novartis,"cosentyx, novartis, entresto",148
-mercedes-benz,"mercedes-benz, glc",140
-healthmarkets,healthmarkets,137
-celgene,otezla,134
-liberty mutual,"zoltar, liberty mutual",118
-aspen dental,"aspen dental, aspen",118
-takeda,entyvio,115
-procter & gamble,"dawn ultra, gillette, bounce wrinkle guard, vicks sinex, cascade platinum, vicks vapocool, braun, downy wrinkleguard, downy infusions calm, downy",107
+novartis,"cosentyx, novartis, entresto",143
+healthmarkets,healthmarkets,139
+expedia,"expedia, travelocity",136
+mercedes-benz,"mercedes-benz, glc",126
+takeda,entyvio,114
+procter & gamble,"dawn ultra, gillette, bounce wrinkle guard, vicks sinex, cascade platinum, microban, vicks vapocool, braun, downy wrinkleguard, downy infusions calm, downy",109
+aspen dental,"aspen dental, aspen",109
 legacybox,"legacybox, nick -rsb- legacybox",107
-zoetis,simparica trio,96
+zoetis,simparica trio,107
+liberty mutual,"zoltar, liberty mutual",105
 matrixx initiatives,zicam,91
-kohler,kohler,91
-at&t,at&t,87
-charles schwab corporation,schwab,80
+kohler,kohler,90
+bayer,"bayer, coricidin hbp",86
+celgene,otezla,83
+charles schwab corporation,schwab,81
+at&t,at&t,80
 lifelock,"lifelock, lifelock.com tv",79
-walgreens,"walgreens, walgreen, medicare part d, med d. walgreens",76
+walgreens,"walgreens, walgreen, med d. walgreens, medicare part d",77
 sofi,sofi,74
 norton,norton,72
-custom ink,custom ink,71
-dr. scholl's,scholl,69
-bayer,"bayer, coricidin hbp",66
+custom ink,custom ink,69
 voya financial,voya,65
 cigna,cigna,64
+dr. scholl's,scholl,63
 unitedhealthcare,"unitedhealthcare insurance company, unitedhealthcare",57
 eggland's best,eggland,54
-glaxosmithkline,"biotene, nucala",51
+golo,golo,51
 intuit,"intuit quickbooks, quickbooks.com smallbusinesshelp intuit quickbooks",51
-fisher investments,fisher investments,50
-tracfone,"tracfone wireless, tracfone",45
-applebee's,"applebee, applebee 's new sizzlin, cent boneless wings",44
-hilton,"hilton, hilton price match guarantee, hilton app, hilton.com",42
-cancer treatment centers of america,cancer treatment centers of america,42
-bp,"bp, lightsource",41
+glaxosmithkline,"biotene, nucala",50
+tracfone,"tracfone wireless, tracfone",46
+fisher investments,fisher investments,45
+applebee's,"applebee, cent boneless wings, applebee 's new sizzlin",44
+cancer treatment centers of america,cancer treatment centers of america,41
 aarp,aarp,41
-kraft heinz company,"kraft, heinz, oscar mayer, oscar mayer deli fresh your, oscar mayer front yard cookout",36
-united states postal service,united states postal service,36
+bp,"bp, lightsource",41
+quincy bioscience,prevagen,38
+hilton,"hilton, hilton price match guarantee, hilton app, hilton.com",37
 united rentals,united rentals,36
 gm,gm,34
-quincy bioscience,prevagen,33
-farmers insurance group,farmers,33
-jackson hewitt,jackson hewitt,31
+united states postal service,united states postal service,32
 pfizer,"pfizer, prevnar, eliquis",31
+jackson hewitt,jackson hewitt,31
 samsung,"samsung, samsung galaxy",30
+farmers insurance group,farmers,29
+kraft heinz company,"kraft, oscar mayer, heinz, oscar mayer deli fresh your, oscar mayer front yard cookout",29
 epson,epson,27
-essilor,essilor,25
 cvs health,cvs,25
-john deere,john deere,24
-mcdonald's,mcdonald,23
+essilor,essilor,25
+john deere,john deere,21
+mcdonald's,mcdonald,20
 volkswagen,volkswagen,20
-tripadvisor,tripadvisor,20
-golo,golo,20
-the hartford,hartford,18
-toyota,"toyota, tacoma",18
 fiat chrysler automobiles,"chrysler pacifica, dodge power dollars, pacifica limited, chrysler",18
+toyota,"toyota, tacoma",18
+the hartford,hartford,17
 wayfair,wayfair,17
 microsoft,"microsoft, bing",16
 oracle,"netsuite, oracle",15
 prestige consumer healthcare,little fleet,15
 land o frost,frost premium,15
-united airlines,"united explorer card, united airlines",14
+shire,xiidra,14
 blue cross blue shield association,blue cross blue shield,14
 bass pro shops,"bass pro shops, natural reflections ladies ' cozy socks",14
-abbott,glucerna,13
+united airlines,"united explorer card, united airlines",14
 aderans,"hair club, hairclub",12
 gnc,gnc,12
+abbott,glucerna,12
 tiaa,tiaa,11
 tesla,tesla,11
-priceline,priceline,11
 amtrak,amtrak,10
-delta,delta,10
-yum! brands,kfc,9
+priceline,priceline,9
 yahoo,yahoo,9
 3m,3m,9
-alamo,alamo,9
 idaho potato commission,"big idaho potato truck, idaho potatoes",9
-lincoln,lincoln summer invitation,8
-aetna,aetna,7
-phillips 66,phillips,7
-the coca-cola company,coke,7
+alamo,alamo,9
+delta,delta,9
+yum! brands,kfc,8
+tripadvisor,tripadvisor,8
 costco,costco,7
+phillips 66,phillips,7
+aetna,aetna,7
+the coca-cola company,coke,7
 prudential financial,prudential,6
-visionworks,visionworks,6
 pepsico,pepsi,6
 american airlines,american airlines,6
+audi,audi,6
 goldman sachs,goldman sachs,6
-moody's corporation,moody 's,5
-pg&e,pg&e,5
-boys and girls clubs of america,"girls clubs of america, boys & girls clubs",5
-office depot,"officemax, office depot",5
+visionworks,visionworks,6
 wells fargo,wells fargo,5
-exxon mobil,"exxonmobil, exxon, exxon mobil",5
-shriners hospitals for children,shriners hospitals for children,5
 adt,adt,5
+exxon mobil,"exxonmobil, exxon, exxon mobil",5
+moody's corporation,moody 's,5
+office depot,"officemax, office depot",5
+shriners hospitals for children,shriners hospitals for children,5
+boys and girls clubs of america,"girls clubs of america, boys & girls clubs",5
+lincoln,lincoln summer invitation,5
+pg&e,pg&e,5
 heineken,heineken,4
-bain & company,bain,4
-nordstrom,nordstrom,4
-life line screening,power of prevention,4
-sanofi,"toujeo, dupixent",4
-general electric,ge,4
-schiff vitamins,neuriva,4
-t. rowe price,t. rowe price,4
+devon energy,devon,4
+crest,crest,4
 booking.com,booking.com,4
+t. rowe price,t. rowe price,4
 dell,"dell small business technology advisors, dell technologies advisor",4
+life line screening,power of prevention,4
+nordstrom,nordstrom,4
+schiff vitamins,neuriva,4
+general electric,ge,4
 choice hotels,choicehotels.com,3
-clorox,clorox,3
-amplifon,miracle-ear,3
 ancestry,"at ancestry.com, ancestry",3
-ikea,ikea,3
-devon energy,devon,3
-alzheimer's association,"alz.org walk, alzheimer 's association walk",3
+amplifon,miracle-ear,3
 nintendo,nintendo,3
 adp,adp,3
-babbel,babbel,2
-pandora,pandora,2
-the blackstone group,blackstone,2
-ibm,ibm,2
-lockheed martin,lockheed martin,2
-airbus,airbus,2
+clorox,clorox,3
+ikea,ikea,3
 sony,sony,2
-cabela's,cabela 's,2
-equifax,equifax,2
-ship sticks,shipsticks.com,2
-nestle,high protein nutritional drink,2
 allergan,vraylar,2
-ebates,ebates,2
-cisco,cisco,2
-it cosmetics,cc cream,2
+alzheimer's association,"alzheimer 's association walk, alz.org walk",2
 amazon,download audible,2
 amc,amc,2
-crest,crest,2
-audi,audi,2
 bausch health,national eye institute,2
-ameriprise financial,ameriprise,1
-xerox,xerox,1
-aig,aig,1
-union pacific,union pacific,1
-ubs,ubs,1
-citigroup,citibank,1
-togo's,togo,1
-mercy ships,mercyships.org,1
-honda,honda,1
-jpmorgan chase,j.p. morgan,1
-hasbro,hasbro,1
-halliburton,halliburton,1
-general mills,pillsbury,1
-lincoln financial,lincolnfinancial.com,1
+airbus,airbus,2
+bain & company,bain,2
+babbel,babbel,2
+the blackstone group,blackstone,2
+ship sticks,shipsticks.com,2
+ibm,ibm,2
+mercy ships,mercyships.org,2
+cabela's,cabela 's,2
+cisco,cisco,2
+it cosmetics,cc cream,2
+equifax,equifax,2
+lockheed martin,lockheed martin,2
+papa john’s pizza,foundation for building community,2
+ebates,ebates,2
+pandora,pandora,2
+nestle,high protein nutritional drink,2
 fidelity investments,fidelity,1
 mattel,mattel,1
+lincoln financial,lincolnfinancial.com,1
+halliburton,halliburton,1
+general mills,pillsbury,1
+aig,aig,1
+jpmorgan chase,j.p. morgan,1
+hasbro,hasbro,1
+xerox,xerox,1
+honda,honda,1
 emirates,emirates,1
-baesystems,bae,1
-northrop grumman,northrop grumman,1
-dunkin brands,dunkin,1
-dhl,dhl,1
-ortho,new ortho home defense max,1
-petsmart,petsmart.com,1
-rosland capital,rosland capital,1
 sears,sears,1
+union pacific,union pacific,1
+ubs,ubs,1
+sanofi,dupixent,1
+ameriprise financial,ameriprise,1
+dunkin brands,dunkin,1
+togo's,togo,1
+dhl,dhl,1
+northrop grumman,northrop grumman,1
+ortho,new ortho home defense max,1
+baesystems,bae,1
+petsmart,petsmart.com,1
+citigroup,citibank,1
 sprint,sprint,1
 hyundai,hyundai,1
+rosland capital,rosland capital,1
+prostate cancer foundation,prostate cancer foundation,1
