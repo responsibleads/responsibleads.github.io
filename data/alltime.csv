@@ -58,7 +58,7 @@ esurance,esurance,697
 phillips 66,phillips,684
 gilead sciences,harvoni,677
 chevrolet,"chevy, chevy employee discount, chevy silverado, chevrolet, silverado, chevy blazer",673
-crest,"crest hd, crest pro-health advanced, crest pro-health, crest, crest whitestrips, whitestrips, crest 3d white whitestrips, crest sensi-stop strips, whitestrips whiten, express whitestrips",664
+crest,"crest pro-health advanced, crest hd, crest pro-health, crest, crest whitestrips, whitestrips, crest 3d white whitestrips, crest sensi-stop strips, whitestrips whiten, express whitestrips",664
 cancer treatment centers of america,"cancer treatment centers of america, ctca",645
 boehringer ingelheim,"pradaxa, spiriva respimat",643
 general electric,"ge, g.e., ge software",628
@@ -87,8 +87,8 @@ kellogg company,kellogg,373
 carvana,carvana,373
 fisher investments,fisher investments,369
 gm,gm,358
-transamerica corporation,transamerica,350
 nestle,"boost high protein, nespresso, nestle, fancy feast broths, be stouffer 's mac & cheese, new friskies plus, high protein nutritional drink",350
+transamerica corporation,transamerica,350
 eggland's best,"eggland, eggland 's best",349
 finra,brokercheck,340
 voya financial,voya,332
@@ -104,7 +104,7 @@ reuters,"reuters, lipper",301
 bp,"bp, lightsource",287
 kraft heinz company,"gevalia, kraft, heinz, oscar mayer, oscar mayer deli fresh, nabisco, oscar mayer deli fresh your, oscar mayer front yard cookout",275
 carfax,carfax,274
-simmons bedding company,"beautyrest, beautyrest pocketed coils, beautyrest recharge sleep system, serta icomfort, beautyrest black, serta",273
+simmons bedding company,"beautyrest, beautyrest pocketed coils, beautyrest recharge sleep system, beautyrest black, serta icomfort, serta",273
 fiat chrysler automobiles,"chrysler, fiat, fiat chrysler, chrysler pacifica, dodge power dollars, pacifica limited",270
 custom ink,custom ink,268
 red lobster,"red lobster, new colossal shrimp & salmon, new cedar-plank lobster & shrimp",264
@@ -129,7 +129,7 @@ amd,amd,216
 aspen dental,"aspen dental, aspen",212
 xerox,xerox,211
 amway,amway,206
-yum! brands,"kfc, yum",206
+yum! brands,"yum, kfc",206
 honda,honda,200
 sprint,sprint,195
 the coca-cola company,"coca-cola, truvia, coca cola, coke",195
@@ -151,11 +151,12 @@ essilor,"essilor, varilux, crizal, xperio uv",137
 walgreens,"walgreens, walgreen, corner of happy and healthy, medicare part d, med d. walgreens",137
 massachusetts mutual,massmutual,134
 leesa mattress,leesa mattress,133
+nokia,nokia lumia,130
 avon products,avon,129
 reckitt benckiser,"mucinex dm, mucinex, lysol",128
 csx,csx,126
-midas,midas,125
 tripadvisor,tripadvisor,125
+midas,midas,125
 aviva,aviva,125
 helzberg diamonds,helzberg diamonds,121
 ortho,"ortho home defense max, new ortho home defense max",120
@@ -167,14 +168,14 @@ chick-fil-a,chick-fil-a,114
 bny mellon,bny mellon wealth management,112
 tesla,tesla,111
 tyco international,tyco integrated security,108
-zoetis,simparica trio,107
-moody's corporation,moody 's,107
 legacybox,"legacybox, nick -rsb- legacybox",107
+moody's corporation,moody 's,107
+zoetis,simparica trio,107
 nationwide insurance,nationwide insurance,103
 bain & company,bain,102
 hilton,"hilton, hilton price match guarantee, hampton.com, hilton app, hilton.com",98
-nordstrom,nordstrom,97
 devry university,devry university,97
+nordstrom,nordstrom,97
 sofi,sofi,96
 airbus,airbus,95
 gnc,gnc,95
@@ -183,8 +184,8 @@ aetna,aetna,92
 devon energy,devon,90
 nfl,nfl mobile,90
 fico,fico,85
-tracfone,"tracfone, tracfone wireless",85
 norton,norton,85
+tracfone,"tracfone, tracfone wireless",85
 ikea,ikea,84
 cisco,cisco,83
 husqvarna,husqvarna,83
@@ -195,23 +196,22 @@ huidarts,stelara,76
 chico's,"chico 's and chicos.com, chico 's leggings",75
 trugreen,trugreen,71
 aig,aig,70
-htc,htc,69
 asiana airlines,asiana,69
+htc,htc,69
 lincoln,"lincoln mkx, lincoln mkc, lincoln mkz, lincoln summer invitation",68
-nokia,nokia lumia,65
 etrade,etrade,62
 hearusa,hearusa,61
-transunion,"transunion.com, transunion",61
 jackson hewitt,jackson hewitt,61
+transunion,"transunion.com, transunion",61
 amazon,"audible originals, audible, download audible",58
 american express,plenti,56
-janssen pharmaceuticals,invokana,55
 darden restaurants,olive garden,55
+janssen pharmaceuticals,invokana,55
 caterpillar,caterpillar,54
 hoveround,hoveround,54
 the rockport group,rockport,53
-intuit,"intuit quickbooks, quickbooks.com smallbusinesshelp intuit quickbooks",52
 ford,"ford service credit card, ford service credit credit card, ford escape, ford edge",52
+intuit,"intuit quickbooks, quickbooks.com smallbusinesshelp intuit quickbooks",52
 oracle,"oracle, netsuite",51
 golo,golo,51
 masco corporation,behr ultra,49
@@ -230,8 +230,8 @@ lupin,latisse,41
 ubs,ubs,40
 opentable,opentable,40
 alamo,alamo,40
-kmart,kmart,38
 adp,adp,38
+kmart,kmart,38
 panera bread,"panera bread, panera",37
 hyundai,hyundai,37
 united rentals,united rentals,37
