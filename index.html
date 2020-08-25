@@ -20,9 +20,12 @@
 
 <!--Vega Scripts -->
 <!-- consider async eventually -->
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega@5"></script>
+<!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega@5"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-lite@4.8.1"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-embed@6"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-embed@6"></script> -->
+<script type="text/javascript" src="js/vega@5.js"></script>
+<script type="text/javascript" src="js/vega-lite@4.8.1.js"></script>
+<script type="text/javascript" src="js/vega-embed@6.js"></script>
 
 <style>
 .markdown-body {
@@ -100,516 +103,516 @@ table {
     <p>Here are the top advertisers over the last few weeks in my dataset (ending 2020-08-21).  Let them know you don't appreciate the propaganda!</p>
     <div id="weektable" class="table-wrapper">
       <style  type="text/css" >
-    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow0_col2 {
+    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow0_col2 {
             background-color:  #fee3d7;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow0_col3 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow0_col3 {
             background-color:  #fee0d2;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow0_col4 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow0_col4 {
             background-color:  #fb7555;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow1_col2 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow1_col2 {
             background-color:  #fcab8f;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow1_col3 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow1_col3 {
             background-color:  #fcab8f;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow1_col4 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow1_col4 {
             background-color:  #fc8f6f;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow2_col2 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow2_col2 {
             background-color:  #fc9d7f;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow2_col3 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow2_col3 {
             background-color:  #fc9777;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow2_col4 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow2_col4 {
             background-color:  #fcb398;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow3_col2 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow3_col2 {
             background-color:  #fee7dc;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow3_col3 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow3_col3 {
             background-color:  #fdccb8;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow3_col4 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow3_col4 {
             background-color:  #fcb398;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow4_col2 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow4_col2 {
             background-color:  #fcc1a8;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow4_col3 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow4_col3 {
             background-color:  #fdc6b0;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow4_col4 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow4_col4 {
             background-color:  #fcc1a8;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow5_col2 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow5_col2 {
             background-color:  #fff5f0;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow5_col3 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow5_col3 {
             background-color:  #fff5f0;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow5_col4 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow5_col4 {
             background-color:  #fdc6b0;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow6_col2 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow6_col2 {
             background-color:  #67000d;
             color:  #f1f1f1;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow6_col3 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow6_col3 {
             background-color:  #fcb99f;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow6_col4 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow6_col4 {
             background-color:  #fed9c9;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow7_col2 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow7_col2 {
             background-color:  #fdccb8;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow7_col3 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow7_col3 {
             background-color:  #fcc1a8;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow7_col4 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow7_col4 {
             background-color:  #fee0d2;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow8_col2 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow8_col2 {
             background-color:  #fee3d7;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow8_col3 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow8_col3 {
             background-color:  #fee3d7;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow8_col4 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow8_col4 {
             background-color:  #fee0d2;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow9_col2 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow9_col2 {
             background-color:  #fee0d2;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow9_col3 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow9_col3 {
             background-color:  #fee3d7;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow9_col4 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow9_col4 {
             background-color:  #fee3d7;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow10_col2 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow10_col2 {
             background-color:  #fee0d2;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow10_col3 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow10_col3 {
             background-color:  #fee0d2;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow10_col4 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow10_col4 {
             background-color:  #fee3d7;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow11_col2 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow11_col2 {
             background-color:  #feeae1;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow11_col3 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow11_col3 {
             background-color:  #fee0d2;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow11_col4 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow11_col4 {
             background-color:  #fee3d7;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow12_col2 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow12_col2 {
             background-color:  #ffeee7;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow12_col3 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow12_col3 {
             background-color:  #ffeee7;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow12_col4 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow12_col4 {
             background-color:  #feeae1;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow13_col2 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow13_col2 {
             background-color:  #fff5f0;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow13_col3 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow13_col3 {
             background-color:  #ffeee7;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow13_col4 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow13_col4 {
             background-color:  #feeae1;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow14_col2 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow14_col2 {
             background-color:  #feeae1;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow14_col3 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow14_col3 {
             background-color:  #fee3d7;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow14_col4 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow14_col4 {
             background-color:  #feeae1;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow15_col2 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow15_col2 {
             background-color:  #fff5f0;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow15_col3 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow15_col3 {
             background-color:  #fff5f0;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow15_col4 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow15_col4 {
             background-color:  #ffeee7;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow16_col2 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow16_col2 {
             background-color:  #fff2eb;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow16_col3 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow16_col3 {
             background-color:  #ffeee7;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow16_col4 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow16_col4 {
             background-color:  #ffeee7;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow17_col2 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow17_col2 {
             background-color:  #fee7dc;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow17_col3 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow17_col3 {
             background-color:  #feeae1;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow17_col4 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow17_col4 {
             background-color:  #ffeee7;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow18_col2 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow18_col2 {
             background-color:  #fee7dc;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow18_col3 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow18_col3 {
             background-color:  #fee3d7;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow18_col4 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow18_col4 {
             background-color:  #ffeee7;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow19_col2 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow19_col2 {
             background-color:  #fff5f0;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow19_col3 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow19_col3 {
             background-color:  #fff5f0;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow19_col4 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow19_col4 {
             background-color:  #fff2eb;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow20_col2 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow20_col2 {
             background-color:  #fff2eb;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow20_col3 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow20_col3 {
             background-color:  #fee3d7;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow20_col4 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow20_col4 {
             background-color:  #fff2eb;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow21_col2 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow21_col2 {
             background-color:  #fff5f0;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow21_col3 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow21_col3 {
             background-color:  #fff5f0;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow21_col4 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow21_col4 {
             background-color:  #fff2eb;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow22_col2 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow22_col2 {
             background-color:  #fff5f0;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow22_col3 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow22_col3 {
             background-color:  #fff5f0;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow22_col4 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow22_col4 {
             background-color:  #fff2eb;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow23_col2 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow23_col2 {
             background-color:  #fff5f0;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow23_col3 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow23_col3 {
             background-color:  #fff5f0;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow23_col4 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow23_col4 {
             background-color:  #fff2eb;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow24_col2 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow24_col2 {
             background-color:  #fff2eb;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow24_col3 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow24_col3 {
             background-color:  #ffeee7;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow24_col4 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow24_col4 {
             background-color:  #fff2eb;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow25_col2 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow25_col2 {
             background-color:  #fff5f0;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow25_col3 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow25_col3 {
             background-color:  #fff5f0;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow25_col4 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow25_col4 {
             background-color:  #fff2eb;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow26_col2 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow26_col2 {
             background-color:  #fee0d2;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow26_col3 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow26_col3 {
             background-color:  #ffeee7;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow26_col4 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow26_col4 {
             background-color:  #fff2eb;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow27_col2 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow27_col2 {
             background-color:  #feeae1;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow27_col3 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow27_col3 {
             background-color:  #fee3d7;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow27_col4 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow27_col4 {
             background-color:  #fff2eb;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow28_col2 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow28_col2 {
             background-color:  #fff5f0;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow28_col3 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow28_col3 {
             background-color:  #fff5f0;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow28_col4 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow28_col4 {
             background-color:  #fff2eb;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow29_col2 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow29_col2 {
             background-color:  #fff5f0;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow29_col3 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow29_col3 {
             background-color:  #fff2eb;
             color:  #000000;
-        }    #T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow29_col4 {
+        }    #T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow29_col4 {
             background-color:  #fff2eb;
             color:  #000000;
-        }</style><table id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96da" ><thead>    <tr>        <th class="blank level0" ></th>        <th class="col_heading level0 col0" >company_name</th>        <th class="col_heading level0 col1" >keywords</th>        <th class="col_heading level0 col2" >2020-08-07</th>        <th class="col_heading level0 col3" >2020-08-14</th>        <th class="col_heading level0 col4" >2020-08-21</th>    </tr></thead><tbody>
+        }</style><table id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96da" ><thead>    <tr>        <th class="blank level0" ></th>        <th class="col_heading level0 col0" >company_name</th>        <th class="col_heading level0 col1" >keywords</th>        <th class="col_heading level0 col2" >2020-08-07</th>        <th class="col_heading level0 col3" >2020-08-14</th>        <th class="col_heading level0 col4" >2020-08-21</th>    </tr></thead><tbody>
                 <tr>
-                        <th id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96dalevel0_row0" class="row_heading level0 row0" >0</th>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow0_col0" class="data row0 col0" >safelite</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow0_col1" class="data row0 col1" >safelite</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow0_col2" class="data row0 col2" >5</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow0_col3" class="data row0 col3" >6</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow0_col4" class="data row0 col4" >22</td>
+                        <th id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96dalevel0_row0" class="row_heading level0 row0" >0</th>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow0_col0" class="data row0 col0" >safelite</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow0_col1" class="data row0 col1" >safelite</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow0_col2" class="data row0 col2" >5</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow0_col3" class="data row0 col3" >6</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow0_col4" class="data row0 col4" >22</td>
             </tr>
             <tr>
-                        <th id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96dalevel0_row1" class="row_heading level0 row1" >1</th>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow1_col0" class="data row1 col0" >allstate</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow1_col1" class="data row1 col1" >allstate</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow1_col2" class="data row1 col2" >14</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow1_col3" class="data row1 col3" >14</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow1_col4" class="data row1 col4" >18</td>
+                        <th id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96dalevel0_row1" class="row_heading level0 row1" >1</th>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow1_col0" class="data row1 col0" >allstate</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow1_col1" class="data row1 col1" >allstate</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow1_col2" class="data row1 col2" >14</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow1_col3" class="data row1 col3" >14</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow1_col4" class="data row1 col4" >18</td>
             </tr>
             <tr>
-                        <th id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96dalevel0_row2" class="row_heading level0 row2" >2</th>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow2_col0" class="data row2 col0" >golo</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow2_col1" class="data row2 col1" >golo</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow2_col2" class="data row2 col2" >16</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow2_col3" class="data row2 col3" >17</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow2_col4" class="data row2 col4" >13</td>
+                        <th id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96dalevel0_row2" class="row_heading level0 row2" >2</th>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow2_col0" class="data row2 col0" >golo</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow2_col1" class="data row2 col1" >golo</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow2_col2" class="data row2 col2" >16</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow2_col3" class="data row2 col3" >17</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow2_col4" class="data row2 col4" >13</td>
             </tr>
             <tr>
-                        <th id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96dalevel0_row3" class="row_heading level0 row3" >3</th>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow3_col0" class="data row3 col0" >at&t</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow3_col1" class="data row3 col1" >at&t</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow3_col2" class="data row3 col2" >4</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow3_col3" class="data row3 col3" >9</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow3_col4" class="data row3 col4" >13</td>
+                        <th id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96dalevel0_row3" class="row_heading level0 row3" >3</th>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow3_col0" class="data row3 col0" >at&t</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow3_col1" class="data row3 col1" >at&t</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow3_col2" class="data row3 col2" >4</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow3_col3" class="data row3 col3" >9</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow3_col4" class="data row3 col4" >13</td>
             </tr>
             <tr>
-                        <th id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96dalevel0_row4" class="row_heading level0 row4" >4</th>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow4_col0" class="data row4 col0" >usaa</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow4_col1" class="data row4 col1" >usaa, usaa insurance</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow4_col2" class="data row4 col2" >11</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow4_col3" class="data row4 col3" >10</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow4_col4" class="data row4 col4" >11</td>
+                        <th id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96dalevel0_row4" class="row_heading level0 row4" >4</th>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow4_col0" class="data row4 col0" >usaa</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow4_col1" class="data row4 col1" >usaa, usaa insurance</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow4_col2" class="data row4 col2" >11</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow4_col3" class="data row4 col3" >10</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow4_col4" class="data row4 col4" >11</td>
             </tr>
             <tr>
-                        <th id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96dalevel0_row5" class="row_heading level0 row5" >5</th>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow5_col0" class="data row5 col0" >goodyear</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow5_col1" class="data row5 col1" >goodyear</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow5_col2" class="data row5 col2" >0</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow5_col3" class="data row5 col3" >0</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow5_col4" class="data row5 col4" >10</td>
+                        <th id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96dalevel0_row5" class="row_heading level0 row5" >5</th>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow5_col0" class="data row5 col0" >goodyear</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow5_col1" class="data row5 col1" >goodyear</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow5_col2" class="data row5 col2" >0</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow5_col3" class="data row5 col3" >0</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow5_col4" class="data row5 col4" >10</td>
             </tr>
             <tr>
-                        <th id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96dalevel0_row6" class="row_heading level0 row6" >6</th>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow6_col0" class="data row6 col0" >amgen</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow6_col1" class="data row6 col1" >brita</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow6_col2" class="data row6 col2" >47</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow6_col3" class="data row6 col3" >12</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow6_col4" class="data row6 col4" >7</td>
+                        <th id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96dalevel0_row6" class="row_heading level0 row6" >6</th>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow6_col0" class="data row6 col0" >amgen</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow6_col1" class="data row6 col1" >brita</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow6_col2" class="data row6 col2" >47</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow6_col3" class="data row6 col3" >12</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow6_col4" class="data row6 col4" >7</td>
             </tr>
             <tr>
-                        <th id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96dalevel0_row7" class="row_heading level0 row7" >7</th>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow7_col0" class="data row7 col0" >takeda</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow7_col1" class="data row7 col1" >xiidra</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow7_col2" class="data row7 col2" >9</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow7_col3" class="data row7 col3" >11</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow7_col4" class="data row7 col4" >6</td>
+                        <th id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96dalevel0_row7" class="row_heading level0 row7" >7</th>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow7_col0" class="data row7 col0" >takeda</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow7_col1" class="data row7 col1" >xiidra</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow7_col2" class="data row7 col2" >9</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow7_col3" class="data row7 col3" >11</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow7_col4" class="data row7 col4" >6</td>
             </tr>
             <tr>
-                        <th id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96dalevel0_row8" class="row_heading level0 row8" >8</th>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow8_col0" class="data row8 col0" >comcast</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow8_col1" class="data row8 col1" >xfinity, comcast business</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow8_col2" class="data row8 col2" >5</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow8_col3" class="data row8 col3" >5</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow8_col4" class="data row8 col4" >6</td>
+                        <th id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96dalevel0_row8" class="row_heading level0 row8" >8</th>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow8_col0" class="data row8 col0" >comcast</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow8_col1" class="data row8 col1" >xfinity, comcast business</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow8_col2" class="data row8 col2" >5</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow8_col3" class="data row8 col3" >5</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow8_col4" class="data row8 col4" >6</td>
             </tr>
             <tr>
-                        <th id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96dalevel0_row9" class="row_heading level0 row9" >9</th>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow9_col0" class="data row9 col0" >abbvie</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow9_col1" class="data row9 col1" >humira</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow9_col2" class="data row9 col2" >6</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow9_col3" class="data row9 col3" >5</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow9_col4" class="data row9 col4" >5</td>
+                        <th id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96dalevel0_row9" class="row_heading level0 row9" >9</th>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow9_col0" class="data row9 col0" >abbvie</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow9_col1" class="data row9 col1" >humira</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow9_col2" class="data row9 col2" >6</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow9_col3" class="data row9 col3" >5</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow9_col4" class="data row9 col4" >5</td>
             </tr>
             <tr>
-                        <th id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96dalevel0_row10" class="row_heading level0 row10" >10</th>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow10_col0" class="data row10 col0" >zoetis</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow10_col1" class="data row10 col1" >simparica trio</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow10_col2" class="data row10 col2" >6</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow10_col3" class="data row10 col3" >6</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow10_col4" class="data row10 col4" >5</td>
+                        <th id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96dalevel0_row10" class="row_heading level0 row10" >10</th>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow10_col0" class="data row10 col0" >zoetis</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow10_col1" class="data row10 col1" >simparica trio</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow10_col2" class="data row10 col2" >6</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow10_col3" class="data row10 col3" >6</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow10_col4" class="data row10 col4" >5</td>
             </tr>
             <tr>
-                        <th id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96dalevel0_row11" class="row_heading level0 row11" >11</th>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow11_col0" class="data row11 col0" >eli lilly</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow11_col1" class="data row11 col1" >trulicity</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow11_col2" class="data row11 col2" >3</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow11_col3" class="data row11 col3" >6</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow11_col4" class="data row11 col4" >5</td>
+                        <th id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96dalevel0_row11" class="row_heading level0 row11" >11</th>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow11_col0" class="data row11 col0" >eli lilly</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow11_col1" class="data row11 col1" >trulicity</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow11_col2" class="data row11 col2" >3</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow11_col3" class="data row11 col3" >6</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow11_col4" class="data row11 col4" >5</td>
             </tr>
             <tr>
-                        <th id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96dalevel0_row12" class="row_heading level0 row12" >12</th>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow12_col0" class="data row12 col0" >aetna</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow12_col1" class="data row12 col1" >aetna</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow12_col2" class="data row12 col2" >2</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow12_col3" class="data row12 col3" >2</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow12_col4" class="data row12 col4" >3</td>
+                        <th id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96dalevel0_row12" class="row_heading level0 row12" >12</th>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow12_col0" class="data row12 col0" >aetna</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow12_col1" class="data row12 col1" >aetna</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow12_col2" class="data row12 col2" >2</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow12_col3" class="data row12 col3" >2</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow12_col4" class="data row12 col4" >3</td>
             </tr>
             <tr>
-                        <th id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96dalevel0_row13" class="row_heading level0 row13" >13</th>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow13_col0" class="data row13 col0" >kohler</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow13_col1" class="data row13 col1" >kohler</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow13_col2" class="data row13 col2" >0</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow13_col3" class="data row13 col3" >2</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow13_col4" class="data row13 col4" >3</td>
+                        <th id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96dalevel0_row13" class="row_heading level0 row13" >13</th>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow13_col0" class="data row13 col0" >kohler</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow13_col1" class="data row13 col1" >kohler</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow13_col2" class="data row13 col2" >0</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow13_col3" class="data row13 col3" >2</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow13_col4" class="data row13 col4" >3</td>
             </tr>
             <tr>
-                        <th id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96dalevel0_row14" class="row_heading level0 row14" >14</th>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow14_col0" class="data row14 col0" >quincy bioscience</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow14_col1" class="data row14 col1" >prevagen</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow14_col2" class="data row14 col2" >3</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow14_col3" class="data row14 col3" >5</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow14_col4" class="data row14 col4" >3</td>
+                        <th id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96dalevel0_row14" class="row_heading level0 row14" >14</th>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow14_col0" class="data row14 col0" >quincy bioscience</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow14_col1" class="data row14 col1" >prevagen</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow14_col2" class="data row14 col2" >3</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow14_col3" class="data row14 col3" >5</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow14_col4" class="data row14 col4" >3</td>
             </tr>
             <tr>
-                        <th id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96dalevel0_row15" class="row_heading level0 row15" >15</th>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow15_col0" class="data row15 col0" >exxon mobil</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow15_col1" class="data row15 col1" >exxon</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow15_col2" class="data row15 col2" >0</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow15_col3" class="data row15 col3" >0</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow15_col4" class="data row15 col4" >2</td>
+                        <th id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96dalevel0_row15" class="row_heading level0 row15" >15</th>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow15_col0" class="data row15 col0" >exxon mobil</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow15_col1" class="data row15 col1" >exxon</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow15_col2" class="data row15 col2" >0</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow15_col3" class="data row15 col3" >0</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow15_col4" class="data row15 col4" >2</td>
             </tr>
             <tr>
-                        <th id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96dalevel0_row16" class="row_heading level0 row16" >16</th>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow16_col0" class="data row16 col0" >chevrolet</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow16_col1" class="data row16 col1" >chevy</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow16_col2" class="data row16 col2" >1</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow16_col3" class="data row16 col3" >2</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow16_col4" class="data row16 col4" >2</td>
+                        <th id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96dalevel0_row16" class="row_heading level0 row16" >16</th>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow16_col0" class="data row16 col0" >chevrolet</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow16_col1" class="data row16 col1" >chevy</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow16_col2" class="data row16 col2" >1</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow16_col3" class="data row16 col3" >2</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow16_col4" class="data row16 col4" >2</td>
             </tr>
             <tr>
-                        <th id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96dalevel0_row17" class="row_heading level0 row17" >17</th>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow17_col0" class="data row17 col0" >verizon</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow17_col1" class="data row17 col1" >verizon</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow17_col2" class="data row17 col2" >4</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow17_col3" class="data row17 col3" >3</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow17_col4" class="data row17 col4" >2</td>
+                        <th id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96dalevel0_row17" class="row_heading level0 row17" >17</th>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow17_col0" class="data row17 col0" >verizon</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow17_col1" class="data row17 col1" >verizon</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow17_col2" class="data row17 col2" >4</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow17_col3" class="data row17 col3" >3</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow17_col4" class="data row17 col4" >2</td>
             </tr>
             <tr>
-                        <th id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96dalevel0_row18" class="row_heading level0 row18" >18</th>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow18_col0" class="data row18 col0" >newday usa</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow18_col1" class="data row18 col1" >va streamline refi, newday</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow18_col2" class="data row18 col2" >4</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow18_col3" class="data row18 col3" >5</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow18_col4" class="data row18 col4" >2</td>
+                        <th id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96dalevel0_row18" class="row_heading level0 row18" >18</th>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow18_col0" class="data row18 col0" >newday usa</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow18_col1" class="data row18 col1" >va streamline refi, newday</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow18_col2" class="data row18 col2" >4</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow18_col3" class="data row18 col3" >5</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow18_col4" class="data row18 col4" >2</td>
             </tr>
             <tr>
-                        <th id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96dalevel0_row19" class="row_heading level0 row19" >19</th>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow19_col0" class="data row19 col0" >audi</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow19_col1" class="data row19 col1" >audi</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow19_col2" class="data row19 col2" >0</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow19_col3" class="data row19 col3" >0</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow19_col4" class="data row19 col4" >1</td>
+                        <th id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96dalevel0_row19" class="row_heading level0 row19" >19</th>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow19_col0" class="data row19 col0" >audi</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow19_col1" class="data row19 col1" >audi</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow19_col2" class="data row19 col2" >0</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow19_col3" class="data row19 col3" >0</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow19_col4" class="data row19 col4" >1</td>
             </tr>
             <tr>
-                        <th id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96dalevel0_row20" class="row_heading level0 row20" >20</th>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow20_col0" class="data row20 col0" >american advisors group</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow20_col1" class="data row20 col1" >aag</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow20_col2" class="data row20 col2" >1</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow20_col3" class="data row20 col3" >5</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow20_col4" class="data row20 col4" >1</td>
+                        <th id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96dalevel0_row20" class="row_heading level0 row20" >20</th>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow20_col0" class="data row20 col0" >american advisors group</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow20_col1" class="data row20 col1" >aag</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow20_col2" class="data row20 col2" >1</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow20_col3" class="data row20 col3" >5</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow20_col4" class="data row20 col4" >1</td>
             </tr>
             <tr>
-                        <th id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96dalevel0_row21" class="row_heading level0 row21" >21</th>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow21_col0" class="data row21 col0" >university of phoenix</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow21_col1" class="data row21 col1" >university of phoenix</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow21_col2" class="data row21 col2" >0</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow21_col3" class="data row21 col3" >0</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow21_col4" class="data row21 col4" >1</td>
+                        <th id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96dalevel0_row21" class="row_heading level0 row21" >21</th>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow21_col0" class="data row21 col0" >university of phoenix</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow21_col1" class="data row21 col1" >university of phoenix</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow21_col2" class="data row21 col2" >0</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow21_col3" class="data row21 col3" >0</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow21_col4" class="data row21 col4" >1</td>
             </tr>
             <tr>
-                        <th id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96dalevel0_row22" class="row_heading level0 row22" >22</th>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow22_col0" class="data row22 col0" >tracfone</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow22_col1" class="data row22 col1" >tracfone wireless</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow22_col2" class="data row22 col2" >0</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow22_col3" class="data row22 col3" >0</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow22_col4" class="data row22 col4" >1</td>
+                        <th id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96dalevel0_row22" class="row_heading level0 row22" >22</th>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow22_col0" class="data row22 col0" >tracfone</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow22_col1" class="data row22 col1" >tracfone wireless</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow22_col2" class="data row22 col2" >0</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow22_col3" class="data row22 col3" >0</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow22_col4" class="data row22 col4" >1</td>
             </tr>
             <tr>
-                        <th id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96dalevel0_row23" class="row_heading level0 row23" >23</th>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow23_col0" class="data row23 col0" >oracle</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow23_col1" class="data row23 col1" >oracle</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow23_col2" class="data row23 col2" >0</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow23_col3" class="data row23 col3" >0</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow23_col4" class="data row23 col4" >1</td>
+                        <th id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96dalevel0_row23" class="row_heading level0 row23" >23</th>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow23_col0" class="data row23 col0" >oracle</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow23_col1" class="data row23 col1" >oracle</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow23_col2" class="data row23 col2" >0</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow23_col3" class="data row23 col3" >0</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow23_col4" class="data row23 col4" >1</td>
             </tr>
             <tr>
-                        <th id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96dalevel0_row24" class="row_heading level0 row24" >24</th>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow24_col0" class="data row24 col0" >sofi</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow24_col1" class="data row24 col1" >sofi</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow24_col2" class="data row24 col2" >1</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow24_col3" class="data row24 col3" >2</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow24_col4" class="data row24 col4" >1</td>
+                        <th id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96dalevel0_row24" class="row_heading level0 row24" >24</th>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow24_col0" class="data row24 col0" >sofi</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow24_col1" class="data row24 col1" >sofi</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow24_col2" class="data row24 col2" >1</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow24_col3" class="data row24 col3" >2</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow24_col4" class="data row24 col4" >1</td>
             </tr>
             <tr>
-                        <th id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96dalevel0_row25" class="row_heading level0 row25" >25</th>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow25_col0" class="data row25 col0" >boys and girls clubs of america</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow25_col1" class="data row25 col1" >boys & girls clubs</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow25_col2" class="data row25 col2" >0</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow25_col3" class="data row25 col3" >0</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow25_col4" class="data row25 col4" >1</td>
+                        <th id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96dalevel0_row25" class="row_heading level0 row25" >25</th>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow25_col0" class="data row25 col0" >boys and girls clubs of america</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow25_col1" class="data row25 col1" >boys & girls clubs</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow25_col2" class="data row25 col2" >0</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow25_col3" class="data row25 col3" >0</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow25_col4" class="data row25 col4" >1</td>
             </tr>
             <tr>
-                        <th id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96dalevel0_row26" class="row_heading level0 row26" >26</th>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow26_col0" class="data row26 col0" >farmers insurance group</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow26_col1" class="data row26 col1" >farmers</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow26_col2" class="data row26 col2" >6</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow26_col3" class="data row26 col3" >2</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow26_col4" class="data row26 col4" >1</td>
+                        <th id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96dalevel0_row26" class="row_heading level0 row26" >26</th>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow26_col0" class="data row26 col0" >farmers insurance group</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow26_col1" class="data row26 col1" >farmers</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow26_col2" class="data row26 col2" >6</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow26_col3" class="data row26 col3" >2</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow26_col4" class="data row26 col4" >1</td>
             </tr>
             <tr>
-                        <th id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96dalevel0_row27" class="row_heading level0 row27" >27</th>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow27_col0" class="data row27 col0" >novartis</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow27_col1" class="data row27 col1" >entresto</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow27_col2" class="data row27 col2" >3</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow27_col3" class="data row27 col3" >5</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow27_col4" class="data row27 col4" >1</td>
+                        <th id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96dalevel0_row27" class="row_heading level0 row27" >27</th>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow27_col0" class="data row27 col0" >novartis</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow27_col1" class="data row27 col1" >entresto</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow27_col2" class="data row27 col2" >3</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow27_col3" class="data row27 col3" >5</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow27_col4" class="data row27 col4" >1</td>
             </tr>
             <tr>
-                        <th id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96dalevel0_row28" class="row_heading level0 row28" >28</th>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow28_col0" class="data row28 col0" >kraft heinz company</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow28_col1" class="data row28 col1" >kraft</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow28_col2" class="data row28 col2" >0</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow28_col3" class="data row28 col3" >0</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow28_col4" class="data row28 col4" >1</td>
+                        <th id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96dalevel0_row28" class="row_heading level0 row28" >28</th>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow28_col0" class="data row28 col0" >kraft heinz company</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow28_col1" class="data row28 col1" >kraft</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow28_col2" class="data row28 col2" >0</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow28_col3" class="data row28 col3" >0</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow28_col4" class="data row28 col4" >1</td>
             </tr>
             <tr>
-                        <th id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96dalevel0_row29" class="row_heading level0 row29" >29</th>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow29_col0" class="data row29 col0" >healthmarkets</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow29_col1" class="data row29 col1" >healthmarkets</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow29_col2" class="data row29 col2" >0</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow29_col3" class="data row29 col3" >1</td>
-                        <td id="T_3c8fe9aa_e636_11ea_888f_c869cd9e96darow29_col4" class="data row29 col4" >1</td>
+                        <th id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96dalevel0_row29" class="row_heading level0 row29" >29</th>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow29_col0" class="data row29 col0" >healthmarkets</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow29_col1" class="data row29 col1" >healthmarkets</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow29_col2" class="data row29 col2" >0</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow29_col3" class="data row29 col3" >1</td>
+                        <td id="T_764c8a74_e6fc_11ea_8fc9_c869cd9e96darow29_col4" class="data row29 col4" >1</td>
             </tr>
     </tbody></table>
     </div>
@@ -1301,7 +1304,7 @@ var allchart = {
     "type": "line"
   },
   "selection": {
-    "selector004": {
+    "selector001": {
       "bind": "scales",
       "encodings": [
         "x",
@@ -1810,7 +1813,7 @@ var horsechart = {
     "type": "line"
   },
   "selection": {
-    "selector006": {
+    "selector003": {
       "bind": "scales",
       "encodings": [
         "x",
@@ -4516,7 +4519,7 @@ var yearchart = {
   "height": 500,
   "mark": "line",
   "selection": {
-    "selector005": {
+    "selector002": {
       "bind": "scales",
       "encodings": [
         "x",
